@@ -1,4 +1,4 @@
-/encode
 !/encode/*.py
 !/encode/*.ipynb
 !/encode/*.txt
+/encode
