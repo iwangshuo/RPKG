@@ -1,0 +1,3328 @@
+package_name,function
+resource_retriever,retrieves data
+resource_retriever,loads the data
+resource_retriever,load mesh files
+exotica_quadrotor_dynamics_solver,solver plug-in
+exotica_pinocchio_dynamics_solver,solver plug-in using Pinocchio
+exotica_pendulum_dynamics_solver,solver plug-in
+exotica_ik_solver,weighted pseudo-inverse unconstrained end-pose solver
+exotica_examples,containing examples
+exotica_double_integrator_dynamics_solver,solver plug-in
+exotica_core,is a library
+exotica_core,defining problems
+exotica_cartpole_dynamics_solver,solver plug-in
+exotica_aico_solver,algorithm (AICO)
+exotica,is a library
+exotica,defining problems
+exotica,contains dependencies
+exotica,builds the documentation.
+wireless_watcher,publishes connection information
+wireless_msgs,describing a wireless network
+log4cpp,adding custom category factories. Orocos
+ocl,contains standard components
+rqt_topic,provides a GUI plugin
+rqt_topic,displaying debug information
+rqt_topic,"including publishers, subscribers, publishing rate,"
+rc_genicam_driver,provides data
+stomp_plugins,provides additional plugins
+stomp_moveit,wraps the STOMP planner functionality
+rosdoc_lite,generate ROS package documentation.
+rosdoc_lite,generates online documentation
+dataspeed_can_msg_filters,get a single callback
+dataspeed_can,bus tools using Dataspeed hardware
+interactive_marker_twist_server,using interactive markers
+fuse_viz,provides visualization tools
+fuse_variables,provides a set
+fuse_variables,"used variable types,"
+fuse_tutorials,containing source code
+fuse_publishers,package provides a set
+fuse_optimizers,package provides a set
+fuse_optimizers,implementations. An optimizer
+fuse_optimizers,is the object
+fuse_optimizers,coordinating the sensors
+fuse_optimizers,"computing the optimal state values,"
+fuse_optimizers,providing access
+fuse_msgs,holding serialized fuse objects
+fuse_loss,provides a set
+fuse_loss,"used loss functions,"
+fuse_graphs,provides some concrete implementations
+fuse_core,provides the base class interfaces
+fuse_constraints,provides a set
+fuse_constraints,"used constraint types,"
+fuse_constraints,(absolute constraints)
+fuse_constraints,(relative constraints).
+laser_filters,use the sensor_msgs/LaserScan type.
+cob_twist_controller,convert target twists
+cob_twist_controller,makes use
+cob_twist_controller,level. The inverse differential kinematics
+cob_twist_controller,avoid hardware destruction
+cob_twist_controller,is a limiter interface
+cob_twist_controller,configure the solving strategy.
+cob_tricycle_controller,provides a ros_controller plugin
+cob_trajectory_controller,provides a trajectory controller
+cob_trajectory_controller,controlls velocities
+cob_trajectory_controller,be used e.g.
+cob_omni_drive_controller,provides a ros_controller plugin
+cob_obstacle_distance,calculates distances
+cob_model_identifier,provides nodes
+cob_model_identifier,analyse the system response behavior
+cob_model_identifier,tune PID controllers
+cob_mecanum_controller,provides a lightweight base controller
+cob_mecanum_controller,robots. The out/input
+cob_mecanum_controller,are wheel velocities
+cob_mecanum_controller,rear right]
+cob_hardware_emulation,provides idealized nodes
+cob_hardware_emulation,emulating real robot hardware
+cob_frame_tracker,contains nodes
+cob_frame_tracker,desired tf frame target.
+cob_footprint_observer,adjusts the footprint
+cob_control_mode_adapter,provides a node
+cob_control_mode_adapter,loads respective ros_controllers
+cob_control_mode_adapter,required control mode.
+cob_collision_velocity_filter,is a package
+cob_collision_velocity_filter,using teleoperation.
+cob_cartesian_controller,provides nodes
+cob_cartesian_controller,broadcast tf-frames
+cob_cartesian_controller,"(e.g. Linear, Circular)."
+cob_cartesian_controller,"given velocity profile (e.g. Ramp, Sinoid)"
+cob_base_velocity_smoother,reads velocity messages
+cob_base_velocity_smoother,avoid shaking behavior.
+cob_base_controller_utils,contains common utils
+leuze_msgs,Contains the specific leuze messages.
+ros_opcua_communication,are ROS bidings
+ros_opcua_communication,following libraries
+ros_opcua_communication,are supported: FreeOpcUa
+rokubimini_bus_manager,deriving the abstract communication interface classes
+rokubimini,deriving the abstract communication interface classes
+bota_signal_handler,Contains a static signal
+bota_node,using *bota_worker*.
+bota_driver,contains all essential packages
+kuka_rsi_simulator,implements a minimal RSI interface simulator.
+follow_waypoints,publishing goals
+computer_status_msgs,"representing computer's hardware state,"
+play_motion,Plays a pre-recorded motion
+pmb2_2dnav,run navigation
+rqt_runtime_monitor,provides a GUI plugin viewing DiagnosticsArray messages.
+webrtc_ros,using WebRTC
+qb_move_hardware_interface,contains the hardware interface
+qb_move_gazebo,contains the Gazebo ROS control
+qb_move_description,contains the ROS description
+qb_move_control,contains the ROS control node
+qb_move,contains the ROS interface
+qb_hand_hardware_interface,contains the hardware interface
+qb_hand_gazebo,contains the Gazebo ROS control
+qb_hand_description,contains the ROS description
+qb_hand_control,contains the ROS control node
+qb_hand,contains the ROS interface
+qb_device_utils,contains a device-independent utility functions
+qb_device_srvs,contains the device-independent custom ROS services
+qb_device_msgs,contains the device-independent custom ROS messages
+qb_device_hardware_interface,contains a device-independent hardware interface
+qb_device_gazebo,contains the Gazebo ROS control custom dependencies
+qb_device_driver,contains a device-independent API wrapper
+qb_device_description,contains a device-independent description utilities
+qb_device_control,contains a device-independent control library
+qb_device_bringup,contains a device-independent bringup utilities
+qb_device,contains a device-independent ROS interface
+qb_chain_msgs,"control end-effector pose, robot sitiffness"
+qb_chain_description,contains the ROS description
+qb_chain_controllers,contains the specific controllers
+qb_chain_controllers,e.g. the qbdelta controller.
+qb_chain_control,contains the ROS node
+qb_chain_control,control multiple qbrobotics® devices
+qb_chain,contains the ROS interface
+qb_chain,control multiple qbrobotics® devices
+pal_statistics_msgs,msgs package
+pal_carbon_collector,collects statistics
+orb_slam2_ros,ros implementation.
+summit_xl_pad,"control the summit_xl product range (summit_xl, summit_xl_omni, x_wam) teleoperation"
+summit_xl_j2s7s300_moveit_config,using the summit_xl
+summit_xl_j2s6s300_moveit_config,using the summit_xl
+summit_xl_j2s6s200_moveit_config,using the summit_xl
+summit_xl_j2n6s200_moveit_config,using the summit_xl
+summit_xl_control,contains the launch
+summit_xl_control,load the required controller interfaces
+ira_laser_tools,package. These nodes
+ira_laser_tools,provide some utils
+ira_laser_tools,generate virtual laser scans
+franka_visualization,contains visualization tools
+franka_ros,is a metapackage
+franka_msgs,provides messages
+franka_hw,provides hardware interfaces
+franka_hw,using Franka Emika research robots
+franka_gripper,implements the franka gripper
+franka_gazebo,offers the FrankaHWSim Class
+franka_gazebo,simulate a Franka Robot
+franka_example_controllers,provides example code
+franka_example_controllers,controlling Franka Emika research robots
+franka_description,contains URDF files
+franka_control,provides a hardware node
+franka_control,control a Franka Emika research robot
+rqt_nav_view,provides a gui
+rqt_nav_view,viewing navigation maps
+crazyflie_demo,"use the crazyflie package (teleoperation, rviz integration)"
+crazyflie_controller,fly a Crazyflie
+rqt_robot_steering,rqt_robot_steering provides a GUI plugin
+rqt_robot_steering,steering a robot using Twist messages.
+rqt_robot_dashboard,provides an infrastructure
+rqt_robot_dashboard,building robot dashboard plugins
+rqt_logger_level,provides a GUI plugin
+rqt_console,provides a GUI plugin
+rqt_console,filtering ROS messages.
+fiducials,using fiducial markers
+fiducial_slam,build a 3D map
+fiducial_msgs,containing message definitions
+industrial_robot_status_controller,reports robot status
+industrial_robot_status_controller,using the ROS-Industrial RobotStatus message.
+agni_tf_tools,provides a gui program
+agni_tf_tools,publish static transforms. Both
+agni_tf_tools,support the transformation
+agni_tf_tools,representations. The rviz plugin
+agni_tf_tools,configure the transform
+turtlebot3_fake,fake node.
+turtlebot3_fake,do simple tests
+turtlebot3_fake,using this package
+open_manipulator_teleop,using keyboard
+open_manipulator_moveit,using the open_manipulator
+open_manipulator_libs,"lib., Dynamixel lib., Drawing path lib.)"
+open_manipulator,is a full open robot platform consisting
+open_manipulator,board)​. The OpenManipulator
+open_manipulator,is allowed users
+open_manipulator,has full hardware compatibility
+open_manipulator,"have a real robot,"
+open_manipulator,control the robot
+rtabmap_ros,is a RGB-D SLAM approach
+kvh_geo_fog_3d_msgs,contains raw messages
+darknet_ros_msgs,is an open source
+darknet_ros_msgs,"is a state-of-the-art, real-time object detection system."
+darknet_ros,is an open source
+darknet_ros,"is a state-of-the-art, real-time object detection system."
+dynamixel_workbench_toolbox,class. The 'dynamixel_item'
+dynamixel_workbench_toolbox,includes wraped function
+dynamixel_workbench_toolbox,make simple
+dynamixel_workbench_toolbox,use Dynamixels
+dynamixel_workbench_operators,contains nodes
+dynamixel_workbench_operators,control the Dynamixel
+dynamixel_workbench_msgs,includes ROS messages
+dynamixel_workbench_controllers,contains examples
+dynamixel_workbench_controllers,applying the 'dynamixel_workbench_toolbox' library
+dynamixel_workbench_controllers,operating modes
+dynamixel_workbench,is dynamixel solution
+dynamixel_workbench,"change the ID, baudrate"
+dynamixel_workbench,operating mode
+dynamixel_workbench,supports various controllers
+pilz_trajectory_generation,containing the MoveIt! plugin pilz_command_planner.
+pilz_robot_programming,use API
+pilz_robot_programming,execute standard industrial robot commands
+pilz_robot_programming,using Moveit.
+pilz_industrial_motion_testutils,test industrial motion generation
+pilz_extensions,are classes
+pilz_extensions,extending the functionality
+pilz_extensions,become pull requests
+open_manipulator_msgs,send information
+turtlebot3_autorace_tunnel_control,controls TurtleBot3 Auto
+turtlebot3_autorace_tunnel_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_tunnel_camera,process the image
+turtlebot3_autorace_traffic_light_control,controls TurtleBot3 Auto
+turtlebot3_autorace_traffic_light_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_traffic_light_camera,process the image
+turtlebot3_autorace_parking_control,controls TurtleBot3 Auto
+turtlebot3_autorace_parking_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_parking_camera,process the image
+turtlebot3_autorace_level_crossing_control,controls TurtleBot3 Auto
+turtlebot3_autorace_level_crossing_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_level_crossing_camera,process the image
+turtlebot3_autorace_intersection_control,controls TurtleBot3 Auto
+turtlebot3_autorace_intersection_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_intersection_camera,process the image
+turtlebot3_autorace_intersection,(meta package)
+turtlebot3_autorace_construction_control,controls TurtleBot3 Auto
+turtlebot3_autorace_construction_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_construction_camera,process the image
+turtlebot3_autorace_construction,(meta package)
+turtlebot3_autorace_2020,(meta package)
+robotis_manipulator,contains the manipulation API
+robotis_manipulator,controlling the manipulator.
+spinnaker_sdk_camera_driver,based camera driver (Blackfly S etc.)
+xbot_safety_controller,ensuring the safe operation
+xbot_safety_controller,keeps track
+xbot_safety_controller,wheel drop events.
+xbot_safety_controller,move back.
+xbot_safety_controller,is stopped. This controller
+xbot_safety_controller,be enabled/disabled. The safety
+xbot_safety_controller,pressed etc.)
+xbot_safety_controller,be reset. WARNING: Dangerous!
+xbot_driver,use ROS
+xbot,-------------------------------------------------------------------------- A group
+xbot,"includes driver,ros node"
+xbot,searching robot technology
+s3_file_uploader,facilitates the uploading
+rosbag_uploader_ros1_integration_tests,end tests
+rosbag_cloud_recorders,facilitate the recording
+pr2_dense_laser_snapshotter,Stores the data
+pr2_dense_laser_snapshotter,allowing users
+pr2_dense_laser_snapshotter,perform image-like operations
+pr2_dense_laser_snapshotter,is experimental. Expect APIs
+pr2_calibration_launch,run the calibration pipeline
+pr2_calibration_launch,tp occur.
+laser_joint_projector,laser readings
+dense_laser_assembler,streaming data
+dense_laser_assembler,allows the user
+dense_laser_assembler,do 'image-like' processing
+ros_numpy,extracting numpy arrays
+octomap_pa_matlab,contains the source code
+m1n6s300_moveit_config,using the m1n6s300
+kinova_msgs,"contains the messages, actions"
+kinova_driver,provides a ROS interface
+kinova_driver,provides access
+kinova_description,Includes the model
+j2s7s300_moveit_config,using the j2s7s300
+j2s6s300_moveit_config,using the j2s6s300
+j2n6s300_moveit_config,using the j2n6s300
+test_osm,are regression tests
+test_osm,avoid unnecessary implementation dependencies.
+osm_cartography,mapping using Open Street Map data.
+trac_ik_python,contains a python
+trac_ik_python,using SWIG
+trac_ik_lib,"is a faster,"
+trac_ik_lib,solver. The TRAC-IK library
+trac_ik_lib,passes a maximum time
+trac_ik_kinematics_plugin,using TRAC-IK
+trac_ik_examples,contains the source code
+trac_ik_examples,comparing trac_ik
+trac_ik,provide an improved alternative Inverse Kinematics solver
+trac_ik,handles joint-limited chains
+trac_ik,increasing solve time.
+robotiq_modbus_tcp,using the Modbus TCP protocol
+robotiq_modbus_rtu,using the Modbus RTU protocol
+robotiq_ft_sensor,reading data
+robotiq_3f_gripper_control,control a 3F gripper Gripper
+robotiq_3f_gripper_articulated_gazebo_plugins,allow real Robotiq gripper control
+robotiq_3f_gripper_articulated_gazebo_plugins,provide the same interface
+robotiq_3f_gripper_articulated_gazebo_plugins,Porting code
+robotiq_3f_gripper_articulated_gazebo,spawning the Robotiq robotiq-3f-gripper articulated gripper
+robotiq_2f_gripper_control,control a 2-Finger Gripper
+axis_camera,accessing an Axis camera's MJPG stream.
+axis_camera,provides control
+velodyne_laserscan,Extract a single ring
+rqt_dep,provides a GUI plugin
+rqt_dep,visualizing the ROS dependency graph.
+rqt_py_trees,provides a GUI plugin
+rqt_py_trees,visualizing py_trees
+rqt_py_trees,behaviour trees
+pr2_arm_kinematics,provides a kinematics implementation
+pr2_arm_kinematics,inverse kinematics.
+gravity_compensation,are zeroed. Assumes
+gravity_compensation,calibrated accelerometer
+force_torque_sensor_calib,Calibrates the offsets
+force_torque_sensor_calib,Uses readings
+rqt_web,is a simple web content viewer
+rqt_web,show web content
+rqt_pose_view,provides a GUI plugin
+rqt_pose_view,visualizing 3D poses.
+fetch_moveit_config,using the fetch_urdf
+fetch_calibration,calibrating Fetch
+fetch_calibration,using the 'robot_calibration' package.
+rostime,including roscpp.
+roscpp_traits,contains the message
+roscpp_traits,traits code
+roscpp_serialization,contains the code
+roscpp_core,Underlying data libraries
+cpp_common,contains C++ code
+cpp_common,doing things
+cpp_common,includes things
+cpp_common,getting backtraces.
+cpp_common,is a component
+mpc_local_planner_msgs,provides message types
+mpc_local_planner,implements a plugin
+collada_urdf,contains a tool
+collada_urdf,convert Unified Robot Description Format (URDF) documents
+collada_parser,contains a C++ parser
+collada_parser,format. The parser
+collada_parser,"reads a Collada XML robot description,"
+collada_parser,creates a C++ URDF
+collada_parser,use this parser
+collada_parser,"descriptions, the preferred user API"
+navigation_tutorials,related tutorials.
+navigation_stage,holds example launch files
+navigation_stage,running the ROS navigation stack
+pid,Launch a PID control node.
+twist_recovery,performs a particular used-defined twist.
+soem,is an updated version
+soem,including the upstream Repo
+sbpl_recovery,uses the sbpl lattice planner
+sbpl_recovery,get the robot
+sbpl_lattice_planner,is a global planner plugin
+sbpl_lattice_planner,wraps the SBPL
+pose_follower,follow a plan
+pose_base_controller,"provides the move_base action server interface,"
+pose_base_controller,pose using a control-based approach.
+navigation_experimental,"tools: Various recovery behaviors,"
+navigation_experimental,"avoidance, a simple control-based move_base replacement etc."
+goal_passer,passes the target pose
+goal_passer,debugging local planners.
+assisted_teleop,uses TrajectoryPlannerROS
+assisted_teleop,find a valid trajectory
+assisted_teleop,desired trajectory
+assisted_teleop,filtering teleop commands
+assisted_teleop,avoiding obstacles.
+assisted_teleop,"contains LaserScanMaxRangeFilter,"
+assisted_teleop,is a LaserScan filter plugin
+assisted_teleop,takes max range values
+p2os_msgs,Defines the messages
+p2os_doc,Contains the Documentation
+uuv_tutorial_seabed_world,create a new Gazebo model
+uuv_tutorial_dp_controller,inherit the controller interface modules
+uuv_tutorial_dp_controller,develop a custom controlller.
+uuv_tutorial_disturbances,use the uuv_control_utils tools
+uuv_tutorial_disturbances,schedule disturbances
+uuv_teleop,generate command topics
+uuv_teleop,using a joystick input
+uuv_simulator,contains Gazebo plugins
+uuv_gazebo_ros_plugins,extended ROS plugins
+uuv_gazebo_plugins,(e.g. thrusters
+uuv_assistants,analyze the simulation
+rexrov2_gazebo,positioning controllers.
+rexrov2_description,spawn the model
+rexrov2_control,start controllers nodes
+rbcar_common,contains RBCAR
+bwi_desktop_full,released BWI packages
+bwi_desktop_full,include GUI components.
+bwi_desktop,released BWI
+bwi_desktop,include GUI components.
+segbot_sensors,sensor specific launch files
+segbot_navigation,running the ROS navigation stack
+segbot_navigation,"using the eband_local_planner approach,"
+segbot_led,LED package
+segbot_led,provides drivers
+segbot_led,utilizing an Arduino microcontroller.
+segbot_bringup,running segbots
+segbot_arm_tutorials,provides a set
+segbot_arm_tutorials,controlling the robot arm.
+segbot_arm_tasks,holds independent tasks
+segbot_arm_tasks,be actionlib servers
+segbot_arm_joystick,"arm, Segway base"
+segbot,controlling Segway-based robots
+only_segbot_base,controlling the bases
+only_segbot_arm,controlling manipulator arms
+m1n6s200_segbot_moveit_config,using the m1n6s300
+sr_visualization,contains the different gui plugins
+sr_gui_muscle_driver_bootloader,bootloading the muscle drivers
+sr_gui_motor_resetter,resetting motors
+sr_gui_hand_calibration,calibrating the Shadow EtherCAT Hand.
+sr_gui_cyberglove_calibrator,bootloading the motors
+sr_gui_controller_tuner,tuning the sr_mechanism_controllers
+sr_gui_change_muscle_controllers,loading the different muscle controllers.
+sr_gui_bootloader,bootloading the motors
+sr_gui_advanced_controls,loading the different motor controllers.
+rqt_robot_monitor,diagnostics_agg topics messages
+rqt_moveit,assists monitoring tasks
+teb_local_planner,implements a plugin
+teb_local_planner,stack. The underlying method
+teb_local_planner,called Timed Elastic Band
+teb_local_planner,optimizes the robot's trajectory
+rb1_j2s7s200_moveit_config,using the rb1
+rb1_common,contains rb1 mobile manipulator
+hebi_cpp_api,providing access
+declination,provides nodes
+declination,apply this offset
+visualization_tutorials,referencing tutorials
+rviz_plugin_tutorials,write plugins
+rtmros_hironx,is an operating interface
+hironx_ros_bridge,pay attention
+hironx_ros_bridge,file header
+hironx_moveit_config,using the HiroNX
+hironx_calibration,calibrating hironx
+hironx_calibration,using the generic
+four_wheel_steering_msgs,using FourWheelSteering.
+costmap_converter,includes plugins
+costmap_converter,convert occupied costmap2d cells
+costmap_converter,primitive types.
+ackermann_msgs,using Ackermann steering.
+dynamixel_motor,contains packages
+dynamixel_driver,provides low level IO
+dynamixel_driver,servos. Fully supports
+dynamixel_driver,writing information from/to Dynamixel
+dynamixel_driver,servos. This low level package won't
+dynamixel_driver,make use
+dynamixel_controllers,"contains a configurable node, services"
+dynamixel_controllers,"start, stop"
+turtlebot3_panorama,utilises pano_ros
+turtlebot3_panorama,taking snapshots
+turtlebot3_panorama,create panorama pictures.
+turtlebot3_follower,was implemented using a 360 Laser Distance Sensor LDS-01.
+turtlebot3_follower,take actions.
+turtlebot3_follower,follows someone
+turtlebot3_follow_filter,using laser_filters
+turtlebot3_automatic_parking_vision,uses ar code.
+turtlebot3_automatic_parking_vision,needs a printed ar code
+turtlebot3_automatic_parking,need a reflective tape
+turtlebot3_automatic_parking,see parking spot
+turtlebot3_automatic_parking,using this pacakge
+turtlebot3_applications,(meta package)
+moveback_recovery,moves the robot
+moveback_recovery,specified length.
+moveback_recovery,checks the costmap
+moveback_recovery,stops the robot
+capabilities,"capabilities, including code"
+capabilities,"parse capability interface specs,"
+capabilities,"parse capability provider specs,"
+capabilities,implement the capability server.
+rosunit,is a lower-level library
+rosmake,is a ros dependency
+rosmake,build all dependencies
+roslang,is a common package
+roscreate,contains a tool
+rosclean,(e.g. log files).
+rosbuild,contains scripts
+rosbuild,managing the CMake-based build system
+rosboost_cfg,determining cflags/lflags/etc.
+rosbash,using ros
+mk,include files
+mk,building ROS
+mk,"use cmake .mk,"
+mk,calls CMake
+mk,importing 3rdparty code.
+joint_trajectory_controller,executing joint-space trajectories
+joint_state_controller,publish joint state
+joint_limits_interface,enforcing joint limits.
+imu_sensor_controller,publish state
+four_wheel_steering_controller,steering mobile base.
+force_torque_sensor_controller,publish state
+wire_viz,visualizes WIRE World Model input
+wire_viz,using visualization markers
+wire,is implements
+wire,maintains one consistent world state estimate
+wire,solves the data association problem
+wire,maintaining multiple hypotheses
+webargs,"parsing HTTP request arguments,"
+webargs,"frameworks, including Flask, Django, Bottle, Tornado, Pyramid, webapp2, Falcon,"
+ntpd_driver,sends TimeReference message time
+ntpd_driver,ntpd server
+libmavconn,unified connection handling classes
+libmavconn,object mapper.
+trajectory_tracker,following control package
+trajectory_tracker,wheeled mobile robot
+obj_to_pointcloud,pointcloud message converter package
+neonavigation,including 3-dof configuration space planner
+map_organizer,Layered costmap organizer package
+octomap_server,loads a 3D map
+octomap_server,"build 3D OctoMaps,"
+moose_msgs,representing low-level motor commands
+moose_description,robot description
+sound_play,provides a ROS node
+sound_play,translates commands
+robot_calibration_msgs,calibrating a robot
+robot_calibration,Calibrate a Robot
+behaviortree_cpp,provides the Behavior Trees
+behaviortree_cpp,core library.
+audio_capture,file. The destination
+audio_capture,play the audio
+python_orocos_kdl,contains the python bindings PyKDL
+orocos_kdl,contains a recent version
+ypspur,is a mobile robot motion control software
+ypspur,based commands.
+urg_stamped,stamped URG driver
+image_recognition_openpose,Exposes a service
+image_recognition,extracting recognitions
+vtec_ros,installs VisioTec packages
+rospy_message_converter,rospy messages.
+librealsense2,capturing data
+ainstein_radar_tools,validating radar data.
+zivid_samples,demonstrating use
+zivid_camera,using the Zivid 3D cameras
+webrtcvad_ros,provides a wrapper node
+webrtcvad_ros,subscribes an audio topic
+webrtcvad_ros,publish a flag
+slic,contains the class elements
+slic,is an implementation
+slic,creating over-segmentations
+rosping,is the tool
+rosping,send ICMP ECHO_REQUEST
+ros_google_cloud_language,clinet library
+libsiftfast,compute SIFT features
+jsk_tools,"emacs scripts, ros tool alias generator,"
+ff,see http://www.loria.fr/~hoffmanj/ff.html
+dynamic_tf_publisher,set the tf trensformation
+audio_video_recorder,recording image
+resized_image_transport,publish resized images.
+imagesift,send a new message
+imagesift,include: display
+imagesift,shows the image
+cob_robots,holds packages
+cob_robots,operating Care-O-bot.
+cob_hardware_config,contains configuration
+cob_hardware_config,"(e.g. cob4-X, raw3-X)."
+cob_hardware_config,is a directory
+cob_default_robot_config,is e.g. preconfigured joint positions.
+cob_bringup,provides launch files
+cob_bringup,operating Care-O-bot.
+checkerboard_detector,find checkboards
+checkerboard_detector,Requires the image
+audio_to_spectrogram,spectrogram (sensor_msgs/Image)
+tile_map,provides a slippy map style interface
+tile_map,visualizing OpenStreetMap
+tile_map,tiles. A
+tiago_moveit_config,using the tiago
+tiago_description,"contains the description (mechanical, kinematic, visual, etc.)"
+tiago_description,robot. The files
+tiago_bringup,upload the robot description
+tiago_bringup,start the controllers
+tiago_2dnav_gazebo,run navigation
+mav_msgs,containing messages
+rqt_rosmon,is a replacement
+rosmon_msgs,is a replacement
+rosmon_core,is a replacement
+rosmon,is a replacement
+ublox_msg_filters,get a single callback
+eigenpy,using Boost.Python
+xarm7_vacuum_gripper_moveit_config,using the xarm7_with_vacuum_gripper
+vigir_footstep_planning,is a stack
+vigir_footstep_planning,planning system.
+vigir_footstep_planning,contains the top-level launch files
+vigir_footstep_planning,include all dependencies.
+pr2_moveit_config,using the pr2
+ros_environment,provides the environment variables
+ros_environment,"`ROS_VERSION`, `ROS_DISTRO`, `ROS_PACKAGE_PATH`,"
+asr_relation_graph_generator,Generates the tree
+asr_relation_graph_generator,containing selected relations
+asr_relation_graph_generator,recorded trajectories.
+asr_psm,contains a system
+asr_psm,recognize scenes
+asr_psm,called the Probabilistic Scene Model
+asr_psm,uses objects
+asr_psm,be a reference
+asr_psm,trains new scenes
+asr_psm,calculates scene probabilities
+asr_psm,trained scenes.
+asr_flir_ptu_driver,is a package
+asr_flir_ptu_driver,controlling a flir ptu
+image_view,Includes a specialized viewer
+image_pipeline,fills the gap
+image_pipeline,getting raw images
+depth_image_proc,processing depth images
+depth_image_proc,include creating disparity images
+camera_calibration,allows easy calibration
+camera_calibration,using a checkerboard calibration target.
+asr_resources_for_psm,contains resources
+asr_psm_visualizations,using RVIZ
+asr_ism_visualizations,provides visualization logic
+hector_trajectory_server,keeps track
+hector_trajectory_server,makes this data
+hector_slam_launch,contains launch files
+hector_slam_launch,launching hector_slam
+hector_slam_launch,systems/setups/postprocessing scenarios.
+hector_marker_drawing,hector_marker_drawing provides convenience functions
+hector_mapping,is a SLAM approach
+hector_mapping,exhibit roll/pitch motion
+hector_mapping,"(of the sensor,"
+hector_mapping,leverages the high update rate
+hector_mapping,provides 2D pose estimates
+hector_mapping,"provide explicit loop closing ability,"
+hector_mapping,scenarios. The system
+hector_mapping,"Unmanned Surface Vehicles, Handheld Mapping Devices"
+hector_mapping,logged data
+hector_map_tools,contains some functions
+hector_map_tools,accessing information
+hector_map_server,provides a service
+hector_map_server,"retrieving the map,"
+hector_map_server,raycasting based obstacle queries
+hector_map_server,(finds next obstacle
+hector_map_server,given start
+hector_imu_tools,provides some tools
+hector_imu_tools,processing IMU messages
+hector_imu_attitude_to_tf,is a lightweight node
+hector_imu_attitude_to_tf,publish the roll/pitch attitude angles
+hector_geotiff_plugins,contains plugins
+hector_geotiff_plugins,extend geotiff maps
+hector_geotiff,provides a node
+hector_geotiff,save occupancy
+hector_compressed_map_transport,provides means
+hector_compressed_map_transport,transporting compressed map data
+visp_tracker,moving edge tracker
+visp_tracker,computes the pose (i.e. position
+visp_tracker,allow object online
+visp_tracker,tracking using a camera.
+visp_hand2eye_calibration,estimates the camera position
+visp_hand2eye_calibration,using the ViSP library.
+visp_camera_calibration,allows easy calibration
+visp_camera_calibration,using a customizable pattern
+visp_auto_tracker,automated pattern-based object tracker
+visp_auto_tracker,wraps model-based trackers
+visp_auto_tracker,package. The tracked object
+visp_auto_tracker,have a QRcode
+visp_auto_tracker,initialise the model-based trackers.
+visp_auto_tracker,tracking achieves
+visp_auto_tracker,re-initialize the tracker.
+visp_auto_tracker,computes the pose (i.e. position
+visp_auto_tracker,allow object online
+visp_auto_tracker,tracking using a camera.
+vision_visp,providing ViSP
+tello_driver,provides a ROS interface
+tello_driver,"modify the TelloPy library,"
+tello_driver,apply any modification
+pioneer_bringup,provides roslaunch scripts
+pioneer_bringup,starting the core functionnalities
+pioneer_bringup,"(Including Pioneer 2, Pioneer 3, Pioneer LX, AmigoBot, PeopleBot, PatrolBot, PowerBot, Seekur"
+mobility_base_simulator,allowing easy installation
+mobility_base_gazebo_plugins,provide simulated dynamics
+mobility_base_examples,demo the Mobility Base SDK
+mobility_base_description,contains the URDF
+mobility_base_description,describing the Mobility Base.
+um6,provides a C++ implementation
+um6,publishing standard ROS orientation topics
+iiwa_moveit,using the KUKA LBR IIWA
+iiwa_gazebo,load a KUKA LBR IIWA
+iiwa_description,contains the URDF
+iiwa_control,containing controllers
+theora_image_transport,provides a plugin
+theora_image_transport,sending an image stream
+simple_message,defines a simple messaging connection
+simple_message,controller. Additional handler
+simple_message,handling connection limited systems.
+simple_message,is part
+industrial_utils,is a library package
+industrial_utils,captures common funcitonality
+industrial_robot_simulator,is a stand
+industrial_robot_client,contains generic clients
+industrial_msgs,definitions. This package
+industrial_msgs,is part
+industrial_deprecated,deprecated package contains
+industrial_deprecated,is the last place something
+industrial_deprecated,are missing a package/node
+industrial_deprecated,find it's contents
+industrial_deprecated,consider a replacement.
+industrial_core,contains packages
+industrial_core,supporing industrial systems
+image_transport_plugins,sensor_msgs/Image topics
+image_transport_plugins,viewing a stream
+image_transport_plugins,"off-robot, a video codec"
+compressed_image_transport,provides a plugin
+compressed_image_transport,sending images
+compressed_depth_image_transport,provides a plugin
+compressed_depth_image_transport,sending depth images
+compressed_depth_image_transport,"(raw, floating-point) using PNG compression."
+sicktoolbox,contains the ROS fork
+mongodb_store,support MongoDB-based storage
+mongodb_store,"saved messages, configurations"
+shadow_robot,regroups the different ros interfaces
+shadow_robot,provides an interface
+novatel_msgs,represent raw Novatel SPAN data.
+descartes_utilities,"ease practical use,"
+descartes_utilities,includes conversions
+descartes_moveit,base types
+descartes_core,creates joint trajectories
+descartes,is a ROS-Industrial project
+descartes,performing path-planning
+descartes,regarding motivation
+nmea_comms,receiving the NMEA sentences.
+distance_map_tools,contains the ROS node
+distance_map_tools,instantiate the distance map plugin.
+distance_map_opencv,contains the ROS node
+distance_map_opencv,instantiate the distance map plugin.
+distance_map_node,contains the ROS node
+distance_map_node,instantiate the distance map plugin.
+distance_map_deadreck,contains the ROS node
+distance_map_deadreck,instantiate the distance map plugin.
+rqt_bhand,test the Barrett Hand
+bhand_controller,control the Barrett Hand
+barrett_hand,control the Barrett Hand
+topic_proxy,pull single messages
+blob,provides a new message type blob/Blob
+naoqi_dcm_driver,containing the hardware interface
+smacha_ros,is a package
+smacha_ros,provides ROS integration
+smacha_ros,is a SMACHA server
+smacha_ros,provides services
+smacha,pronounced "smasha") aims
+smacha,distilling the task-level simplicity
+message_relay,"spawn message, service,"
+message_relay,add support
+kr6_r900_workspace_moveit_config,using the kr6_r900_workspace
+kr6_r900_mit_suction_gripper_moveit_config,using the kr6_r900_mit_suction_gripper
+framefab_kr6_r900_support,using KUKA kr6_r900sixx.
+framefab_irb6600_workspace_moveit_config,using the framefab_irb6600_workspace
+framefab_irb6600_support,using ABB6640. Includes
+choreo_visual_tools,connect nodes
+choreo_visual_tools,"work together, e.g. GUI, planning modules, visualization, etc."
+choreo_task_sequence_processor,add print
+choreo_task_sequence_processor,shrinked collision objects
+choreo_task_sequence_processor,reset robot joint pose
+choreo_simulation_execution,manages the execution
+choreo_simulation_execution,generated action
+choreo_simulation_execution,finish the "execution". Note
+choreo_process_planning,handles joint trajectory planning.
+choreo_planning_capability,provides a unified assembly_type (capability)
+ethercat_hardware,creating a hardware interface
+ethercat_hardware,using the EtherCAT motor controller/driver
+sciurus17_moveit_config,using the sciurus17
+swri_transform_util,contains utility functions
+swri_route_util,provides functionality
+swri_rospy,provides added functionality
+swri_rospy,including a single-threaded callback queue.
+swri_nodelet,provides a simple script
+swri_nodelet,write simple launch files
+swri_nodelet,running nodelets
+swri_dbw_interface,provides documentation
+swri_cli_tools,contains the rosman tool
+swri_cli_tools,introspecting ROS nodes
+razor_imu_9dof,is a package
+razor_imu_9dof,provides a ROS driver
+razor_imu_9dof,provides Arduino firmware
+razor_imu_9dof,work. A node
+razor_imu_9dof,"displays the attitude (roll, pitch"
+razor_imu_9dof,(or any IMU)
+log_view,provides a ncurses
+log_view,based terminal GUI
+log_view,filtering published ROS log messages.
+tiago_2dnav,run navigation
+naoqi_driver,publishes all sensor
+naoqi_bridge_msgs,provides custom messages
+naoqi_bridge_msgs,running Aldebaran's robot
+sick_scan,et al.
+octovis,is visualization tool
+octomap,"mapping approach, providing data structures"
+octomap,mapping algorithms
+dynamic_edt_3d,use the OctoMap 3D representation
+dynamic_edt_3d,propagate changes
+linux_peripheral_interfaces,"help utilise, monitor, interact"
+libsensors_monitor,using libsensors
+libsensors_monitor,provide diagnostics information
+laptop_battery_monitor,check battery status
+moveit_config_m1509,using the m1509
+moveit_config_m1013,using the m1013
+moveit_config_m0617,using the m0617
+moveit_config_m0609,using the m0609
+moveit_config_h2515,using the h2515
+moveit_config_h2017,using the h2017
+moveit_config_a0912,using the a0912
+moveit_config_a0509,using the a0509
+laser_geometry,contains a class
+laser_geometry,contains functionality
+laser_geometry,moving robots
+laser_geometry,tilting laser scanners.
+pmb2_simulation,include plugins
+pmb2_simulation,running PMB2
+pmb2_controller_configuration_gazebo,configure the controllers
+pmb2_2dnav_gazebo,run navigation
+csm,is a ROS 3rd-party wrapper
+rcdiscover,contains tools
+iot_bridge,provides a bi-directional bridge
+iot_bridge,allows a ROS robot
+rqt_publisher,provides a GUI plugin
+rqt_publisher,publishing arbitrary messages
+opengm,wraps the external c++
+opengm,downloads the source code
+opengm,it. The library
+opengm,is a header-only library
+opengm,"aren't used,"
+opengm,doesn't gets build.
+opengm,see the Makefile.tarball
+libphidgets,wraps the libphidgets
+libdlib,wraps the external c++
+libdlib,use it. The code
+libdlib,see the Makefile.tarball
+cob_extern,contains third party libraries
+cob_extern,operating Care-O-bot.
+hector_nist_arena_worlds,created using the hector_nist_arena_designer GUI.
+hector_nist_arena_elements,contains models
+hector_nist_arena_elements,"Using these elements, scenarios"
+hector_nist_arena_elements,using gazebo.
+hector_nist_arena_designer,is a simple GUI
+hector_nist_arena_designer,involving NIST
+rtt_visualization_msgs,use ROS messages
+rtt_trajectory_msgs,use ROS messages
+rtt_tf2_msgs,use ROS messages
+rtt_tf,contains the components
+rtt_stereo_msgs,stereo_msgs messages.
+rtt_stereo_msgs,use ROS messages
+rtt_std_srvs,std_msgs messages.
+rtt_std_srvs,use ROS messages
+rtt_std_msgs,std_msgs messages.
+rtt_std_msgs,use ROS messages
+rtt_shape_msgs,shape_msgs messages.
+rtt_shape_msgs,use ROS messages
+rtt_sensor_msgs,sensor_msgs messages.
+rtt_sensor_msgs,use ROS messages
+rtt_rosparam,provides an RTT service
+rtt_rosparam,associating RTT component properties
+rtt_rospack,provides an RTT plugin
+rtt_rospack,use rospack
+rtt_rospack,find packages
+rtt_rosnode,provides an RTT plugin
+rtt_rosnode,add a ROS node
+rtt_rosgraph_msgs,rosgraph_msgs messages.
+rtt_rosgraph_msgs,use ROS messages
+rtt_rosdeployment,provides an RTT plugin
+rtt_rosdeployment,control an ocl deployment component
+rtt_roscomm,provides the necessary template files
+rtt_roscomm,cmake macros
+rtt_rosclock,provides an RTT plugin
+rtt_ros_integration,contains all software
+rtt_ros_integration,build systems
+rtt_ros_integration,using both Orocos
+rtt_ros,provides an RTT plugin
+rtt_ros,add a ROS node
+rtt_ros,enable roslaunching
+rtt_nav_msgs,use ROS messages
+rtt_kdl_conversions,contains the components
+rtt_geometry_msgs,use ROS messages
+rtt_diagnostic_msgs,use ROS messages
+rtt_actionlib_msgs,actionlib_msgs messages.
+rtt_actionlib_msgs,use ROS messages
+omronsentech_camera,contains a basic functionality
+omronsentech_camera,requires installation
+code_coverage,run coverage
+grasping_msgs,describing objects
+grasping_msgs,grasp them.
+octomap_rviz_plugins,displaying occupancy information
+rosbash_params,writing ros-node-like bash scripts
+urdf_tutorial,contains a number
+rwt_moveit,provides a web user interface
+openraveros_tutorials,are two ways
+openraveros_tutorials,start the server.
+openrave_sensors,openrave plugins
+openrave_sensors,connect send
+openrave_sensors,recieve ROS messages allowing OpenRAVE
+openrave_robot_filter,filtering the robot
+openrave_robot_control,"messages, services,"
+openrave_robot_control,openrave plugin
+openrave_robot_control,robot services
+openrave_robot_control,using services
+openrave_robot_control,given joint positions
+openrave_robot_control,sends the correct tf frames
+ixblue_ins_msgs,defined messages package
+task_allocation,offers action servers
+task_allocation,assigning tasks
+target_monitor,manages information
+swarm_functions,library provides simple functionalities
+swarm_functions,enable swarm algorithms
+swarm_functions,is part
+state_exchanger,behavioral states
+rfsm,contains the rFSM flavor
+kinematics_exchanger,kinematic properties
+coverage_path,generates an optimal path
+coverage_path,given area
+area_division,divides the available environment area
+crane_x7_moveit_config,using the crane_x7
+pr2_tilt_laser_interface,manipulating the pr2's
+pr2_tilt_laser_interface,tilting laser. Simplifies
+pr2_tilt_laser_interface,"fetching a single sweep,"
+pr2_tilt_laser_interface,given a set
+pr2_tilt_laser_interface,tilting platform.
+pr2_common_actions,moving the arms
+pr2_common_actions,getting data
+pr2_common_actions,tilting laser.
+pr2_arm_move_ik,Move the pr2 arm
+pr2_arm_move_ik,using inverse kinematics
+joint_trajectory_generator,generates a new smooth trajectory
+roslint,packages. The lint
+roslint,commands perform static checking
+audibot_gazebo,simulate Audibot
+warthog_msgs,representing low-level motor commands
+warthog_description,robot description
+roseus_smach,be moved. * Message publisher
+roseus_smach,visualizing current state
+roseus_smach,pickle dump script
+roseus_smach,debugging state machine. * Execute state machine
+visualization_msgs,is a set
+trajectory_msgs,defines messages
+trajectory_msgs,defining robot
+stereo_msgs,"stereo processing,"
+shape_msgs,contains messages
+shape_msgs,"defining shapes,"
+shape_msgs,"(cube, sphere, etc), planes,"
+sensor_msgs,defines messages
+sensor_msgs,"used sensors, including cameras"
+sensor_msgs,scanning laser rangefinders.
+nav_msgs,defines the common messages
+geometry_msgs,provides messages
+geometry_msgs,poses. These primitives
+geometry_msgs,provide a common data type
+diagnostic_msgs,holds the diagnostic messages
+diagnostic_msgs,provide the standardized interface
+common_msgs,includes messages
+actionlib_msgs,defines the common messages
+robot_nav_viz_demos,testing/demonstrating the robot_nav_rviz_plugins
+pr2_bringup_tests,"verify devices, mechanicals"
+nav_grid_server,publishing images
+nav_grid,overlaying a two dimensional grid
+nav_core_adapter,contains adapters
+nav_core_adapter,using `nav_core` plugins
+semantic_point_annotator,annotates 3D point cloud data
+pr2_power_board,provides a ROS node
+pr2_navigation_teleop,holds a special teleop configuration
+pr2_navigation_teleop,running applications
+pr2_navigation_teleop,use autonomous navigation.
+pr2_navigation_slam,holds launch files
+pr2_navigation_perception,holds navigation-specific sensor configuration options
+pr2_navigation_local,holds xml files
+pr2_navigation_global,holds XML files
+pr2_navigation_config,holds common configuration files
+pr2_navigation,holds common configuration options
+power_monitor,collects messages
+power_monitor,publishes a summary
+ocean_battery_driver,is an interface
+locomotor,is an extensible path planning coordination engine
+locomotor,provide a mechanism
+locomotor,leverages ROS callback queues
+locomotor,coordinate multiple threads.
+joint_qualification_controllers,testing counterbalance
+global_planner_tests,checking the validity
+dwb_local_planner,based local planner
+dwb_local_planner,implementing the nav_core2::LocalPlanner interface.
+dlux_global_planner,based global planner
+dlux_global_planner,implementing the nav_core2::GlobalPlanner interface.
+icart_mini,provides packages
+rtt_geometry,contains tools
+rtt_geometry,integrating the Orocos Kinematics
+kdl_typekit,contains the KDL RTT bindings
+hector_sensors_gazebo,using the sensors
+hector_gazebo_worlds,provides gazebo scenarios
+hector_gazebo_thermal_camera,provides a gazebo plugin
+hector_gazebo_thermal_camera,produces simulated thermal camera
+hector_gazebo_thermal_camera,images. The plugin
+hector_gazebo_thermal_camera,uses modified code
+hector_gazebo_plugins,provides gazebo plugins
+hector_gazebo_plugins,"contains a 6wd differential drive plugin,"
+hector_gazebo_plugins,"plugin, a GPS sensor plugin"
+hector_gazebo,provides packages
+hector_gazebo,"using gazebo (gazebo plugins, world"
+eus_qp,is an interface
+eus_qp,solve qp problems
+ensenso_description,supported camera
+ensenso_description,"models. The Xacro macros,"
+ensenso_description,import the mesh files
+arbotix_sensors,Extends the arbotix_node package
+arbotix_controllers,Extends the arbotix_python package
+denso_robot_ros,ros stack constains
+denso_robot_ros,controlling a DENSO robot
+denso_robot_moveit_config,using the DENSO robots
+denso_robot_gazebo,includes a launch file
+denso_robot_gazebo,simulating DENSO robot.
+denso_robot_descriptions,includes URDF files
+denso_robot_core_test,includes a node
+denso_robot_core_test,testing denso robot core node.
+denso_robot_core,includes a node
+denso_robot_core,controlling DENSO robot controllers.
+denso_robot_control,includes a node
+denso_robot_control,controlling DENSO robot controllers
+denso_robot_bringup,includes launch files
+denso_robot_bringup,starting denso robot nodes.
+bcap_service_test,includes a node
+bcap_service_test,testing bcap service node.
+bcap_service,includes a node
+bcap_service,communicating ORiN
+bcap_core,includes libraries
+bcap_core,communicating ORiN
+pmb2_description,"kinematic, visual, etc. description"
+pmb2_description,robot. The files
+pmb2_controller_configuration,configure the controllers
+smacc_msgs,contains a set
+smacc,is a ROS/C++ library
+rtabmap,is a RGB-D SLAM approach
+unique_identifier,resolve dry stack dependencies.
+joint_state_publisher_gui,contains a GUI tool
+joint_state_publisher_gui,publishing joint state values
+joint_state_publisher_gui,given URDF.
+joint_state_publisher,contains a tool
+joint_state_publisher,publishing joint state values
+joint_state_publisher,given URDF.
+ipcamera_driver,publish regular IP camera video streams
+flexbe_testing,flexbe_testing provides a framework
+flexbe_testing,testing states.
+flexbe_states,provides a collection
+flexbe_states,add new states.
+flexbe_onboard,implements the robot-side
+flexbe_msgs,provides the messages
+flexbe_mirror,mirror an executed behavior.
+flexbe_input,send data
+flexbe_input,onboard behavior
+flexbe_core,provides the core components
+xpp_states,"(positions, velocities, angular angles,"
+xpp_hyq,include inverse kinematics
+xpp_hyq,legged robot
+xpp_examples,use the xpp framework.
+xpp,"draws support areas, contact forces"
+rc_genicam_api,combines the Roboception convenience layer
+rc_genicam_api,is a self
+rc_genicam_api,contained package
+rc_genicam_api,permits configuration
+rc_genicam_api,provides some tools
+rc_genicam_api,"discovering cameras,"
+rc_genicam_api,streaming images.
+rc_genicam_api,use the API
+rc_genicam_api,"setting parameters, streaming"
+rc_genicam_api,synchronizing images. See LICENSE.md
+rc_genicam_api,licensing terms
+schunk_svh_driver,enable control
+rosnode_rtc,gives transparency
+rb1_dual_ur3_moveit_config,using the rb1_base
+rb1_base_navigation,configures the move_base stack
+rb1_base_navigation,makes use
+rb1_base_navigation,move the rb1_base robot
+rb1_base_common,contains rb1 base
+move_base_flex,is a backwards-compatible replacement
+move_base_flex,use existing plugins
+move_base_flex,provides an enhanced version
+move_base_flex,exposes action servers
+move_base_flex,providing detailed information
+move_base_flex,feedback. An external executive logic
+move_base_flex,use MBF
+move_base_flex,enables the use
+move_base_flex,is a meta package
+mbf_simple_nav,contains a simple navigation server implementation
+mbf_simple_nav,(MBF). The simple navigation server
+mbf_simple_nav,provides actions
+mbf_simple_nav,loads all defined plugins
+mbf_simple_nav,"*planners*, *controllers*"
+mbf_simple_nav,holds a pair
+mbf_simple_nav,load. The *name* defines
+mbf_simple_nav,name the plugin
+mbf_simple_nav,load the defined plugins
+mbf_simple_nav,implements the defined interfaces
+mbf_msgs,messages package
+mbf_msgs,providing the action definition files
+mbf_msgs,providing these action
+mbf_costmap_nav,contains the costmap navigation server implementation
+mbf_costmap_nav,(MBF). The costmap navigation server
+mbf_costmap_core,provides common interfaces
+mbf_costmap_core,"contains the CostmapPlanner, CostmapController"
+mbf_costmap_core,interfaces. The interfaces
+mbf_costmap_core,using the mbf_costmap_nav navigation implementation.
+mbf_costmap_core,inherits the mbf_abstract_nav implementation
+mbf_costmap_core,binds the system
+mbf_abstract_nav,contains the abstract navigation server implementation
+mbf_abstract_nav,(MBF). The abstract navigation server
+mbf_abstract_nav,provides the actions
+mbf_abstract_nav,loads all defined plugins
+mbf_abstract_nav,loads all plugins
+mbf_abstract_nav,"*planners*, *controllers*"
+mbf_abstract_nav,holds a pair
+mbf_abstract_nav,load. The *name* defines
+mbf_abstract_nav,name the plugin
+openrtm_ros_bridge,provides basic functionalities
+openrtm_ros_bridge,bind two robotics
+hrpsys_ros_bridge,provides basic functionalities
+pr2_gripper_sensor_msgs,contains various actions
+pr2_gripper_sensor_msgs,packages. The structure
+pr2_gripper_sensor_msgs,send a goal
+pr2_gripper_sensor_msgs,replaces the name
+pr2_gripper_sensor_controller,is a real-time controller
+pr2_gripper_sensor_controller,integrates signals
+pr2_gripper_sensor_controller,responsive sensing
+pr2_gripper_sensor_action,provides an action interface
+pr2_gripper_sensor_action,provides several different actions
+pr2_gripper_sensor_action,getting high-level sensor information
+talos_description_calibration,contains the description
+talos_description_calibration,robot. The files
+ur_client_library,accessing Universal Robots interfaces.
+mbf_abstract_core,provides common interfaces
+mbf_abstract_core,"contains the AbstractPlanner, AbstractController"
+mbf_abstract_core,plugin interfaces.
+mbf_abstract_core,make the plugin
+mbf_abstract_core,provides a meaningful interface
+mbf_abstract_core,"enabling the planners, controllers"
+mbf_abstract_core,"return information, e.g."
+mbf_abstract_core,went wrong. Derivided
+mbf_abstract_core,"interfaces can,"
+mbf_abstract_core,"initialize the planner, controller"
+swri_profiler_tools,viewing data
+swri_profiler_tools,use the swri_profiler library
+swri_profiler_tools,profiling information.
+swri_profiler,provides basic tools
+flexbe_app,provides a user interface (editor + runtime control)
+libmodbus,package implements
+libmodbus,Moving Mean 3) Gravity Compensation
+ipr_extern,"workspaces. Currentlly supported Libraries: Reflexxes, Libmodbus."
+dataspeed_pds_rqt,rqt GUI
+ridgeback_bringup,installing Ridgeback's robot software.
+robomaker_simulation_msgs,containing ROS service definitions
+aws_robomaker_simulation_ros_pkgs,accessing the simulation service.
+moveit_resources_dual_panda_moveit_config,using the panda
+khi_rs080n_moveit_config,using the khi_rs080n
+khi_rs025n_moveit_config,using the khi_rs025n
+khi_rs013n_moveit_config,using the khi_rs013n
+khi_rs007n_moveit_config,using the khi_rs007n
+khi_rs007l_moveit_config,using the khi_rs007l
+khi_robot_msgs,contains KHI ROS robot msgs
+khi_robot_bringup,contains bringup scripts/config/tools
+khi_duaro_moveit_config,using the khi_duaro
+pr2_ethercat_drivers,contains drivers
+pr2_ethercat_drivers,"it: motor control boards, fingertip sensors, texture"
+fingertip_pressure,provides access
+fingertip_pressure,sensors. This information includes:
+genmsg,generating ROS message
+autoware_map_msgs,handle each class
+autoware_external_msgs,contain an install external message dependencies
+teleop_keyboard_omni3,wheeled omnidirectional robots.
+ddynamic_reconfigure_python,contains a class
+ddynamic_reconfigure_python,instantiate dynamic reconfigure servers
+rqt_action,provides a feature
+rqt_action,introspect all available ROS action (from actionlib) types.
+rqt_action,"utilizing rqt_msg, the output format"
+rqt_action,rqt_srv. Note
+rqt_action,is the ones
+std_msgs,including common message types
+std_msgs,representing primitive data types
+xmlrpcpp,is a C++ implementation
+xmlrpcpp,support roscpp's threading model.
+test_rosparam,containing the unit tests
+test_rosbag_storage,containing the unit tests
+test_rosbag,containing the unit tests
+svenzva_simulation,running 3D simulations
+svenzva_msgs,related messages.
+svenzva_moveit,using the revel
+svenzva_description,robot description files
+roswtf,is a tool
+roswtf,diagnosing issues
+roswtf,running ROS system. Think
+rostopic,contains the rostopic
+rostopic,displaying debug information
+rosservice,contains the rosservice
+rosservice,querying ROS
+rospy,is a pure Python client library
+rospy,enables Python programmers
+rosparam,contains the rosparam command-line tool
+rosparam,setting ROS Parameters
+rosnode,is a command-line tool
+rosnode,displaying debug information
+rosmsg,contains two command-line tools:
+roslz4,streaming format. Large data streams
+roslaunch,is a tool
+roslaunch,launching multiple ROS
+rosgraph,"contains the rosgraph command-line tool,"
+rosgraph,prints information
+rosgraph,provides an internal library
+roscpp,is a C++ implementation
+rosbag_storage,is a set
+rosbag,is a set
+rosbag,be high performance
+ros_comm,including core client libraries
+ros_comm,"(roscpp, rospy)"
+ros_comm,"(rostopic, rosnode, rosservice, rosparam)."
+message_filters,filter needs met.
+sick_ldmrs_tools,use the sick_ldmrs
+sick_ldmrs_description,contains an URDF description
+sick_ldmrs_description,supporting mesh files.
+qwt_dependency,encapsulates the Qwt dependency
+rqt_graph,provides a GUI plugin
+rqt_graph,visualizing the ROS computation graph.
+turtlesim,is a tool
+turtlesim,teaching ROS
+rqt_launch,provides easy view
+rqt_launch,end node
+rospy_tutorials,show the features
+rospy_tutorials,python API
+rospy_tutorials,"including using messages, servers, parameters,"
+roscpp_tutorials,show the features
+roscpp_tutorials,"including using messages, servers, parameters, etc."
+ros_tutorials,demonstrate various features
+ros_tutorials,help demonstrate those features.
+moveit_runtime,contains MoveIt! packages
+moveit_runtime,running MoveIt!
+moveit_planners_chomp,using CHOMP
+moveit_chomp_optimizer_adapter,planning request adapter utilizing chomp
+moveit,contains all essential package
+moveit,was non-trivial. See
+rosgraph_msgs,be low-level messages
+rosgraph_msgs,end users
+rosgraph_msgs,interact with.
+rosconsole_bridge,is a package
+rosconsole_bridge,connecting console_bridge-based logging
+gl_dependency,encapsulates the GL dependency
+rosdiagnostic,print aggregated diagnostic contents
+diagnostic_updater,contains tools
+diagnostic_updater,updating diagnostics.
+diagnostic_updater,keep track
+diagnostic_analysis,convert a log
+diagnostic_analysis,using the scripts
+jackal_msgs,representing low-level motor commands
+jackal_description,robot description
+dnn_detect,based detection
+kobuki_ftdi,enabling Kobuki's USB connection.
+kobuki_ftdi,contains tools
+kobuki_ftdi,flashing the Kobuki's FTDI chip
+kobuki_driver,use ROS
+kobuki_dock_drive,driving library
+kobuki_dock_drive,owning a docking station
+kobuki_dock_drive,use this tool
+kobuki_dock_drive,develop autonomous docking drive algorithms.
+iirob_filters,package implements
+iirob_filters,Moving Mean 3) Gravity Compensation
+wit-imu-driver,is a ROS driver
+wit-imu-driver,devices. Support device: JY901 WT901C
+rr_openrover_stack,includes a client
+rr_openrover_stack,filtering time stamped velocity commands
+rr_openrover_driver,rr_openrover_driver include emergency stop
+rr_openrover_driver,outputs diagnostic data
+open_manipulator_with_tb3_waffle_pi_moveit,using the om_with_tb3
+open_manipulator_with_tb3_waffle_moveit,using the om_with_tb3
+open_manipulator_with_tb3_tools,"is deprecated. The tools package(including SLAM, Navigation, Manipulation)"
+open_manipulator_with_tb3_description,is deprecated. OpenManipulator 3D model description
+open_manipulator_with_tb3,is deprecated. ROS-enabled OpenManipulator
+open_manipulator_with_tb3,is a full open robot platform consisting
+open_manipulator_with_tb3,board)​. The OpenManipulator
+open_manipulator_with_tb3,is allowed users
+open_manipulator_with_tb3,has full hardware compatibility
+open_manipulator_with_tb3,"have a real robot,"
+open_manipulator_with_tb3,control the robot
+ros_type_introspection,allows the user
+ros_type_introspection,deserialize ROS messages
+webots_ros,containing examples
+webots_ros,interfacing ROS
+sr_robot_launch,contains the launch file
+sr_robot_commander,is a ROS interface
+sr_multi_moveit_test,test the MoveIt Motion Planning Framework
+sr_multi_moveit_config,using combinations
+sr_multi_moveit_config,generate new config coherent
+sr_multi_description,contains the description
+sr_moveit_hand_config,using every shadow
+sr_moveit_hand_config,generate new config coherent
+sr_interface,contains the high level interface
+sr_example,is an example
+sr_example,Creating a package
+sr_box_ur10_moveit_config,using the ur10
+kdl_coupling,modified functions
+jackal_bringup,installing Jackal's robot software.
+hand_kinematics,including coupling.
+test_bond,including tests
+smclib,support that state machine.
+smclib,contains the libraries
+smclib,contain the compiler itself.
+gundam_rx78_gazebo,contains launch scripts
+gundam_rx78_gazebo,simulating the GUNDAM RX-78 robot
+gundam_rx78_description,contains the ROS URDF file
+gundam_robot,is a meta package
+bond_core,"allows two processes,"
+bond_core,crashing. The bond
+bond,"allows two processes,"
+bond,crashing. The bond
+aruco_ros,provides real-time marker
+aruco_ros,based 3D pose estimation using AR markers.
+aruco,provides real-time marker
+aruco,based 3D pose estimation using AR markers.
+rosbag_pandas,Create a Pandas data frame
+ridgeback_simulator,simulating Ridgeback.
+ridgeback_gazebo_plugins,provide the ros_force_based_move plugin.
+ridgeback_gazebo,use Ridgeback
+mecanum_gazebo_plugin,uses directional friction
+mecanum_gazebo_plugin,simulate mecanum wheels.
+jackal_simulator,simulating Jackal.
+jackal_gazebo,use Jackal
+socketcan_interface,driver implementation. Further
+canopen_motor_node,facilitates interface abstraction
+canopen_402,implements the CANopen device profile
+actionlib,provides a standardized interface
+actionlib,moving the base
+actionlib,performing a laser
+actionlib,"returning the resulting point cloud,"
+actionlib,detecting the handle
+multipoint_navigation_receiver,is a function table
+multipoint_navigation_receiver,"receives multipoint information,"
+multipoint_navigation_receiver,controls the time
+multipoint_navigation_receiver,sending the target point
+multipoint_navigation_receiver,serves the Move_base
+neo_local_planner,provides a spline
+neo_local_planner,based implementation
+warthog_simulator,simulating Warthog
+warthog_gazebo,use Warthog
+moose_simulator,simulating Moose
+moose_gazebo,use Moose
+pr2_mechanism_msgs,defines services
+pr2_mechanism_msgs,defines messages
+pr2_mechanism_msgs,represent the state
+pr2_mechanism_msgs,"controllers, the joints"
+oxford_gps_eth,(NCOM packet structure)
+fetch_navigation,running ROS navigation
+uos_common_urdf,contains URDF descriptions
+tf_publisher_gui,is a simple GUI
+tf_publisher_gui,publishing a single TF transform.
+rotunit_snapshotter,assemble a point cloud
+rotunit_snapshotter,rotating laserscanner.
+acc_finder,contains two small tools
+acc_finder,help configure the navigation
+acc_finder,pipeline. The node min_max_finder.py
+acc_finder,prints the minimum
+acc_finder,prints the time
+acc_finder,achieve maximum speed.
+diffdrive_gazebo_plugin,provides Gazebo plugins
+gps_goal,Set a ROS navigation goal using latitude
+agile_grasp,finds antipodal grasps
+sns_ik_lib,is a real-time Cartesian IK solver
+sns_ik_lib,uses the redundancy
+kdl_parser_py,defines a tree structure
+kdl_parser,defines a tree structure
+bebop_description,robot description
+bebop_autonomy,is a ROS driver
+handle_detector,detect handles.
+arduino_daq,"firmware, a host standalone C++ library,"
+optris_drivers,wrapping the binary driver
+rgbdslam,is a SLAM solution
+rgbdslam,provides the current pose
+rgbdslam,create a registered point cloud
+rgbdslam,features a GUI interface
+rgbdslam,see the README file
+turtlebot_teleop,using joysticks
+turtlebot_description,provides a complete 3D model
+turtlebot_description,visualization. The files
+turtlebot_bringup,provides roslaunch scripts
+turtlebot_bringup,starting the TurtleBot base functionality.
+turtlebot,using a TurtleBot.
+tf_conversions,contains a set
+tf_conversions,convertcommon tf datatypes
+tf_conversions,"(point, vector, pose, etc)"
+tf_conversions,libraries. The conversion
+tf_conversions,work withthe datatype
+tf_conversions,has support forthe Kinematics
+tf,is a package
+tf,lets the user keep track
+tf,maintains the relationship
+tf,"lets the usertransform points, vectors, etc"
+tf,desired point
+realsense_camera,allowing access
+realsense_camera,advanced modules
+modelica_bridge,bridging ROS
+rqt_rviz,provides a GUI plugin
+tracetools,tracing libraries
+rethink_ee_description,contains the URDF
+rethink_ee_description,describing these end effectors.
+baxter_sim_hardware,emulates few hardware interfaces
+baxter_description,contains the URDF
+baxter_description,describing Baxter.
+baxter_common,describing the Baxter Research Robot
+tra1_moveit_config,using the tra1
+tra1_description,"contains the description (mechanical, kinematic, visual, etc.)"
+tra1_description,robot. The files
+tra1_bringup,contains bringup scripts/config/tools
+minas_control,contains ros_control based robot controller
+ethercat_manager,facilitating communication withEtherCAT
+xiaoqiang_server,remote control server
+xiaoqiang_monitor,monitor the status
+xiaoqiang_freenect_launch,"produce rectified,"
+xiaoqiang_freenect_launch,produce point clouds
+xiaoqiang_freenect_launch,registered point clouds.
+xiaoqiang_freenect_launch,add tilt angle control support
+xiaoqiang_freenect_camera,is a port
+xiaoqiang_freenect_camera,"uses libfreenect instead,"
+xiaoqiang_freenect_camera,add tilt angle control support
+xiaoqiang_freenect,add tilt angle control support
+xiaoqiang_depth_image_proc,add occupancy xyz Contains nodelets
+xiaoqiang_depth_image_proc,processing depth images
+xiaoqiang_depth_image_proc,include creating disparity images
+xiaoqiang_controller,use terminal
+xiaoqiang_controller,move xiaoqiang
+xiaoqiang_bringup,including launch files
+pr2_msgs,"representing PR2 state,"
+pr2_machine,contains the xxx.machine
+pr2_machine,hosts a node
+pr2_machine,is one machine file
+pr2_description,"contains the description (mechanical, kinematic, visual, etc.)"
+pr2_description,robot. The files
+pr2_dashboard_aggregator,be interested in.
+pr2_common,"simulate the PR2,"
+hector_quadrotor_teleop,processing joy/Joy messages
+hector_quadrotor_model,provides libraries
+hector_quadrotor_interface,provides libraries
+hector_quadrotor_gazebo_plugins,provides gazebo plugins
+hector_quadrotor_gazebo_plugins,using quadrotors
+hector_quadrotor_gazebo_plugins,simulates an altimeter
+hector_quadrotor_gazebo_plugins,is a simple controller
+hector_quadrotor_gazebo_plugins,command the quadrotor's velocity
+hector_quadrotor_gazebo_plugins,using a geometry_msgs/Twist message
+hector_quadrotor_gazebo_plugins,applying forces
+hector_quadrotor_gazebo,provides a quadrotor model
+hector_quadrotor_gazebo,be commanded using geometry_msgs/Twist messages.
+hector_quadrotor_description,provides an URDF model
+hector_quadrotor_controllers,provides controller plugins
+hector_quadrotor_controller_gazebo,implements the ros_control RobotHWSim interface
+hector_quadrotor_actions,provides action server implementations
+hector_quadrotor,"modeling, control"
+grizzly_simulator,allowing easy installation
+grizzly_desktop,control Grizzly
+laser_scan_splitter,resulting laser scans
+laser_scan_splitter,"be assigned an arbitrary coordinate frame,"
+laser_ortho_projector,calculates orthogonal projections
+open_manipulator_perceptions,related perception packages
+open_manipulator_ar_markers,find AR
+open_manipulator_ar_markers,depends ar_track_alvar packages
+marker_msgs,setup a marker/fiducial system.
+marker_msgs,describe the properties
+marker_msgs,represent a map
+slam_constructor,provides implementation
+slam_constructor,framework. The framework
+slam_constructor,provides common SLAM components
+slam_constructor,develop custom SLAM algorithms
+roch_teleop,roch controller configurations
+roch_follower,following the centroid
+perception_pcl,is the preferred bridge
+perception_pcl,involving n-D Point Clouds
+pcl_ros,is the preferred bridge
+pcl_ros,involving n-D Point Clouds
+hls_lfcd_lds2_driver,is a sensor
+hls_lfcd_lds2_driver,sending the data
+hls_lfcd_lds2_driver,is developing the technology
+hls_lfcd_lds2_driver,moving platform sensor
+ecto,is a hybrid C++/Python development framework
+ecto,maintaining pipelines.
+thingmagic_usbpro,reader. The driver
+thingmagic_usbpro,creates a node
+thingmagic_usbpro,named /rfid_detector_node
+thingmagic_usbpro,detected tags
+thingmagic_usbpro,messages. The RFID_Detection messages
+thingmagic_usbpro,epc: A string
+thingmagic_usbpro,containing the RFID tag identifier
+thingmagic_usbpro,detected antenna: 8-bit integer
+thingmagic_usbpro,containing the antenna number
+thingmagic_usbpro,read_count: 8-bit integer
+thingmagic_usbpro,containing the number
+thingmagic_usbpro,rssi: 8-bit integer
+thingmagic_usbpro,containing the RSSI value
+thingmagic_usbpro,Uses the python wrapper
+thingmagic_usbpro,located here: https://github.com/gotthardp/python-mercuryapi
+kobuki_qtestsuite,"provides a graphical, interactive testsuite"
+kobuki_dashboard,is a RQT-based plug-in
+kobuki_dashboard,visualising data
+kobuki_dashboard,giving easy access
+kobuki_dashboard,basic functionalities.
+laser_pipeline,"processing laser data, including converting laser data"
+multi_jackal_base,combines all components.
+vs060_moveit_config,using the vs060A1_AV6_NNN_NNN
+denso_launch,"contain generic .launch files,"
+denso_launch,storing .launch files
+cht10_node,getting data
+thormang3_tools,(meta package)
+thormang3_offset_tuner_client,adjust offset
+thormang3_navigation,generating footsteps.
+thormang3_navigation,has several config files
+thormang3_navigation,use footstep planner package.
+thormang3_foot_step_generator,provides foot step generation
+thormang3_demo,"controlling a THORMANG3. Initial posture, walking,"
+thormang3_action_script_player,provides a action script playing
+thormang3_action_editor,is a action editor
+robotis_op3_tools,(meta package)
+op3_navigation,generating footsteps
+op3_navigation,has several config files
+op3_navigation,use footstep planner package.
+op3_gui_demo,is a GUI software
+op3_gui_demo,control ROBOTIS-OP3. Within
+op3_gui_demo,"perform module settings,"
+op3_gui_demo,"walking tuner, head joint control"
+op3_demo,"includes three demontrations(soccer demo, vision demo, action script demo)"
+op3_bringup,is a demo
+op3_bringup,is an example
+op3_bringup,visualize the robot.
+op3_ball_detector,implements a circle-like shape detector
+op3_ball_detector,"rate, a marked image"
+op3_action_editor,make motion.
+humanoid_planner_2d,provides a simple 2D path planner
+wge100_driver,contains the ROS driver
+wge100_camera,provide access
+smach_ros,"call ROS services, listen"
+smach_msgs,contains a set
+smach,is a task-level architecture
+smach,creating complex robot behavior.
+smach,is a ROS-independent Python library
+smach,build hierarchical state machines. SMACH
+smach,is a new library
+smach,takes advantage
+smach,create robust robot behavior
+odva_ethernetip,implementing ODVA EtherNet/IP (Industrial Protocol).
+key_teleop,send a robot movement commands
+joy_teleop,control a robot
+viz,aggregate several packages.
+simulators,aggregate several packages.
+ros_core,aggregate the packages
+ros_core,"use publish / subscribe, services, launch files,"
+ros_base,extends ros_core
+ros_base,includes other basic non-robot tools
+robot,extends ros_base
+robot,includes ROS libaries
+robot,contain any GUI dependencies.
+perception,aggregate several packages.
+desktop_full,aggregate several packages.
+desktop,aggregate several packages.
+xacro,is an XML macro language.
+xacro,using macros
+thormang3_walking_demo,use thormang3_walking_module.
+thormang3_sensors,related launch
+thormang3_sensors,files. The package
+thormang3_sensors,includes a node
+thormang3_sensors,assembling Laserscan(LaserScan
+thormang3_mpc_sensors,(meta package)
+thormang3_imu_3dm_gx4,robotis. The original version
+thormang3_imu_3dm_gx4,is Kumar Robotics's imu_3dm_gx4 package.
+thormang3_gazebo,provides basic message pub
+thormang3_gazebo,use Thormang3
+thormang3_walking_module_msgs,is a set
+thormang3_walking_module_msgs,using thormang3_walking_module.
+thormang3_walking_module,is a motion module
+thormang3_walking_module,provides a online walking pattern generator
+thormang3_offset_tuner_msgs,is a set
+thormang3_offset_tuner_msgs,using thormang3_offset_tuner.
+thormang3_manipulation_module_msgs,is a set
+thormang3_manipulation_module_msgs,using thormang3_manipulation_module.
+thormang3_manipulation_module,describes basic function
+thormang3_manipulation_module,control THORMANG3's
+thormang3_manipulation_module,provide joint space
+thormang3_manager,describes robot manager
+thormang3_manager,execute THORMANG3's motion modules.
+thormang3_kinematics_dynamics,provides a kinematics
+thormang3_kinematics_dynamics,calculate forward
+thormang3_head_control_module_msgs,is a set
+thormang3_head_control_module_msgs,using thormang3_head_control_module.
+thormang3_head_control_module,control the head.
+thormang3_feet_ft_module_msgs,is a set
+thormang3_feet_ft_module_msgs,using thormang3_feet_ft_module.
+thormang3_feet_ft_module,is a sensor module
+thormang3_action_module_msgs,is a set
+thormang3_action_module_msgs,using thormang3_action_module.
+thormang3_action_module,is a motion module
+thormang3_action_module,play the saved action.
+ati_ft_sensor,is a library
+ati_ft_sensor,using ATI's transducer.
+ati_ft_sensor,describes basic functions
+ati_ft_sensor,sensing force
+ati_ft_sensor,provide some functions
+robotis_op3_common,provides launch files
+manipulator_h_manager,describes robot manager
+manipulator_h_manager,execute manipulator_h_base_module.
+manipulator_h_kinematics_dynamics,packages provides library
+manipulator_h_kinematics_dynamics,are some function
+manipulator_h_kinematics_dynamics,calculate kinematics
+manipulator_h_gui,provides simple GUI
+manipulator_h_gui,control ROBOTIS MANIPULATOR-H.
+manipulator_h_gazebo,provides GAZEBO simulation environment
+manipulator_h_gazebo,provides two controllers
+manipulator_h_description,includes URDF model
+manipulator_h_description,provide full kinematics
+manipulator_h_bringup,includes launch file
+manipulator_h_bringup,describe robotis
+manipulator_h_base_module_msgs,includes ROS messages
+manipulator_h_base_module,describes basic function
+manipulator_h_base_module,control ROBOTIS MANIPULATOR-H.
+manipulator_h_base_module,provides joint space
+robotis_device,manages device information
+robotis_device,reading device information
+robotis_controller_msgs,includes ROS messages
+rh_p12_rn_manager,using ROBOTIS framework
+rh_p12_rn_manager,control the RH-P12-RN
+rh_p12_rn_gui,provides GUI interface
+rh_p12_rn_gui,control the RH-P12-RN
+rh_p12_rn_gazebo,provides basic message pub
+rh_p12_rn_gazebo,use RH-P12-RN
+rh_p12_rn_base_module_msgs,includes ROS messages
+rh_p12_rn_base_module,using ROBOTIS framework
+webui,launch applications
+rosweb,is a temporary package
+rosweb,replace the original rosweb
+rosweb,replace the old rosweb.
+rosjson,is a Python library
+rosjson,converting ROS messages
+ros_mpg321_player,is a node
+ros_mpg321_player,playing mp3 file.
+ros_mpg321_player,is using mpg321
+ros_mpg321_player,is command-line mp3 player.
+ros_madplay_player,is a node
+ros_madplay_player,playing mp3 file.
+ros_madplay_player,is using madplay
+ros_madplay_player,is command-line mp3 player.
+robotis_math,is a set
+robotis_math,provide some linear algebra
+pyclearsilver,interface clearsilver
+op3_walking_module_msgs,includes ROS messages
+op3_online_walking_module_msgs,includes ROS messages
+op3_offset_tuner_msgs,includes ROS messages
+op3_action_module_msgs,includes ROS messages
+image_stream,serve images
+image_stream,"(MJPEG, Theora, FLV, etc)"
+dartsim,"is a collaborative, cross-platform, open source library"
+dartsim,ongoing support
+dartsim,provides data structures
+rrt_exploration,implements a multi-robot RRT-based map exploration
+rrt_exploration,has the image-based frontier detection
+rrt_exploration,uses image processing
+kobuki_testsuite,provides tools
+kobuki_testsuite,thoroughly test Kobuki's hardware.
+kobuki_safety_controller,ensuring the safe operation
+kobuki_safety_controller,keeps track
+kobuki_safety_controller,wheel drop events.
+kobuki_safety_controller,move back.
+kobuki_safety_controller,is stopped. This controller
+kobuki_safety_controller,be enabled/disabled. The safety
+kobuki_safety_controller,pressed etc.)
+kobuki_safety_controller,be reset. WARNING: Dangerous!
+kobuki_description,visualisation. The files
+kobuki_description,use a unary pre-catkin stack
+kobuki_description,named kobuki_description.
+kobuki_bumper2pc,pointcloud nodelet: Publish bumpers
+kobuki_auto_docking,owning a docking station
+kobuki_auto_docking,use this tool
+kobuki_auto_docking,let Kobuki
+loki_base_node,has a ROS node
+loki_base_node,allow communication
+camera1394stereo,is a modified version
+camera1394stereo,supporting the IEEE 1394 Digital Camera (IIDC) protocol
+camera1394stereo,adds support
+single_joint_position_action,is a node
+single_joint_position_action,provides an action interface
+single_joint_position_action,commanding a trajectory
+single_joint_position_action,reaches the desired position.
+pr2_mechanism_diagnostics,publishes diagnostics data
+pr2_mechanism_controllers,package contains
+pr2_mechanism,contains the infrastructure
+pr2_mechanism,control the PR2 robot
+pr2_head_action,is a node
+pr2_head_action,provides an action interface
+pr2_head_action,pointing the head
+pr2_head_action,passes trajectory goals
+pr2_head_action,have finished executing.
+pr2_hardware_interface,contains the C++ interfaces
+pr2_hardware_interface,includes the motors
+pr2_hardware_interface,"control the PR2 mechanism,"
+pr2_gripper_action,provides an action interface
+pr2_gripper_action,using the gripper. Users
+pr2_gripper_action,(while limiting the force)
+pr2_gripper_action,report success
+pr2_gripper_action,move any longer.
+pr2_controllers,Contains the controllers
+pr2_controllers,supporting packages.
+pr2_controller_manager,provides the infrastructure
+pr2_controller_manager,run controllers
+pr2_controller_interface,specifies the interface
+pr2_controller_interface,implements this interface
+pr2_calibration_controllers,contains the controllers
+pr2_calibration_controllers,calibrated state.
+joint_trajectory_action,is a node
+joint_trajectory_action,exposes an action interface
+ethercat_trigger_controllers,operate the digital output
+nao_vision,providing access
+nao_audio,providing access
+slam_gmapping,slam_gmapping contains a wrapper
+slam_gmapping,provides SLAM capabilities.
+gmapping,contains a ROS wrapper
+gmapping,provides laser-based SLAM
+gmapping,"called slam_gmapping. Using slam_gmapping,"
+gmapping,create a 2-D occupancy grid map
+gmapping,pose data
+rocon_remocon,based remocon
+rocon_qt_master_info,displays the information
+rocon_gateway_graph,displays the gateway graph
+rocon_gateway_graph,executing the plugin.
+cost_map_ros,following the style
+cost_map_core,following the style
+asr_mild_navigation,start the navigation
+camera1394,supporting the IEEE 1394 Digital Camera (IIDC) protocol.
+camera1394,"Supports the ROS image_pipeline, using libdc1394"
+multirobot_map_merge,Merging multiple maps
+choreo_param_helpers,implements routines
+choreo_output_processor,converts computed plans
+choreo_output_processor,enables micro-path modifications
+choreo_output_processor,commands synchronization
+choreo_msgs,enable communications
+choreo_kr5_arc_workspace_moveit_config,using the choreo_kr5_arc_workspace
+choreo_kr5_arc_support,using KUKA KR5-arc
+choreo_kr150_2_workspace_moveit_config,using the choreo_kr150_2_workspace
+choreo_kr150_2_support,using KUKA KR150_2
+choreo_gui,presents an alternative front end
+choreo_gui,"use, ATM-like interface"
+choreo_gui,operating the system end
+choreo_geometry_conversion_helpers,converting geometry data
+choreo_execution_gatekeeper,stream generated trajectory
+choreo_execution_gatekeeper,"online control system,"
+choreo_descartes_planner,extends descartes planning package's ability
+choreo_descartes_planner,search joint path
+choreo_descartes_planner,using sparse representation sparse ladder graph
+choreo_descartes_planner,run RRT*
+choreo_descartes_planner,ladder graph
+choreo_descartes_planner,is a part
+choreo_descartes_planner,planning framework
+choreo_core,is the central monitoring node
+choreo_core,connects Choreo's specialized packages
+choreo_core,receives requests
+choreo_core,dispatch /
+asw_material_feeder,printing material feeder rack.
+asw_end_effector,printing end effector. Original designer
+packml_stacklight,bridge packxml state machine
+microstrain_3dmgx2_imu,modified standalone driver
+moveit_robots,contains multiple robots moveit configuration packages.
+iri_wam_moveit_config,using the iri_wam
+baxter_moveit_config,using the baxter
+atlas_v3_moveit_config,using the atlas
+atlas_moveit_config,using the atlas
+eca_a9_control,control the ECA A9 AUV
+viso2_ros,is the ROS wrapper
+libviso2,is a ROS-Package
+libviso2,contains a CMakeFile
+libviso2,build system. Please note
+find_moving_objects,moving objects
+demo_pioneer,implement visual servoing schemes
+demo_pioneer,control a Pioneer robot.
+simple_drive,"steering joystick teleoperation, control"
+simple_drive,panning servo
+cnn_bridge,take freeze graphs
+hector_path_follower,provides a node
+hector_path_follower,"publishes Twist messages,"
+hector_path_follower,following a path.
+hector_exploration_planner,is a planner
+hector_exploration_planner,plan paths
+hector_exploration_planner,explore unknown environments
+hector_exploration_node,is a node
+hector_exploration_node,provides exploration plans
+hector_exploration_controller,is a simple controller
+hector_exploration_controller,requests a plan
+hector_exploration_controller,geometry_msgs/Twist commands
+hector_exploration_controller,follow this plan
+hector_elevation_mapping,hector_elevation_mapping advertises pointclouds
+hector_elevation_mapping,generates a local and/or
+hector_costmap,provides a 2D occupancy grid map
+hector_costmap,containing all untraversable obstacles.
+hector_costmap,fuses 2.5D elevation map
+hector_costmap,calculating the 2D costmap
+sicktoolbox_wrapper,is a ROS wrapper
+node_manager_fkie,manage the running
+node_manager_fkie,configured ROS nodes
+node_manager_fkie,discovering the running ROS master master_discovery node
+multimaster_fkie,combine the nodes
+multimaster_fkie,manage a multimaster network.
+master_sync_fkie,Synchronize the local ROS master
+master_discovery_fkie,running ROS Masters
+master_discovery_fkie,sending an echo heartbeat messages
+master_discovery_fkie,defined multicast group.
+master_discovery_fkie,use a zeroconf/avahi daemon
+master_discovery_fkie,register the ROS master
+master_discovery_fkie,discover other ROS masters.
+default_cfg_fkie,given launch configuration
+default_cfg_fkie,offers services
+default_cfg_fkie,provides additional description
+nonpersistent_voxel_layer,provides an implementation
+nonpersistent_voxel_layer,builds a 3D occupancy grid
+lauv_gazebo,start a simulated LAUV
+lauv_control,start controllers
+desistek_saga_control,control the Desistek SAGA ROV
+sr_movements,Contains a node
+sr_movements,take the hand
+sr_movements,tuning controllers
+pr2_2dnav_slam,allows the PR2
+pr2_2dnav_slam,building a map
+pr2_2dnav_slam,drives along.
+pr2_2dnav_local,allows the PR2
+pr2_2dnav,allows the PR2 robot
+pr2_desktop,aggregate several packages.
+pr2_base,aggregate several packages.
+pr2,aggregate several packages.
+tf_remapper_cpp,handle TFs
+static_transform_mux,makes sure everybody
+movie_publisher,using a video file
+ros_ethercat_eml,is an implementation
+rv7fl_moveit_config,using the rv7fl
+rv4fl_moveit_config,using the rv4fl
+network_traffic_control,allows control
+network_monitor_udp,monitor a network connection
+network_monitor_udp,sending UDP packets
+network_monitor_udp,collects statistics
+network_monitor_udp,loss. The server
+network_monitor_udp,is a C standalone utility
+network_monitor_udp,be a ROS
+network_detector,given network interface
+network_detector,is both UP
+network_control_tests,are part
+linksys_access_point,controls a Linksys access point
+hostapd_access_point,controls a hostapd-based access point.
+hostapd_access_point,implements the dynamic_reconfigure interface
+ddwrt_access_point,controls a Linksys WRT610Nv2 access point
+asmach_tutorials,containes numerous examples
+asmach_tutorials,use SMACH. See
+asmach,is a task-level architecture
+asmach,creating complex robot behavior.
+asmach,is a ROS-independent Python library
+asmach,build hierarchical state machines. SMACH
+asmach,is a new library
+asmach,takes advantage
+asmach,create robust robot behavior
+access_point_control,implement the API
+rviz_visual_tools,debugging data
+rviz_visual_tools,published markers
+nodelet_topic_tools,contains common nodelet tools
+nodelet,provide a way
+nodelet,run multiple algorithms
+nodelet,"implementing a nodelet,"
+nodelet,instantiating nodelets.
+stomp_test_kr210_moveit_config,using the test_kr210
+industrial_moveit_benchmarking,contains tools
+industrial_moveit_benchmarking,benchmark both constrianed_ik
+bfl,contains a recent version
+bfl,modify BFL
+bfl,provides a convenient way
+bfl,"compile the library,"
+piksi_rtk_msgs,containing messages
+open_manipulator_with_tb3_gazebo,using gazebo
+turtlebot3_autorace_control,controls TurtleBot3 Auto
+turtlebot3_autorace_camera,"controls Raspberry Pi Camera,"
+turtlebot3_autorace_camera,process the image
+control_toolbox,contains modules
+robot_recorder,contains all essential packages
+recordit,and/or the mobile changes
+recordit,(via tf)
+robot_activity_msgs,contains messages
+simple_arm,controlled arm. Teleoperation software
+timed_roslaunch,delay the launch
+backward_ros,is a ros wrapper
+nmea_navsat_driver,parse NMEA strings
+nmea_navsat_driver,use the GPSD deamon.
+stop_base,using the cmd_vel interface.
+multi_level_map_server,Launches a map server
+bwi_virtour,providing a virtual tour
+bwi_virtour,using the Building-Wide Intelligence infrastructure.
+bwi_tools,used Python
+bwi_rqt_plugins,are some rqt plugins
+bwi_rqt_plugins,provides a simple GUI capable
+bwi_rqt_plugins,displaying messages
+rtt_controller_manager_msgs,use ROS messages
+rtt_control_msgs,use ROS messages
+mtig_driver,publish GPS messages
+turtlebot_stdr,test 2D-navigation related stuffs
+turtlebot_stage,test 2D-navigation related stuffs
+tango_ros_streamer,wraps Tango Ros Streamer application
+tango_ros_native,contains a cpp lib
+tango_ros_native,using ros
+tango_ros_messages,contains messages/services
+ati_force_torque,implements driver
+ati_force_torque,firmware 3.x. Char
+turtlebot_follower,following the centroid
+turtlebot_apps,is a group
+turtlebot_actions,provides several basic actionlib actions
+freenect_launch,"produce rectified,"
+freenect_launch,produce point clouds
+freenect_launch,registered point clouds.
+freenect_camera,is a port
+freenect_camera,"uses libfreenect instead,"
+freenect_camera,works better.
+eband_local_planner,implements a plugin
+eband_local_planner,implements the Elastic Band method
+create_node,use create_driver's implementation instead.
+create_node,contains a 'bonus' feature
+create_driver,is a generic driver
+create_driver,holds implementations
+create_driver,pending review
+create_driver,using the name create_driver.
+create_driver,see turtlebot_node.
+rospeex_webaudiomonitor,provides a browser-based waveform monitor
+rospeex_webaudiomonitor,requires an external web browser: Google Chrome
+rospeex_samples,provides some rospeex samples.
+rospeex_msgs,defines messages
+rospeex_launch,launches rospeex's core nodes.
+rospeex_if,provides interface libraries
+rospeex_core,provides rospeex's core nodes.
+rospeex_audiomonitor,provides a stable waveform monitor
+rospeex_audiomonitor,requires an external library: qtmobility-dev.
+romeo_moveit_config,using the romeoH37
+pepper_dcm_bringup,control Pepper
+object_recognition_transparent_objects,estimate poses
+urdf_parser_plugin,contains a C++ base class
+urdf,contains a C++ parser
+urdf,is an XML format
+urdf,representing a robot
+urdf,model. The code API
+urdf,remain backwards
+rostune,is a tool
+rostune,helps ROS developers
+rostune,collects statistics
+nav2d_tutorials,Contains a set
+nav2d_remote,control a robot
+nav2d_remote,uses the operator
+nav2d_remote,is one node
+nav2d_remote,control one robot
+nav2d_remote,control multiple robots
+nav2d_remote,send commands
+nav2d_remote,stop navigator actions.
+nav2d_operator,environment. The operator node works
+nav2d_operator,evaluating a set
+nav2d_navigator,provides a node
+nav2d_navigator,needs a map
+nav2d_navigator,create a plan
+nav2d_navigator,perform autonomous exploration
+nav2d_localizer,implementation. The SelfLocalizer
+nav2d_exploration,holds a collection
+nav2d_exploration,provide different cooperative exploration strategies
+infinisoleil,provides a ROS driver
+romeo_moveit_actions,using MoveIt!
+twistimu,convert IMU data
+wsg_32_description,sensing fingers.
+rsv_balance_simulator,balancing platform.
+ez_interactive_marker,create interactive markers
+lkh_solver,solving the Traveling Salesman Problem
+lkh_solver,using the Lin-Kernighan heuristic.
+lkh,solving the TSP
+lkh,using LKH
+glkh_solver,solving the Generalized Traveling Salesman Problem
+glkh_solver,using the Lin–Kernighan heuristic.
+ros_explorer,exploring the ROS graph
+asr_robot_model_services,provides services
+asr_robot_model_services,perform calculations
+asr_navfn,create plans
+asr_navfn,assumes a circular robot
+asr_navfn,find a minimum cost plan
+asr_navfn,provides a ROS wrapper
+asr_mild_kinematic_chain,provides information
+asr_mild_kinematic_chain,contains launch-files
+asr_mild_kinematic_chain,publish the chain
+asr_calibration_tool_dome,provides a tool
+asr_calibration_tool_dome,calibraiting the kinematic chain
+asr_calibration_tool_dome,provides a data-tracking
+asr_calibration_tool_dome,recording 6D positions
+asr_calibration_tool_dome,"construction, the kinematic chain"
+asr_calibration_tool_dome,recorded data
+asr_aruco_marker_recognition,contains a marker recognition system
+asr_aruco_marker_recognition,using the ArUco
+move_base_to_manip,Move the robot base
+aubo_new_driver,connect the TCP/IP Server
+aubo_i5_moveit_config,using the aubo_i5
+ros1_template_msgs,following good practices
+ros1_template,following good practices
+ros1_ros_cpptemplate,following good practices
+ros1_pytemplate,following good practices
+ros1_pip_pytemplate,following good practices
+ros1_cpptemplate,logging following good practices
+asr_mild_base_laserscanner,provides streams
+myahrs_driver,is a driver package
+myahrs_driver,myAHRS+. The myAHRS+
+myahrs_driver,is a low cost
+myahrs_driver,interface. The myAHRS+ board
+myahrs_driver,"contains a 3-axis 16-bit gyroscope,"
+asr_resources_for_vision,holds bits
+asr_resources_for_vision,contains a hierarchy
+asr_resources_for_vision,(e.g. RGB-D
+hugin_panorama,using image snapshots
+turtle_tf2,write a tf2 broadcaster
+turtle_tf2,follow turtle1
+turtle_tf2,using the keyboard.
+turtle_tf,write a tf broadcaster
+turtle_tf,follow turtle1
+turtle_tf,using the keyboard.
+lost_comms_recovery,loses connection
+lost_comms_recovery,stop motors
+uwsim,is an UnderWater SIMulator
+uwsim,visualizes an underwater virtual scenario
+uwsim,be configured using standard modeling software.
+uwsim,"simulated sensors,"
+uwsim,integrate the visualization tool
+uwsim,existing control architectures.
+wiimote,allows ROS nodes
+wiimote,"including the Nunchuk, Motion Plus,"
+wiimote,(experimentally) the Classic.
+wiimote,implements a ROS node
+wiimote,uses Bluetooth
+wiimote,obtaining accelerometer
+wiimote,"data, the state"
+wiimote,state. The node
+wiimote,enables ROS nodes
+wiimote,control the Wiimote's LEDs
+wiimote,timed pattern.
+ps3joy,devices. The driver
+ps3joy,"starts the joystick streaming data,"
+ps3joy,passes the data
+joystick_drivers,interfacing common joysticks
+joy,"contains joy_node, a node"
+joy,interfaces a generic Linux joystick
+joy,ROS. This node
+joy,"publishes a ""Joy"" message,"
+joy,contains the current state
+cirkit_unit03_simulator,provides packages
+cirkit_unit03_robot,provides packages
+cirkit_unit03_common,provides packages
+look_at_pose,given pose.
+asr_sick_lms_400,contains all necessary functionality
+asr_rviz_pose_manager,get poses
+asr_rviz_pose_manager,using the goal tool
+asr_mild_base_launch_files,contains the launch files
+asr_mild_base_launch_files,start the system
+asr_mild_base_driving,"publishes the odometry information,"
+asr_mild_base_driving,transforms the velocity command
+asr_kinematic_chain_optimizer,using rosenbrock optimization.
+asr_kinematic_chain_dome,provides information
+asr_kinematic_chain_dome,contains launch-files
+asr_kinematic_chain_dome,publish the chain
+asr_kinematic_chain_dome,are: dome
+asr_kinematic_chain_dome,contains the urdf model.
+asr_flock_of_birds,is the driver
+asr_flock_of_birds,provides the remote server
+asr_flock_of_birds,publishes two 6d posemarker
+asr_flock_of_birds,magnettracking system.
+asr_flock_of_birds,contains launchfiles
+asr_cyberglove_visualization,test the functionalities
+asr_cyberglove_visualization,uses an URDF model
+asr_cyberglove_visualization,provide a visualization
+asr_cyberglove_lib,start a server
+asr_cyberglove_lib,provides the current joint state values
+ecl_type_traits,c++ type traits
+ecl_time,Timing utilities
+ecl_time,provides a means
+ecl_time,handling different timing models. Current support
+ecl_time,"only, missing absolute timers."
+ecl_threads,provides the c++ extensions
+rocon,is a meta package
+mavlink,marshaling library.
+mavlink,provides C-headers
+waypoint_generator,waypoint yaml file
+object_recognition_ros,contains tools
+object_recognition_ros,"launch several recognition pipelines, train"
+summit_x_robot_control,Control the robot joints
+summit_x_gazebo,start the models
+summit_x_control,contains the launch
+summit_x_control,load the required controller interfaces
+imu_compass,combine IMU data (accelerometers
+agvs_sim_bringup,contains multiple launch files
+agvs_sim_bringup,"perform different tasks,"
+agvs_sim_bringup,creating a map
+agvs_sim_bringup,launching amcl.
+agvs_gazebo,run Gazebo.
+camera_info_manager_py,provides a CameraInfo interface
+barrett_hand_control,control the gazebo simulation
+rqt_multiplot,provides a GUI plugin
+rqt_multiplot,visualizing numeric values
+rqt_multiplot,using the Qwt plotting backend.
+moveit_setup_assistant,Generates a configuration package
+moveit_setup_assistant,use MoveIt!
+moveit_ros_visualization,offer visualization
+moveit_ros_robot_interaction,offer interaction
+moveit_ros_planning,Planning components
+moveit_ros_planning,use ROS
+moveit_ros,use ROS
+moveit_planners,installs all available planners
+moveit_ikfast,Generates a IKFast kinematics plugin
+moveit_ikfast,using OpenRave
+moveit_ikfast,generated cpp files.
+map_laser,remove points
+laser_filtering,filtering specific kinds
+marshmallow,converting complex objects
+agvs_pad,control the robot
+agvs_pad,using a ps3 pad.
+world_canvas_client_examples,use C++
+hector_worldmodel_msgs,is a message package
+hector_worldmodel_msgs,stack. The messages
+hector_worldmodel_msgs,send percepts
+hector_worldmodel_msgs,node. The tracker
+hector_worldmodel_msgs,publishes model updates
+hector_worldmodel_msgs,latches the whole model state
+hector_worldmodel_geotiff_plugins,contains a plugin
+hector_worldmodel_geotiff_plugins,visualize worldmodel objects
+hector_worldmodel_geotiff_plugins,(e.g. victims
+hector_worldmodel,fuse information
+hector_worldmodel,localize victims
+hector_object_tracker,is the core package
+hector_object_tracker,percept message
+hector_object_tracker,(e.g. heat signatures
+hector_object_tracker,fuses all information
+hector_object_tracker,object association problem
+hector_object_tracker,deduce the depth
+sophus,using Eigen.
+rocon_unreliable_experiments,testing roscpp
+rocon_multimaster,do everything
+rocon_multimaster,does provide the building blocks
+rocon_multimaster,"provides the gateway model,"
+rocon_multimaster,is an upgrade
+rocon_hub_client,rocon hubs.
+rocon_hub_client,has a few convenience api
+rocon_hub_client,manipulating data
+rocon_hub,shared key-value store
+rocon_gateway_utils,(avoids large dependency requirements).
+rocon_gateway_tests,Testing programs
+rocon_gateway,shared key-value store
+ecl_time_lite,porting other code
+ecl_sigslots_lite,avoids use
+ecl_sigslots_lite,embedded development.
+ecl_io,"(windows, posix, ...)"
+ecl_errors,includes c style error functions
+ecl_converters_lite,is no use
+octomap_msgs,provides messages
+octomap_msgs,/ conversion
+softkinetic_camera,"drivers, including filters."
+camera_pose_calibration,using the OpenCV
+object_recognition_ros_visualization,contains rviz plugins
+object_recognition_ros_visualization,visualize ork detection results
+rocon_python_wifi,is copy
+rocon_python_redis,patched version
+rocon_service_pair_msgs,Paired pubsubs generators
+concert_msgs,Shared communication types
+object_recognition_reconstruction,aligned Kinect data
+object_recognition_capture,is a set
+object_recognition_capture,capture objects
+object_recognition_capture,perform odometry
+ecto_image_pipeline,based pipelines. Includes stereo
+openslam_gmapping,gmapping SLAM.
+ivcon,generate '.iv' files
+ivcon,plan onkeeping this package
+euslisp,integrated programming system
+auv_msgs,provides message types
+lyap_control,control nonlinear dynamic systems
+robot_pose_publisher,Publish the Robot's Position Relative
+robot_pose_publisher,using TFs
+hector_thermal_self_filter,provides a hector_worldmodel_msgs/VerifyPercept service server
+hector_heat_detection,range. The heat_detection node publishes hector_worldmodel_msgs/ImagePercept messages
+stage_ros,provides ROS
+innok_heros_control,control the Innok Heros
+innok_heros_control,(e. g. joystick
+certifi,curated collection
+certifi,validating the trustworthiness
+certifi,verifying the identity
+rsv_balance_msgs,balancing platform messages
+rsv_balance_description,balancing platform URDF description
+rsv_balance,balancing platform
+rsv_balance_rqt,setting operation mode
+rsv_balance_desktop,balancing platform
+visualization_osg,is a metapackage providing support
+visualization_osg,using the OpenSceneGraph rendering engine.
+openrave_planning,offers OpenRAVE-related bindings.
+openrave_database,parallelize the database generation
+openrave_calibration,uses openrave planning
+openrave_calibration,calibrate a robot's
+openrave_calibration,sensors. The calibration
+openrave_calibration,calibrating new robots
+openrave_actionlib,controlling robots.
+openrave,"use, please"
+openrave,add the following line
+collada_robots,"them, install OpenRAVE"
+collada_robots,openrave XXX.zae
+collada_robots,are zip archives
+collada_robots,contain the raw collada 1.5 xml (dae).
+rqt_reconfigure,"succeeds former dynamic_reconfigure's GUI (reconfigure_gui),"
+rqt_reconfigure,provides the way
+rqt_reconfigure,edit the parameters
+rqt_py_common,provides common functionality
+rqt_py_common,is part
+rqt_py_common,keep refactoring generic functionality
+rqt_py_common,cover generic ROS concepts
+rqt_py_common,introduce any special dependencies
+rqt_gui_py,enables GUI plugins
+rqt_gui_py,use the Python client library
+rqt_gui_cpp,enables GUI plugins
+rqt_gui_cpp,use the C++ client library
+rqt_gui,start an instance
+rqt_gui,integrated graphical user interface
+rqt,is a Qt-based framework
+rc_visard_driver,provides data
+tblib,fiddling library. Allows
+tblib,pickle tracebacks.
+pr2_run_stop_auto_restart,provides a node
+pr2_run_stop_auto_restart,monitors the state
+pr2_run_stop_auto_restart,"on, this node"
+pr2_run_stop_auto_restart,enable the power
+pr2_run_stop_auto_restart,reset the motors.
+pr2_run_stop_auto_restart,use the run
+pr2_run_stop_auto_restart,using the run
+pr2_run_stop_auto_restart,starts moving.
+pr2_robot,collects PR2-specific components
+pr2_ethercat,runs the robot.
+pr2_bringup,bring a PR2
+posedetection_msgs,provides messages
+posedetection_msgs,facilitate passing pose detection results
+imu_monitor,contains a single node
+imu_monitor,monitors the drift
+schunk_simulated_tactile_sensors,provides simulated tactile sensors
+schunk_simulated_tactile_sensors,transforms the Gazebo feedback
+schunk_simulated_tactile_sensors,provide the same tactile sensor interface
+schunk_simulated_tactile_sensors,package. The following parameters
+schunk_simulated_tactile_sensors,be set: *
+schunk_simulated_tactile_sensors,cells_x: The number
+schunk_simulated_tactile_sensors,cells_y: The number
+schunk_simulated_tactile_sensors,sensitivity: The change
+schunk_simulated_tactile_sensors,is 250 kPa
+schunk_simulated_tactile_sensors,is the size
+schunk_simulated_tactile_sensors,dividing the length/width
+schunk_simulated_tactile_sensors,is NOT
+schunk_simulated_tactile_sensors,filter_length: The length
+schunk_simulated_tactile_sensors,moving average filter
+schunk_simulated_tactile_sensors,smoothes the values
+schunk_simulated_tactile_sensors,following topics
+schunk_simulated_tactile_sensors,receive data
+schunk_simulated_tactile_sensors,finger_23/state The node
+schunk_simulated_tactile_sensors,processed data
+schunk_simulated_tactile_sensors,tactile_data The simulated bumper
+schunk_simulated_tactile_sensors,obtain the collision data
+schunk_simulated_tactile_sensors,setting the "frameName" property
+schunk_sdh,provides an interface
+schunk_sdh,operating the schunk
+schunk_sdh,including the tactile sensors.
+schunk_powercube_chain,packages provides a configurable driver
+schunk_powercube_chain,powercubes. The powercube chain
+schunk_powercube_chain,corresponding launch files
+schunk_modular_robotics,includes packages
+schunk_modular_robotics,provide access
+schunk_libm5api,wraps the libm5api
+schunk_description,"contains the description (mechanical, kinematic, visual, etc.)"
+schunk_description,components. The files
+combined_robot_hw,Combined Robot HW class.
+sr_ur_arm_config,containing Shadow's UR arm config.
+sr_ethercat_hand_config,contains the different yaml files
+sr_ethercat_hand_config,storing the parameters
+polled_camera,contains a service
+polled_camera,polled camera driver node
+polled_camera,requesting images
+image_transport,publish images.
+image_transport,provides transparent support
+image_transport,transporting images
+image_transport,include JPEG/PNG compression
+image_transport,streaming video.
+camera_info_manager,provides a C++ interface
+camera_info_manager,"provides CameraInfo,"
+camera_info_manager,restoring the camera calibration data.
+camera_calibration_parsers,contains routines
+camera_calibration_parsers,writing camera calibration parameters.
+wu_ros_tools,making a variety
+turtle_actionlib,write an action server
+turtle_actionlib,drawing regular polygons
+rosbaglive,were happening NOW.
+joy_listener,joy msgs
+easy_markers,publishing markers
+common_tutorials,contains common tutorials
+rqt_pr2_dashboard,is a GUI
+rqt_pr2_dashboard,controlling low-level state
+rqt_pr2_dashboard,shows things
+dynamic_robot_state_publisher,Improved ROS robot_state_publisher
+dynamic_robot_state_publisher,update the robot model
+mrpt_rbpf_slam,gmapping (https://wiki.ros.org/gmapping)
+mrpt_rbpf_slam,"supports different particle-filter algorithms,"
+mrpt_icp_slam_2d,contains a wrapper
+mrpt_graphslam_2d,"using the mrpt-graphslam library,"
+mrpt_graphslam_2d,reading measurements
+mrpt_ekf_slam_3d,is a wrapper
+mrpt_ekf_slam_2d,is a wrapper
+rtmros_nextage,is a ROS interface
+nextage_moveit_config,using the NextageOpen
+nextage_description,is a ROS interface
+nextage_calibration,provides .launch files
+nextage_calibration,calibrating the head-mount cameras
+nextage_calibration,is capable (i.e. Ueye
+nextage_calibration,"cameras, the ones"
+um7,provides a C++ implementation
+um7,publishing standard ROS orientation topics
+pr2_gazebo,simulating the PR2
+pr2_controller_configuration_gazebo,maintain two copies
+openni2_launch,start the openni2_camera drivers using rgbd_launch.
+openni2_camera,using a kinect
+sr_robot_msgs,contains some messages
+sr_description,contains the description
+sr_common,contains the bare minimum
+qt_ros,cmake build tools
+qt_create,creating qt-ros packages
+qt_build,maintains a cmake api
+qt_build,simplifying the building
+ridgeback_msgs,representing low-level motor commands
+ridgeback_description,robot description
+ros_ethercat_loop,run EtherCAT robot hardware.
+ros_ethercat_hardware,creating a hardware interface
+ros_ethercat_hardware,using the EtherCAT motor controller/driver
+ros_ethercat,using EtherCAT
+panda_moveit_config,using the panda
+asr_resources_for_active_scene_recognition,is the main entry point
+asr_resources_for_active_scene_recognition,contains helpers
+asr_resources_for_active_scene_recognition,"resources, including the launch"
+asr_resources_for_active_scene_recognition,start ASR
+asr_resources_for_active_scene_recognition,includes a customized rviz-configuration file
+asr_resources_for_active_scene_recognition,recorded scenes
+asr_resources_for_active_scene_recognition,ease the interaction
+asr_recognizer_prediction_psm,provides object pose prediction
+asr_recognizer_prediction_psm,generates hypotheses (type
+asr_recognizer_prediction_psm,missing objects
+asr_recognizer_prediction_psm,integrates scene recognition
+asr_recognizer_prediction_psm,object pose prediction (both
+asr_recognizer_prediction_psm,are asr_next_best_view/AttributedPointCloud.msg messages
+asr_mild_base_fake_driving,provides a simulation system
+asr_mild_base_fake_driving,simulates the desired driven way
+asr_flock_of_birds_tracking,controls a motorized robot head (a sensor setup
+asr_flock_of_birds_tracking,system. The purpose
+asr_flock_of_birds_tracking,enable continuous localization
+asr_fake_object_recognition,provides a 'perception
+can_dbc_parser,"Read a DBC file, unpack CAN messages"
+ixblue_stdbin_decoder,parsing library
+rqt_tf_tree,provides a GUI plugin
+rqt_tf_tree,visualizing the ROS TF frame tree.
+random_numbers,contains wrappers
+random_numbers,"generating floating point values, integers, quaternions using boost"
+random_numbers,libraries. The constructor
+velodyne_gazebo_plugin,provide simulated data
+velo2cam_gazebo,allowing easy installation
+ueye_cam,wraps the driver API
+webkit_dependency,encapsulates the WebKit dependency
+message_generation,modeling the build-time dependencies
+message_generation,generating language bindings
+fsrobo_r_trajectory_filters,filtering trajectories.
+fsrobo_r_moveit_config,using the fsrobo_r
+turtlebot_arm_object_manipulation,contains a demo
+turtlebot_arm_object_manipulation,allowing the TurtleBot arm
+turtlebot_arm_object_manipulation,"recognize, pick"
+turtlebot_arm_object_manipulation,using interactive markers.
+turtlebot_arm_moveit_demos,contains scripts
+turtlebot_arm_moveit_config,using the turtlebot_arm
+turtlebot_arm_kinect_calibration,allows calibration
+turtlebot_arm_description,contains URDF files
+turtlebot_arm_bringup,provides launch files
+turtlebot_arm_bringup,starting the drivers
+turtlebot_arm_block_manipulation,contains a demo
+turtlebot_arm_block_manipulation,allowing the TurtleBot arm
+turtlebot_arm_block_manipulation,manipulate small blocks
+turtlebot_arm_block_manipulation,using interactive markers.
+asr_state_machine,implements the logic
+asr_state_machine,connects different functionalities
+asr_state_machine,object pose prediction
+asr_state_machine,is the interface
+asr_state_machine,executing different 3D-object-search procedures
+asr_state_machine,is. Active Scene Recognition
+asr_state_machine,modes. The search
+asr_state_machine,using different packages
+mrpt_reactivenav2d,using MRPT navigation
+mrpt_rawlog,record a rawlog
+mrpt_map,publish a mrpt map
+mrpt_localization,maps. The interface
+mrpt_localization,amcl (https://wiki.ros.org/amcl)
+mrpt_local_obstacles,"Maintains a local obstacle map (point cloud, voxels"
+mrpt_generic_sensor,interfacing any sensor
+turtlebot3_teleop,using keyboard
+turtlebot3_slam,provides roslaunch scripts
+turtlebot3_slam,starting the SLAM
+turtlebot3_navigation,provides roslaunch scripts
+turtlebot3_navigation,starting the navigation.
+turtlebot3_example,provides four TurtleBot3
+turtlebot3_example,include move
+turtlebot3_example,"using interactive marker, move"
+turtlebot3_example,"using LDS, move"
+turtlebot3_example,custom routes. The interactions node
+turtlebot3_example,control the TurtleBot3 front
+turtlebot3_example,position. The obstacle node
+turtlebot3_example,"meets an obstacle,"
+turtlebot3_example,stops. The patrol node
+turtlebot3_example,custom route.
+turtlebot3_example,"are 3 route(square, triangle, circle)"
+turtlebot3_example,move the TurtleBot3.
+turtlebot3_example,insert goal position
+turtlebot3_example,"include distance x-axis, y-axis"
+turtlebot3_bringup,starting the TurtleBot3
+roslisp_utilities,using roslisp.
+roslisp_repl,provides a script
+roslisp_repl,launches Emacs
+roslisp_common,control ROS
+roslisp_common,based robots.
+roslisp_common,contains an implementation
+ros_emacs_utils,simplifying the release process.
+message_runtime,modeling the run-time dependencies
+pattern_manager,allows a robotics application developer
+pattern_manager,"define a pattern,"
+pattern_manager,palletizing operations.
+lms1xx,contains a basic ROS driver
+sr_robot_lib,contains the robot library
+sr_robot_lib,store the incoming etherCAT messages
+sr_robot_lib,prepare the messages
+sr_external_dependencies,is a "dummy" package
+sr_external_dependencies,contains a script
+sr_edc_launch,start the needed nodes
+sr_edc_ethercat_drivers,implementing a ROS interface
+sr_edc_controller_configuration,contains the different launch files
+sr_edc_controller_configuration,controllers. The actual configuration files
+shadow_robot_ethercat,contains the drivers
+asr_world_model,implements the logic
+asr_world_model,contains four types
+asr_world_model,models) 2. All views
+asr_world_model,given types
+asr_world_model,recognized complete patterns
+asr_world_model,models) 4. Some additional information
+asr_recognizer_prediction_ism,includes the algorithmic link
+asr_recognizer_prediction_ism,"aforementioned functionalities,"
+asr_recognizer_prediction_ism,"includes the algorithms realizing Scene Model Sampling. E.g.,"
+asr_recognizer_prediction_ism,provides a (service-based) interface
+asr_recognizer_prediction_ism,including an ASR-optimized visualization
+asr_recognizer_prediction_ism,trees. The reason
+asr_recognizer_prediction_ism,linking scene recognition
+asr_recognizer_prediction_ism,object pose prediction
+asr_recognizer_prediction_ism,is the size
+asr_object_database,provide objects
+asr_next_best_view,estimates Next-Best-Views
+asr_next_best_view,(target positions
+asr_next_best_view,recognize searched objects
+asr_lib_pose_prediction_ism,contains classes
+asr_lib_pose_prediction_ism,predict poses
+asr_lib_pose_prediction_ism,evaluate the performance
+cl_tf2,use TF2
+cl_tf,use TF
+actionlib_lisp,is a native implementation
+actionlib_lisp,provides a client
+hector_sensors_description,contains URDF xacro macros
+hector_sensors_description,robot models
+hector_models,contains (urdf) models
+hector_components_description,contains URDF xacro macros
+hector_components_description,robot models.
+imagezero_ros,provides convenient methods
+imagezero_ros,manipulating ROS images
+imagezero_image_transport,sending images
+imagezero,is a fast lossless image compression algorithm
+aws_ros1_common,using Amazon Web Services
+tts,enabling a robot
+tts,providing a Text-To-Speech ROS service
+ros_monitoring_msgs,publishing monitoring data
+lex_node,providing a ROS node
+lex_common_msgs,using the lex_node package
+kinesis_video_msgs,transmitting video frames
+file_management,manage offline files.
+cloudwatch_metrics_common,publish metrics
+cloudwatch_metrics_collector,aws/monitoring topic
+cloudwatch_metrics_collector,publish metrics
+cloudwatch_logs_common,publish logs
+asr_lib_ism,contains the ROS-independent library
+asr_lib_ism,provides the actual scene-recognition functionality
+asr_ism,contains nodes
+asr_ism,trees. The Active-Scene-Recognition interface
+asr_ism,are: 1. Recording
+asr_ism,tree) 3. Recognition
+asr_direct_search_manager,manage poses
+asr_direct_search_manager,search. The direct mode
+asr_direct_search_manager,cover the current environment map.
+asr_direct_search_manager,are different modes
+kni,provides the third-party KNI (Katana Native Interface) library
+kni,using the KNI library
+katana_tutorials,contains test
+katana_teleop,provides tele-operation nodes
+katana_teleop,control the Neuronics Katana 450 arm
+katana_msgs,contains messages
+katana_gazebo_plugins,provides Gazebo plugins
+katana_gazebo_plugins,simulate the Katana arm.
+katana_driver,"contains all descriptions, drivers"
+katana_description,contains an URDF description
+katana_description,supporting mesh files.
+katana_arm_gazebo,starts a Neuronics Katana robot arm
+katana,provides ROS interfaces
+asr_msgs,contains all messages
+asr_msgs,collaborating components
+microstrain_mips,provides a driver
+safe_teleop_pr2,running safe_teleop_base
+safe_teleop_base,provides automatic collision avoidance
+fanuc_grinding_scanning,Scanning part
+fanuc_grinding_scanning,grinding demonstrator
+fanuc_grinding_rviz_plugin,Grinding RViz plugin
+fanuc_grinding_publish_meshfile,grinding demonstrator
+fanuc_grinding_post_processor,grinding demonstrator
+fanuc_grinding_path_planning,grinding demonstrator
+fanuc_grinding_comparison,grinding demonstrator
+fanuc_grinding_alignment,grinding demonstrator
+fanuc_grinding,grinding package.
+cloudwatch_logger,publishing logs
+aws_common,using the AWS SDK
+motoman_sia5d_moveit_config,using the motoman_sia5d
+motoman_csda10f_moveit_config,using the motoman_csda10f
+geographic_info,resolve dry stack dependencies.
+geodesy,manipulating geodetic coordinates.
+asr_descriptor_surface_based_recognition,contains a 6-DoF object localizer
+vision_opencv,interfacing ROS
+vision_opencv,programming functions
+opencv_tests,Tests the enumerants
+opencv_tests,tests the Python
+image_geometry,contains C++
+image_geometry,interpreting images
+image_geometry,interfaces the calibration parameters
+cv_bridge,"contains CvBridge,"
+dockeros,running ros nodes
+asr_xsd2cpp,generate C++ classes (headers)
+asr_ros_uri,doesn't load the resource
+asr_ros_uri,delivers the uri path
+asr_ros_uri,given file
+asr_ros_uri,given uri.
+asr_rapidxml,contains a Ros wrapper
+sr_utilities,contains different useful header libraries
+sr_utilities,"(math libraries, etc...)."
+sr_tactile_sensors,Contains a virtual set
+sr_mechanism_model,contains the transmissions
+sr_mechanism_model,needed specific transmission
+sr_mechanism_model,take care
+sr_mechanism_model,combine the distal
+sr_mechanism_controllers,package contains different types
+sr_mechanism_controllers,"controllers, force controllers,"
+sr_hardware_interface,contains the actuator
+sr_hand,is a ROS interface
+sr_hand,contains an interface
+sr_core,are the core packages
+angles,provides a set
+angles,cover simple things
+angles,normalizing an angle
+angles,calculate things
+angles,need. The code
+angles,are no plans
+cv_camera,uses OpenCV capture object
+cv_camera,capture camera image.
+cv_camera,supports camera_image
+leo_desktop,operating Leo Rover
+visp_ros,interfaces ROS
+reemc_description,"contains the description (mechanical, kinematic, visual, etc.)"
+reemc_description,robot. The files
+reemc_controller_configuration,configure the controllers
+eyantra_drone,"send the accelerometer,gyroscope, magnetometer"
+ur_gazebo,robot arms.
+ur_e_gazebo,robot arms.
+ur5_moveit_config,using the ur5
+ur5_e_moveit_config,using the ur5e
+ur3_moveit_config,using the ur3
+ur3_e_moveit_config,using the ur3e
+ur10_moveit_config,using the ur10
+ur10_e_moveit_config,using the ur10e
+asr_flir_ptu_controller,is a package
+asr_flir_ptu_controller,control a flir ptu unit
+asr_intermediate_object_generator,generates intermediate objects
+asr_intermediate_object_generator,restrain the amount
+asr_intermediate_object_generator,selecting appropriate objects
+asr_grid_creator,generate a grid
+asr_grid_creator,defines a position
+asr_grid_creator,generate poses
+asr_grid_creator,search the map.
+asr_grid_creator,cover the map.
+asr_mild_calibration_tool,calibrate the relative frames
+bwi_mapper,Mapping package
+bwi_mapper,provides utilties
+bwi_mapper,handling ROS style maps.
+bwi_mapper,provides functions
+bwi_mapper,generating topological graphs
+bwi_logical_translator,approaching doors
+bwi_logical_translator,provides tools
+bwi_logical_translator,"determine the robot's logical location,"
+bwi_logging,Logging package
+bwi_logging,creates ROS bag files
+bwi_kr_execution,using the BWI Knowledge Representation.
+bwi_interruptable_action_server,wraps the move_base node
+bwi_interruptable_action_server,stack. The purpose
+bwi_interruptable_action_server,allow seamless multi-robot interactions
+bwi_interruptable_action_server,interrupting robots
+geometric_shapes,contains generic definitions
+roch_sensorpc,"pointcloud: Publish Ult, cliff,"
+roch_safety_controller,ensuring the safe operation
+roch_safety_controller,keeps track
+roch_safety_controller,move back.
+roch_safety_controller,be enabled/disabled. The safety
+roch_safety_controller,"states (cliff, psd"
+roch_safety_controller,be reset. WARNING: Dangerous! Refrence
+roch_ftdi,enabling roch's USB connection.
+roch_ftdi,contains tools
+roch_ftdi,flashing the roch's FTDI chip
+roch_control,roch controller configurations
+pheeno_ros,contains necessary files
+pheeno_ros,control an individual Pheeno unit
+tf2_sensor_msgs,transform sensor_msgs
+tf2_ros,contains the ROS bindings
+tf2,is the second generation
+tf2,lets the user keep track
+tf2,maintains the relationship
+tf2,"lets the user transform points, vectors, etc"
+naoqi_tools,convert Aldebaran files
+naoqi_tools,"(URDF, blender...)"
+naoqi_sensors_py,(requires NAOqi
+naoqi_bridge,interface ROS
+naoqi_apps,bridging NAOqi
+naoqi_apps,executing things
+geometry2,packages second generation Transform Library
+moveit_visual_tools,debugging MoveIt! data
+moveit_visual_tools,published markers
+nao_description,display the robot's state
+nao_bringup,bring ROS interfaces
+nao_apps,using the NAOqi API
+qt_qmake,supporting qt4
+libqt_widgets,supporting qt4
+libqt_svg_dev,supporting qt4
+libqt_opengl_dev,supporting qt4
+libqt_opengl,supporting qt4
+libqt_network,supporting qt4
+libqt_gui,supporting qt4
+libqt_dev,supporting qt4
+libqt_core,supporting qt4
+libqt_concurrent,supporting qt4
+indoor_positioning,is a ROS package
+indoor_positioning,use the regular IPS
+indoor_positioning,using UWB ranging.
+timesync,synchronizing sensor timestamps
+pluginlib,provides tools
+pluginlib,loading plugins
+pluginlib,using the ROS
+pluginlib,build infrastructure.
+pluginlib,"work, these tools"
+pluginlib,require plugin providers
+class_loader,is a ROS-independent package
+class_loader,loading plugins
+class_loader,library. class_loader
+class_loader,utilizes the host operating system's runtime loader
+class_loader,open runtime libraries
+class_loader,"(e.g. .so/.dll files),"
+class_loader,introspect the library
+class_loader,allows users
+class_loader,instantiate objects
+class_loader,said exported classes
+tuw_object_msgs,provides a set
+tuw_object_msgs,"detect, map"
+tuw_multi_robot_msgs,"sending graph, route"
+dynamic_reconfigure,contains the dynamic_reconfigure package
+dynamic_reconfigure,provides a means
+dynamic_reconfigure,change node parameters
+dynamic_reconfigure,restart the node.
+pioneer_teleop,provides teleoperation
+pioneer_teleop,"using keyboard, sockets"
+pioneer_teleop,"(Including Pioneer 2, Pioneer 3, Pioneer LX, AmigoBot, PeopleBot, PatrolBot, PowerBot, Seekur"
+qglv_opengl,Drawing related methods
+rosserial_xbee,multipoint communication
+rosserial_xbee,running ROS.
+rosserial_xbee,includes python code
+rosserial_test,allows end-to-end integration testing
+rosserial_msgs,using rosserial.
+rosserial_client,Generalized client side source
+tuw_voronoi_graph,generate routing graphs
+tuw_voronoi_graph,generates a voronoi graph
+tuw_voronoi_graph,generates a graph
+tuw_voronoi_graph,creates a graph
+tuw_voronoi_graph,using a config file
+tuw_nav_rviz,visualize tuw_nav_msgs
+tuw_multi_robot_rviz,rviz plugins
+tuw_multi_robot_rviz,set goal positions
+tuw_multi_robot_rviz,visualize generated graphs.
+tuw_multi_robot_router,contains a MultiRobotRouter using Prioritized Planning
+tuw_multi_robot_router,find a routing tabel
+tuw_multi_robot_local_behavior_controller,"presents a node,"
+tuw_multi_robot_local_behavior_controller,converts synchronized robot routes
+tuw_multi_robot_local_behavior_controller,path segments
+tuw_multi_robot_local_behavior_controller,maintain synchronization
+tuw_multi_robot_demo,run a sample demo.
+tuw_multi_robot_ctrl,using Routes
+tuw_multi_robot_ctrl,execute the path synchronized.
+tuw_multi_robot,includes ros packages
+tuw_multi_robot,plan routes
+tuw_multi_robot,creates a search graph
+tuw_multi_robot,find a path
+tuw_multi_robot,using an extended approach
+tuw_multi_robot,are the tuw_multi_robot_msgs/RobotInfo messages
+tuw_multi_robot,include the robots
+tuw_multi_robot,"pose, the map"
+tuw_multi_robot,poses. The output
+tuw_multi_robot,are multiple synchronized routes
+ros_broker,comm broker package.
+opensplice_dds_broker,comm broker package.
+openni_launch,open an OpenNI device
+openni_launch,convert raw depth/RGB/IR streams
+openni_launch,"depth images, disparity images,"
+openni_camera,"cameras. These include: Microsoft Kinect, PrimeSense PSDK, ASUS Xtion Pro"
+openni_camera,"publishes raw depth, RGB,"
+olfati_saber_flocking,olfati_saber_flocking package.
+micros_swarm_framework,is a programming framework
+micros_swarm_framework,facilitate application development involving robot
+micros_swarm_framework,"providing an adequate swarm-level abstraction,"
+micros_swarm_framework,"provides essential data structures,"
+hector_uav_msgs,is a message package
+hector_uav_msgs,contains messages
+gazebo_flocking,flocking package.
+radar_omnipresense,is the radar driver package
+smach_viewer,is a GUI
+smach_viewer,shows the state
+smach_viewer,visualize the possible transitions
+smach_viewer,uses the SMACH debugging interface
+stepback_and_steerturn_recovery,provides a recovery behavior
+stepback_and_steerturn_recovery,specified steer angle
+steer_drive_ros,driving meta package
+teleop_twist_keyboard_cpp,(in C++)!
+rbcar_sim,contains RBCAR simulation packages
+rosparam_handler,using parameters
+uvc_camera,provide CameraInfo messages
+uvc_camera,consumers. Includes
+uvc_camera,provides rough synchronization
+uvc_camera,uses the base driver
+jpeg_streamer,streaming JPEG-formatted CompressedImage topics
+sr_ronex_utilities,containing a header library
+sr_ronex_transmissions,Contains the transmissions
+sr_ronex_transmissions,Using those transmissions
+sr_ronex_transmissions,based robot.
+sr_ronex_test,require RoNeX hardware.
+sr_ronex_msgs,contains the messages
+sr_ronex_launch,Contains the main launch files
+sr_ronex_hardware_interface,contains the definition
+sr_ronex_external_protocol,Contains the protocol
+sr_ronex_examples,containing examples
+sr_ronex_drivers,containing the driver
+sr_ronex,contains the different packages
+catkin_pip,allow using pure python packages
+slam_karto,provides a ROS wrapper
+slam_karto,using it.
+ecl_streams,streaming classes
+ecl_streams,standardised ecl type devices.
+ecl_sigslots,(in the same vein
+ecl_sigslots,include some improvements
+ecl_sigslots,"need a preprocessor,"
+ecl_mpl,Metaprogramming tools
+ecl_mpl,move alot
+ecl_mpl,compile time.
+ecl_math,provides simple support
+ecl_ipc,provides an infrastructure
+ecl_ipc,developing cross platform c++ wrappers
+ecl_ipc,"utilise such mechanisms,"
+ecl_formatters,specified text format.
+ecl_formatters,streaming types
+ecl_formatters,(including both ecl
+ecl_exceptions,based exceptions
+ecl_exceptions,avoid the proliferation
+ecl_eigen,provides an Eigen implementation
+ecl_core_apps,includes a suite
+ecl_core_apps,demo'ing various aspects
+ecl_core_apps,includes various benchmarking
+ecl_core_apps,embedded systems.
+ecl_core,extending the capabilities
+ecl_core,"provide a lightweight, consistent interface"
+ecl_converters,"fleshed out, alot"
+ecl_converters,use the addition
+ecl_converters,"(e.g. all integers,"
+ecl_converters,"int, unsigned int)."
+ecl_containers,extend the stl containers.
+ecl_containers,implement c++ conveniences
+ecl_containers,includes techniques
+ecl_concepts,checking mechanism
+ecl_concepts,passing template arguments.
+cartographer_rviz,is a system
+cartographer_rviz,provides real-time simultaneous localization
+cartographer_rviz,provides Cartographer's RViz integration.
+cartographer_ros,is a system
+cartographer_ros,provides real-time simultaneous localization
+cartographer_ros,provides Cartographer's ROS integration.
+cartographer,is a system
+cartographer,provides real-time simultaneous localization
+rodi_robot,control a RoDI
+rodi_robot,flash a custom firmware
+rodi_robot,using the default firmware web services
+ar_track_alvar_msgs,is a ROS wrapper
+ar_track_alvar_msgs,tracking library.
+ar_track_alvar_metapkg,related packages.
+ar_track_alvar,is a ROS wrapper
+ar_track_alvar,tracking library.
+epos_library,provides the EPOS Command Library
+epos_hardware,provide easy integration
+speech_database,performs text-to-speech conversion
+speech_database,using Google's speech synthesiser.
+speech_database,provides a storage solution
+speech_database,publishing a text string
+speech_database,"exists, the text"
+speech_database,"created, a request"
+speech_database,play the audio file
+hmi_robin,is the hmi_robin meta-package
+gspeech,using Google's Speech API
+pointcloud_to_laserscan,making devices
+oros_tools,is software suite
+oros_tools,provide high level functions
+rgbd_launch,open an RGBD device
+rgbd_launch,convert raw depth/RGB/IR streams
+rgbd_launch,"depth images, disparity images,"
+imu_recalibration,recalibrate the on-board IMUs
+romeo_sensors_py,adds the depth camera
+romeo_bringup,bring ROS interfaces
+eigen_stl_containers,provides a set
+eigen_stl_containers,using Eigen datatypes
+xv_11_laser_driver,reading scans
+filters,provides a standardized interface
+filters,processing data
+filters,contains a base class
+filters,build specific implementations
+filters,loads filters
+rqt_wrapper,keeping rqt programs
+ompl_visual_tools,planning algorithms
+tuw_marker_pose_estimation,does pose estimation
+tuw_ellipses,contains a computer vision library
+tuw_ellipses,detect ellipses
+tuw_ellipses,images. The package
+tuw_ellipses,estimate the pose
+tuw_ellipses,are known. A
+tuw_ellipses,allows the user
+tuw_ellipses,tune the parameter
+tuw_ellipses,has two solutions
+tuw_checkerboard,detect one checkerboard
+tuw_checkerboard,estimate the pose
+tuw_aruco,is a wrapper
+task_compiler,(Planning Domain Description Language)
+task_compiler,SMACH (state machine
+task_compiler,based execution
+base_controller,doing Android base robots using ROS.
+smartek_camera,publishing frames
+robot_state_publisher,publish the state
+stdr_samples,demonstrate STDR simulator functionalities.
+stdr_robot,"robot, sensor implementation, using nodelets"
+stdr_robot,load them.
+stdr_parser,parse yaml
+stdr_launchers,"bringup server, robots, guis"
+stdr_gui,visualizing purposes
+ecl_license,Maintains the ecl licenses
+ecl_license,provides an install target
+ecl_license,deploying licenses
+ecl_build,contains a few cmake modules
+object_recognition_core,contains tools
+object_recognition_core,"launch several recognition pipelines, train"
+rb_tracker,using visual features
+rb_tracker,and/or shape-based poses
+rb_tracker,use other modalities
+omip_launch,contains launch files
+feed_the_troll,loading a ros node
+costmap_prohibition_layer,implements a costmap layer
+costmap_prohibition_layer,add prohibited areas
+zeroconf_avahi_suite,supporing the avahi implementation
+zeroconf_avahi_demos,based zero-configuration.
+zeroconf_avahi,is a c++ implementation.
+nao_moveit_config,using the NAO robot
+pepper_moveit_config,using the Pepper robot
+yocs_waypoint_provider,Parse a multiple poses
+yocs_virtual_sensor,uses semantic map information
+yocs_virtual_sensor,"""see"" obstacles"
+yocs_virtual_sensor,read obstacles
+yocs_virtual_sensor,use auxiliary scripts
+yocs_virtual_sensor,publish files' content. Data directory
+yocs_virtual_sensor,contains some example files.
+yocs_velocity_smoother,incoming velocity messages
+yocs_velocity_smoother,robot velocity
+yocs_safety_controller,ensuring the safe operation
+yocs_safety_controller,ranger readings
+yocs_safety_controller,"stop (and move back),"
+yocs_safety_controller,close. This controller
+yocs_rapps,open control system rapps
+yocs_math_toolkit,"contain common use functions,"
+yocs_math_toolkit,"used math library,"
+yocs_math_toolkit,put common code
+yocs_localization_manager,localize robot's position
+yocs_diff_drive_pose_controller,driving a differential drive base
+yocs_cmd_vel_mux,incoming cmd_vel messages
+yocs_cmd_vel_mux,allowing one topic
+yocs_cmd_vel_mux,"command the robot,"
+yocs_cmd_vel_mux,allowed topic
+yocs_ar_pair_tracking,tracking package
+yocs_ar_marker_tracking,generating statistics
+feed_the_troll_msgs,feed the trolls.
+moveit_sim_controller,default joint values
+haf_grasping,calculates grasps
+haf_grasping,given point cloud using Height Accumulated Features (HAF)
+ethercat_grant,run the ros_ethercat_loop
+ethercat_grant,using sudo.
+rosjava,is a meta package
+voxel_grid,provides an implementation
+voxel_grid,grid. The occupancy grid
+voxel_grid,support 3 different representations
+voxel_grid,supports 16 different levels
+voxel_grid,marking performance
+voxel_grid,standard 2D structures
+rotate_recovery,provides a recovery behavior
+rotate_recovery,performing a 360 degree rotation
+robot_pose_ekf,estimate the 3D pose
+robot_pose_ekf,uses an extended Kalman filter
+robot_pose_ekf,combine measurements
+navfn,create plans
+navfn,assumes a circular robot
+navfn,find a minimum cost plan
+navfn,provides a ROS wrapper
+nav_core,provides common interfaces
+nav_core,"provides the BaseGlobalPlanner, BaseLocalPlanner,"
+nav_core,build actions
+move_base,provides an implementation
+fake_localization,forwards odometry information.
+dwa_local_planner,provides an implementation
+dwa_local_planner,Given a global plan
+dwa_local_planner,produces velocity commands
+dwa_local_planner,supports any robot who's footprint
+dwa_local_planner,file. The parameters
+dwa_local_planner,reconfigurable. This package's ROS wrapper
+costmap_2d,provides an implementation
+costmap_2d,based implementation
+costmap_2d,inflates costs
+costmap_2d,specified inflation radius.
+costmap_2d,provides support
+costmap_2d,based initialization
+costmap_2d,rolling window
+costmap_2d,"based costmaps,"
+costmap_2d,based subscription
+clear_costmap_recovery,provides a recovery behavior
+clear_costmap_recovery,reverting the costmaps
+clear_costmap_recovery,given area.
+carrot_planner,find a legal place
+carrot_planner,put a carrot
+base_local_planner,provides implementations
+base_local_planner,Given a plan
+base_local_planner,produces velocity commands
+ardrone_autonomy,is a ROS driver
+arni_nodeinterface,collects host/node statistics
+arni_nodeinterface,enables the ARNI countermeasure node
+arni_nodeinterface,run remote commands.
+arni_msgs,rated statistics.
+arni_core,"contains common ARNI functionality. Furthermore,"
+webtest,send test requests
+tuw_uvc,is a USB-Camera driver
+korg_nanokontrol,use the Korg NanoKontrol MIDI device
+tuw_marker_slam,provides a framework
+tuw_marker_slam,based SLAM implementations
+tuw_marker_server,contains a map server
+tuw_marker_server,providing marker maps
+tuw_marker_noise,provides nodes
+tuw_marker_noise,adding artificial noise
+tuw_marker_noise,recording MarkerDetection messages
+tuw_marker_noise,obtain a measurement noise model.
+ecl_navigation,bring the common tools
+ecl_navigation,"develop navigation algorithms,"
+ecl_navigation,create a variety
+ecl_mobile_robot,(e.g. differential drive inverse kinematics)
+marker_rviz_plugin,contains RViz plugins
+marker_rviz_plugin,visualize messages
+marker_rviz_plugin,using RViz.
+moveit_simple_grasps,consider friction cones
+pcl_msgs,containing PCL (Point Cloud Library)-related ROS messages.
+mm_radio,Multiplexing many packet types
+mm_radio,embedded connections
+mm_mux_demux,Multiplexing many packet types
+mm_mux_demux,embedded connections
+osg_utils,contains some classes
+osg_markers,create Markers
+turtlebot_rviz_launchers,visualizing TurtleBot
+turtlebot_interactive_markers,using RViz
+move_base_msgs,Holds the action description
+map_msgs,defines messages
+map_msgs,mapping packages.
+create_dashboard,is a RQT-based plug-in
+create_dashboard,visualising data
+create_dashboard,giving easy access
+create_dashboard,basic functionalities.
+rosrt,provides classes
+rosatomic,provides the C++11-style atomic operations
+rosatomic,pulling symbols
+rosatomic,proposed Boost.Atomic package
+rosatomic,use those instead.
+lockfree,contains lock-free data structures
+lockfree,"use one, try"
+allocators,"aligned allocation functions,"
+yaml_cpp_0_3,avoid system conflicts.
+libfreenect,enable the Kinect
+cpp_introspection,enables introspection
+object_recognition_msgs,contains the ROS message
+std_capabilities,"contains standard capability interfaces,"
+std_capabilities,describe common robot capabilities
+octomap_ros,provides conversion functions
+octomap_ros,enables a convenvient use
+media_export,enabling generic export
+libsegwayrmp,is a C++ library
+serial_utils,adds useful additions
+rosbag_migration_rule,export rosbag migration rule files
+hector_quadrotor_demo,contains various launch files
+hector_quadrotor_demo,needed dependencies
+xarm7_moveit_config,using the xarm7
+xarm7_gripper_moveit_config,using the xarm7_with_gripper
+xarm6_vacuum_gripper_moveit_config,using the xarm6_with_vacuum_gripper
+xarm6_moveit_config,using the xarm6
+xarm6_gripper_moveit_config,using the xarm6_with_gripper
+xarm5_vacuum_gripper_moveit_config,using the xarm5_with_vacuum_gripper
+xarm5_moveit_config,using the xarm5
+xarm5_gripper_moveit_config,using the xarm5_with_gripper
+lite6_moveit_config,using the lite6
+dual_xarm6_moveit_config,using the xarm6
+scenario_test_tools,providing mocked implementations
+generic_throttle,provides a throttle
+cob_script_server,provides a simple interface
+cob_script_server,operate Care-O-bot.
+cob_dashboard,is a modified version
+cob_command_tools,"provides tools,"
+cob_command_tools,operating Care-O-bot.
+cob_command_gui,provides a simple GUI
+cob_command_gui,operating Care-O-bot.
+velodyne_simulator,allowing easy installation
+velodyne_gazebo_plugins,provide simulated data
+velodyne_description,describing Velodyne laser scanners.
+cob_navigation_slam,provides launch files
+cob_navigation_local,holds config
+cob_navigation_global,holds config
+cob_navigation_config,holds common configuration files
+cob_navigation,provides different navigation packages
+cob_mapping_slam,holds launch files
+cob_mapping_slam,running SLAM
+cob_map_accessibility_analysis,receives the map
+cob_map_accessibility_analysis,assemble a common obstacle map.
+cob_map_accessibility_analysis,checks the accessibility
+cob_map_accessibility_analysis,is a closed path
+cob_linear_nav,provides a simple navigation instrument
+dbw_mkz_description,describing the Lincoln MKZ.
+dbw_fca_description,describing the Chrysler Pacifica.
+dataspeed_ulc_can,translate ROS messages
+rosfmt,is an open-source formatting library
+industrial_ci,contains CI
+rqt_common_plugins,metapackage provides ROS
+rqt_common_plugins,backend graphical tools
+gpsd_client,using the NavSatFix message
+variant_topic_tools,treating messages
+variant_msgs,accommodate the information content
+grid_map_visualization,visualize grid maps
+grid_map_sdf,signed distance fields
+grid_map_rviz_plugin,displaying grid map messages.
+grid_map_ros,manage two-dimensional grid maps
+grid_map_loader,publishing grid maps
+grid_map_filters,Processing grid maps
+grid_map_demos,demonstrate the usage
+grid_map_core,manage two-dimensional grid maps
+imu_transformer,transform sensor_msgs::Imu data
+apriltag_ros,makes the tag detection image
+apriltag_ros,detected tags' poses
+apriltag_ros,allow the detection
+apriltag_ros,is provided (bundle detection
+motoman_ma2010_moveit_config,using the motoman_ma2010
+motoman_driver,robot controllers.
+rqt_image_view,provides a GUI plugin
+rqt_image_view,displaying images using image_transport.
+raw_description,"contains the description (mechanical, kinematic, visual, etc.)"
+raw_description,robot. The files
+laser_scan_densifier,it. Node
+ipa_differential_docking,is a substitute
+ipa_differential_docking,ipa_differential_docking package
+ipa_3d_fov_visualization,visualize the field-of-view
+cob_voltage_control,manages emergency stop
+cob_utilities,Deprecated "cob_utilities" subsumes
+cob_utilities,supports the original inifile structure
+cob_utilities,provides some basic functions
+cob_utilities,respectively. Midterm
+cob_utilities,reading parameters
+cob_undercarriage_ctrl,implements a controller
+cob_undercarriage_ctrl,given Pltf-Twist
+cob_undercarriage_ctrl,according wheel steering angles
+cob_undercarriage_ctrl,motion. Each joint
+cob_undercarriage_ctrl,achieve the computed position
+cob_supported_robots,contains the list
+cob_srvs,contains Care-O-bot
+cob_sound,implements a sound play module using text2wave
+cob_simulation,includes packages
+cob_sick_s300,published a laser
+cob_sick_lms1xx,published a laser
+cob_sick_lms1xx,ipa320/libLMS1xx repository.
+cob_sick_lms1xx,have clearer structure
+cob_scan_unifier,holds code
+cob_scan_unifier,unified scan-message
+cob_safety_controller,is a substitute
+cob_reflector_referencing,broadcasting a tf frame
+cob_reflector_referencing,position/reference a robot wrt
+cob_perception_msgs,contains common message
+cob_perception_common,provides utilities
+cob_obstacle_distance_moveit,provides nodes
+cob_obstacle_distance_moveit,calculating the minimal distance
+cob_obstacle_distance_moveit,"robot links, obstacles"
+cob_obstacle_distance_moveit,using MoveIt!'s PlanningSceneMonitor
+cob_object_detection_visualizer,visualizes the object detection result.
+cob_object_detection_msgs,contains message
+cob_msgs,"representing state information,"
+cob_mimic,implements the Care-O-bot mimic
+cob_manipulation,includes packages
+cob_manipulation,provide manipulation capabilities
+cob_light,contains scripts
+cob_light,operate the LED lights
+cob_image_flip,viewing direction
+cob_image_flip,receive an upright image
+cob_hand_bridge,provides a driver
+cob_hand,includes packages
+cob_hand,provide access
+cob_generic_can,provides an interface
+cob_generic_can,be components
+cob_generic_can,communication device
+cob_gazebo_worlds,provides some worlds
+cob_gazebo_tools,provides helper tools
+cob_gazebo_ros_control,contains a specialization
+cob_gazebo_ros_control,plugin. The cob_gazebo_ros_control plugin
+cob_gazebo_ros_control,allows Multi-HardwareInterface-Support.
+cob_gazebo_objects,provides some objects
+cob_environments,holds packages
+cob_elmo_homing,implements the special homing procedure
+cob_driver,includes packages
+cob_driver,provide access
+cob_description,"contains the description (mechanical, kinematic, visual, etc.)"
+cob_description,robot. The files
+cob_default_env_config,contains configuration files
+cob_collision_monitor,uses the planning scene monitor
+cob_collision_monitor,read the state
+cob_canopen_motor,implements a controller-drive component
+cob_canopen_motor,"implements a specific setup,"
+cob_canopen_motor,e.g. an ELMO Harmonica Controller
+cob_calibration_data,holds the current calibration data
+cob_bringup_sim,provides launch files
+cob_bringup_sim,starting a simulated Care-O-bot.
+cob_bms_driver,interfacing the battery management system
+cob_base_drive_chain,contains classes
+cob_base_drive_chain,control the platform
+cob_base_drive_chain,establish a CAN communication
+cob_base_drive_chain,steering motors
+cob_base_drive_chain,send motion commands
+cob_android,provides tools
+cob_actions,contains Care-O-bot
+ur_modern_driver,Deprecated ROS 1 driver
+test_catkin_virtualenv_inherited,"inherits it's dependency's dependencies,"
+test_catkin_virtualenv_inherited,override the version.
+laserscan_kinect,depth image
+laserscan_kinect,format. The conversion algorithm
+laserscan_kinect,remove a ground
+laserscan_kinect,compensate the sensor mount
+laserscan_kinect,tilt angle relative
+generic_control_toolbox,developing controllers
+bagger,record rosbags
+rqt_top,monitoring ROS processes.
+rqt_srv,introspecting available ROS message types. Note
+rqt_srv,is the ones
+rqt_shell,is a Python GUI plugin
+rqt_shell,providing an interactive shell.
+rqt_service_caller,provides a GUI plugin
+rqt_service_caller,calling arbitrary services.
+rqt_py_console,is a Python GUI plugin
+rqt_py_console,providing an interactive Python console.
+rqt_msg,introspecting available ROS message types. Note
+rqt_msg,is the ones
+prbt_grippers,provides gripper support
+hls_lfcd_lds_driver,is a sensor
+hls_lfcd_lds_driver,sending the data
+hls_lfcd_lds_driver,is developing the technology
+hls_lfcd_lds_driver,moving platform sensor
+summit_xl_gazebo,start the models
+dynamixel_sdk,is wrapping version
+dynamixel_sdk,is a software development library
+dynamixel_sdk,provides Dynamixel control functions
+dynamixel_sdk,communication. The API
+rosflight_utils,Supporting utilities
+imu_filter_madgwick,"fuses angular velocities, accelerations,"
+imu_complementary_filter,"fuses angular velocities, accelerations,"
+imu_complementary_filter,represent the orientation
+imu_complementary_filter,wrt the global frame.
+imu_complementary_filter,"""Keeping a Good Attitude: A"
+video_stream_opencv,contains a node
+video_stream_opencv,publish a video stream (the protocols
+video_stream_opencv,opencv supports
+video_stream_opencv,"including rtsp, webcams"
+video_stream_opencv,supports camera info
+video_stream_opencv,adjusting publishing rate.
+qt_gui_py_common,provides common functionality
+qt_gui_cpp,provides the foundation
+qt_gui_cpp,creates bindings
+qt_gui_app,start an instance
+qt_gui,provides the infrastructure
+qt_gui,contribute arbitrary widgets.
+qt_dotgraph,provides helpers
+python_qt_binding,provides Python bindings
+python_qt_binding,are two providers: pyside
+python_qt_binding,build bindings
+python_qt_binding,is called "Shiboken".
+python_qt_binding,is called "SIP".
+python_qt_binding,provided is adapter code
+python_qt_binding,make the user's Python code
+python_qt_binding,binding provider
+libphidget21,wraps the libphidget21
+rosabridge_server,expanding abridged messages
+graph_msgs,publishing graphs
+gazebo_ros_pkgs,using ROS
+abb_robot_msgs,representing basic interaction
+abb_rapid_sm_addin_msgs,representing interaction
+abb_rapid_sm_addin_msgs,using the RobotWare StateMachine Add-In.
+abb_rapid_msgs,representing RAPID data
+abb_egm_msgs,representing Externally Guided Motion (EGM) data
+sick_safetyscanners,read the sensor output
+visualstates,is reactive hierarchical visual robot planning tool.
+settlerlib,create a settler
+monocam_settler,settle. This package
+laser_cb_detector,checkerboard corners
+interval_intersection,calculating the intersection
+image_cb_detector,Provide a node
+image_cb_detector,extracts checkerboard corners
+calibration_setup_helper,contains a script
+calibration_setup_helper,generate calibration launch
+calibration_msgs,defines messages
+calibration_msgs,storing calibration samples
+calibration_msgs,Expect the messages
+calibration_launch,contains a collection
+calibration_launch,configuring the calibration stack
+calibration_estimation,is a generic rewrite
+calibration,"involves capturing calibration data, estimating parameters,"
+calibration,updating the URDF.
+towr,provides implementations
+towr,represent a legged locomotion
+towr,resulting Nonlinear Programming Problem (NLP)
+towr,using the generic optimizer interface
+flir_ptu_viz,visualizing the FLIR PTUs.
+driver_common,contains classes
+driver_common,contains: driver_base: A base class
+driver_common,"provide a consistent state machine (retries, error handling, etc.)"
+driver_common,help timestamp hardware events
+driver_base,writing drivers
+realtime_tools,Contains a set
+realtime_tools,breaking the realtime
+realtime_tools,behavior. The tools
+realtime_tools,"provides the realtime publisher,"
+realtime_tools,publish messages
+realtime_tools,add a basic implementation
+realtime_tools,get data
+realtime_tools,"is created, the realtime publisher"
+realtime_tools,"start using it,"
+robotnik_sensors,description. URDF
+flir_boson_usb,using OpenCV
+rsm_rviz_plugins,includes the Robot Statemachine GUI plugin
+rsm_rqt_plugins,includes the Robot Statemachine GUI plugin
+rsm_core,includes the Robot Statemachine's
+rsm_additions,includes plugins
+robot_statemachine,bundles all functionalities
+teraranger_array,provides ros nodes
+teraranger,provides ros nodes
+rc_dynamics_api,provides an API
+rc_dynamics_api,"rc_visard's current pose, velocity,"
+rc_dynamics_api,rc_visard's user manual.
+social_navigation_layers,"implement various social navigation contraints,"
+robot_upstart,provides scripts
+robot_upstart,uninstall Ubuntu Linux upstart jobs
+robot_upstart,launch groups
+pr2_tuckarm,Tucks the arms
+pr2_tuckarm,moving the base
+pr2_tuckarm,moves the arms
+pr2_tuckarm,"tilting laser scanner,"
+pr2_position_scripts,contains a number
+pr2_position_scripts,set various components
+pr2_position_scripts,improve usablity.
+pr2_app_manager,running the application manager
+rqt_plot,provides a GUI plugin
+rqt_plot,visualizing numeric values
+rqt_plot,using different plotting backends.
+people_velocity_tracker,Track the output
+people_velocity_tracker,indicate the velocity
+people_tracking_filter,tracking people's locations
+people,stack holds algorithms
+people,perceiving people
+leg_detector,using a machine learning approach
+leg_detector,find leg-like patterns
+rqt_bag_plugins,provides a GUI plugin
+rqt_bag_plugins,replaying ROS bag files.
+rqt_bag,provides a GUI plugin
+rqt_bag,replaying ROS bag files.
+message_to_tf,translates pose information
+message_to_tf,tf. Currently
+message_to_tf,"supports nav_msgs/Odometry,"
+message_to_tf,resulting transform
+hector_pose_estimation_core,is the core package
+hector_pose_estimation_core,contains the Extended Kalman Filter
+hector_pose_estimation_core,estimates the 6DOF pose
+hector_pose_estimation,provides the hector_pose_estimation node
+hector_localization,is a collection
+hector_localization,provide the full 6DOF pose
+hector_localization,"uses various sensor sources,"
+hector_localization,are fused using an Extended Kalman filter. Acceleration
+hector_localization,measurements. The usage
+hector_localization,"supports GPS, magnetometer,"
+hector_localization,provide a geometry_msgs/PoseWithCovariance message
+rviz_fps_plugin,contains an additional ViewController
+rviz_fps_plugin,navigate RViz
+rviz_fps_plugin,enable the tool press
+rviz_fps_plugin,enable the 'FPSMotion' ViewController. Use
+rviz_fps_plugin,reset the view controller.
+uav_simple_tracking,tracks a target
+uav_random_direction,performs random direction coverage
+uav_optimal_coverage,performs optimal coverage
+uav_optimal_coverage,(UAVs). The UAVs
+uav_optimal_coverage,divide the area
+uav_local_coverage,performs local coverage
+swarm_behaviors_velocity,provides velocity
+swarm_behaviors_velocity,related functionalities.
+swarm_behaviors_position,provides position
+swarm_behaviors_position,related functionalities.
+swarm_behaviors,library contains implementations
+swarm_behaviors,is part
+lidar_camera_calibration,find a rigid-body transformation
+control_msgs,contains base messages
+control_msgs,controlling robots.
+control_msgs,provides representations
+prbt_moveit_config,using the prbt
+pilz_utils,contains utilities
+pilz_testutils,contains testing utilities
+pilz_status_indicator_rqt,Showing information
+pilz_control,provides a specialized joint_trajectory_controller
+pilz_control,holding state

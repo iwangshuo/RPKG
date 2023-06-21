@@ -1,0 +1,7 @@
+phrase1,phrase2,sim_bert_base_client,sim_bert_base_torch,sim_bert_test_epochs_2
+rplidar,The rplidar ros package support rplidar A2/A1,0.760801624,0.628652935,0.636017307
+rplidar,rospeex,0.860548923,0.720739806,0.741113917
+turtlebot,turtlebot2,0.839700595,0.833636068,0.847770636
+turtlebot2,turtlebot,0.839700595,0.833636068,0.847770636
+turtlebot,turtlebot3,0.838046522,0.830557702,0.847697648
+turtlebot2,turtlebot3,0.968047611,0.93135654,0.945015836

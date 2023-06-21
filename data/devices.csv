@@ -1,0 +1,4 @@
+device_id,href,device,type,package
+1,http://wiki.ros.org/arbotix_sensors,Sharp IR range finder (via ArbotiX RoboController),1D range finders,arbotix_sensors
+2,http://wiki.ros.org/teraranger,TeraRanger Evo ToF range finder,1D range finders,teraranger
+3,http://wiki.ros.org/teraranger,TeraRanger One ToF range finder,1D range finders,teraranger

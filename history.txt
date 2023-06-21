@@ -1,0 +1,16 @@
+  992  cd
+  993  cd Downloads
+  994  wget https://pub-0b4691e6622f48f6aa74aeee15782ebd.r2.dev/Linux/Clash.tar.gz
+  995  history | grep curl
+  996  history
+  997  curl -O https://pub-0b4691e6622f48f6aa74aeee15782ebd.r2.dev/Linux/Clash.tar.gz
+  998  ls
+  999  cd
+ 1000  subl ~/.zshrc
+ 1001  python run_ner.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=out_base --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.1\n\n
+ 1002  python run_ner.py --data_dir=data/ --bert_model=bert-base-cased --task_name=ner --output_dir=out_base --max_seq_length=128 --do_train --num_train_epochs 5 --do_eval --warmup_proportion=0.1\n\n
+ 1003  conda activate
+ 1004  conda install pandas
+ 1005  history
+ 1006  history | grep nlp
+ 1007  history | grep stan

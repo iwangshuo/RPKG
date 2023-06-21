@@ -1,0 +1,128 @@
+package_name,feature_word,region_word,score
+reemc_bringup,reemc,reem-c,91
+heron_msgs,heron,clearpath heron usv,90
+leuze_rsl_driver,leuze,leuze rsl 400,90
+magni_viz,magni,magni silver,90
+orb_slam2_ros,orb,orbbec astra,90
+summit_xl_robot_local_control,summit,summit-xl,90
+crazyflie_driver,crazyflie,crazyflie,100
+rosaria,rosaria,ari,90
+livox_ros_driver,livox,livox 3d lidar,90
+agni_tf_tools,agni,magni silver,90
+turtlebot3_simulations,turtlebot3,turtlebot3,100
+dynamixel_workbench_toolbox,dynamixel,dynamixel,100
+abb_driver,abb,abb manipulators,90
+robotis_manipulator,robotis,robotis op,95
+xbot_tools,xbot,xbot,100
+fanuc_r2000ic_support,fanuc,fanuc,100
+pr2_se_calibration_launch,pr2,pr2,100
+rt_usb_9axisimu_driver,rt,forterc,90
+velodyne_pointcloud,velodyne,velodyne hdl-64e 3d lidar,90
+fetch_moveit_config,fetch,fetch,100
+roomba_stage,roomba,roomba,100
+point_cloud_publisher_tutorial,point,pointgrey cameras (with flycapture2),90
+rbcar_pad,rbcar,rbcar,100
+leap_motion,leap,leap_motion,90
+xaxxon_openlidar,xaxxon,xaxxon openlidar,90
+hironx_ros_bridge,hironx,hironxo,92
+position_controllers,position,applanix position and orientation system for land vehicles,90
+zivid_samples,zivid,zivid 3d camera,90
+opt_camera,opt,erle-hexacopter,90
+dynamic_tf_publisher,dynamic,dynamic_uvc_cam,90
+tiago_simulation,tiago,tiago++,100
+xarm_sdk,xarm,xarm,100
+xarm7_vacuum_gripper_moveit_config,xarm7,xarm,89
+ensenso,ensenso,ensenso stereo cameras,90
+turtlebot_loadout_kha1,turtlebot,turtlebot2,95
+pioneer_bringup,pioneer,pioneer lx,95
+mobility_base_tools,mobility,mobility base,90
+um6,um6,ch robotics um6 imu,90
+sicktoolbox,sicktoolbox,sicktoolbox_wrapper,90
+xsens_driver,xsens,xsens mtx/mti/mti-g devices,90
+shadow_robot,shadow,shadow ronex,90
+nmea_comms,nmea,nmea_navsat_driver,90
+barrett_hand,barrett,barrett hand,90
+naoqi_dcm_driver,naoqi,nao,90
+sciurus17_vision,sciurus17,sciurus17,100
+leo_teleop,leo,leo rover,90
+sick_scan,sick,sick mrs6xxx lasers,90
+doosan_robotics,doosan,doosan-robot,90
+libphidgets,libphidgets,libphidgets21,92
+nerian_stereo,nerian,scenescan and sp1 by nerian vision technologies,90
+leptrino_force_torque,leptrino,leptrino force/torque sensor,90
+crane_x7_msgs,crane,crane-x7,90
+vrpn_client_ros,vrpn,vrpn,100
+warthog_msgs,warthog,clearpath warthog ugv,90
+pr2eus_tutorials,pr2eus,pr2,90
+arbotix_sensors,arbotix,arbotix robocontroller,90
+microstrain_mips_client,microstrain,microstrain_3dmgx2_imu,90
+schunk_svh_driver,schunk,schunk lwa 4p,90
+rplidar_ros,rplidar,rplidar 360 laser scanner driver(python),90
+talos_robot,talos,talos,100
+app_manager,app,sicktoolbox_wrapper,90
+omron_os32c_driver,omron,omron sentech camera,90
+basler_tof,basler,basler tof es camera,90
+ridgeback_robot,ridgeback,clearpath ridgeback,90
+jackal_tutorials,jackal,clearpath jackal ugv,90
+kobuki_ftdi,kobuki,kobuki,100
+hand_kinematics,hand,otto bock sensorhand,90
+mecanum_gazebo_plugin,mecanum,mecanumrover ver.3.0,90
+neo_local_planner,neo,neobotix mp-400,90
+realsense_camera,realsense,intel® realsense™,90
+xiaoqiang_server,xiaoqiang,xiaoqiang,100
+roch_teleop,roch,roch,100
+hls_lfcd_lds2_driver,hls,hls-lfcd lds,90
+nao_gazebo_plugin,nao,nao,100
+thormang3_tools,thormang3,thormang,94
+wge100_driver,wge100,wge100 camera,90
+rh_p12_rn_manager,rh,rh-p12-rn,90
+pepper_sensors_py,pepper,pepper,100
+segway_rmp,segway,segway rmpv3,90
+r2_moveit_generated,r2,pr2,90
+astra_launch,astra,orbbec astra,90
+node_manager_fkie,node,xsens mti node,90
+strain_gauge_calibration,strain,microstrain_3dmgx2_imu,90
+care_o_bot_simulation,care,care-o-bot,90
+piksi_rtk_msgs,piksi,swiftnav piksi rtk-gps,90
+teraranger_array_converter,teraranger,teraranger duo tof/sonar range finder,90
+rospeex_webaudiomonitor,rospeex,rospeex,100
+romeo_moveit_config,romeo,romeo,100
+innok_heros_description,innok,innok heros,90
+aubo_trajectory_filters,aubo,aubo i-series,90
+myahrs_driver,myahrs,myahrs_driver,90
+prosilica_camera,prosilica,prosilica camera,90
+turtle_tf2,turtle,turtlebot euclid,90
+husky_robot,husky,clearpath husky ugv,90
+pepperl_fuchs_r2000,pepperl,pepper,92
+dynpick_driver,dynpick,wacoh-tech dynpick,90
+qt_tutorials,qt,qtrobot,90
+carla_waypoint_publisher,carla,carla,100
+lms1xx,lms1xx,lms1xx,100
+adi_driver,adi,armadillo,90
+motoman_sia5d_moveit_config,motoman,motoman,100
+toposens_sync,toposens,toposens ts3 3d ultrasonic sensor,90
+caster_viz,caster,caster,100
+pointgrey_camera_driver,pointgrey,pointgrey cameras (with flycapture2),90
+universal_robots,universal,universal_robots,90
+ifm_o3mxxx,ifm,ifm o3m250 tof camera,90
+rosserial_xbee,rosserial,rosserial_arduino,90
+micros_swarm_stage,micros,microstrain_3dmgx2_imu,90
+uvc_camera,uvc,dynamic_uvc_cam,90
+rb_tracker,rb,rb-2 base,90
+jaguar_navigation,jaguar,jaguar,100
+serial_utils,serial,serializer,90
+xarm6_vacuum_gripper_moveit_config,xarm6,xarm,89
+xarm5_vacuum_gripper_moveit_config,xarm5,xarm,89
+scenario_test_tools,scenario,ari,90
+gpsd_client,gpsd,gpsd_client,90
+laserscan_kinect,laserscan,pilz safety laserscanner psenscan,90
+video_stream_opencv,video,libuvc usb video class driver,90
+phidgets_msgs,phidgets,libphidgets21,90
+libphidget21,libphidget21,libphidgets21,96
+copernicus_teleoperator,copernicus,copernicus robot,90
+volta_teleoperator,volta,volta robot,90
+oculusprime,oculusprime,oculus prime,96
+netft_utils,netft,interface to ati netft sensor adapter,90
+libuvc_ros,libuvc,libuvc usb video class driver,90
+leg_detector,leg,allegro hand,90
+mir_robot,mir,amir 740,90
