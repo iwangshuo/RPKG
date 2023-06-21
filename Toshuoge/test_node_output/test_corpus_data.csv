@@ -90,7 +90,7 @@ Bringup may also involve testing and validating the robot's performance in a con
 Bringup may also involve configuring the robot's behavior and decision-making algorithms to ensure that it behaves appropriately in different situations.,4
 "Bringup is an ongoing process in the development of robotic systems, as new hardware and software components are added and existing",4
 A panorama is a wide and unobstructed view of a landscape or a cityscape. It is a visual representation of a scene that captures the entire view in a single image.,5
-"The word panorama comes from the Greek words ""pan"" meaning all and ""horama"" meaning view. It was first used in the 18th century to describe a type of painting that depicted a wide and continuous view.",5
+The word panorama comes from the Greek words "pan" meaning all and "horama" meaning view. It was first used in the 18th century to describe a type of painting that depicted a wide and continuous view.,5
 "In photography, a panorama is created by stitching together multiple images to create a single, wide-angle image. This technique is used to capture a wider field of view than what a single camera lens can capture.",5
 Panoramas can be created using specialized cameras or by using software to stitch together multiple images taken with a regular camera. The resulting image can be a 360-degree view or a partial view of a scene.,5
 Panoramas are often used in landscape photography to capture the beauty of a natural scene. They are also used in architectural photography to capture the entire view of a building or a cityscape.,5
@@ -103,7 +103,7 @@ Spherical panoramas are created by stitching together multiple images taken in a
 Panoramas can also be used in robotics for navigation and mapping. Robots can use panoramic images to create a 3D map of their environment and navigate through it.,5
 "Panoramas can be created using different software such as Adobe Photoshop, PTGui, and Hugin. These software programs offer different features and capabilities for creating and editing panoramas.",5
 "TurtleBot is a low-cost, open-source mobile robot platform designed for education, research, and hobbyist purposes.",6
-"The name ""TurtleBot"" comes from the turtle-like shape of the robot's base and its ability to move slowly and steadily.",6
+The name "TurtleBot" comes from the turtle-like shape of the robot's base and its ability to move slowly and steadily.,6
 "TurtleBot was developed by Willow Garage, a robotics research lab in California, and is now maintained by the Open Robotics organization.",6
 The first version of TurtleBot was released in 2010 and has since undergone several updates and improvements.,6
 "TurtleBot is designed to be easy to use and customize, with a modular hardware and software architecture.",6
@@ -233,7 +233,7 @@ The software is written in C++ and uses the ODE (Open Dynamics Engine) physics e
 "Gazebo is constantly evolving, with new features and improvements being added regularly to keep up with the latest developments in robotics.",12
 "The software is also compatible with various simulation frameworks, including the Robotarium and the DARPA Subterranean Challenge.",12
 Gazebo is a powerful tool for simulating and testing robotic systems,12
-"The term ""jackal"" refers to a medium-sized carnivorous mammal that belongs to the Canidae family.",13
+The term "jackal" refers to a medium-sized carnivorous mammal that belongs to the Canidae family.,13
 "Jackals are native to Africa and Asia, and there are three main species: the golden jackal, the black-backed jackal, and the side-striped jackal.",13
 "The golden jackal is the most widespread and adaptable species, found in a variety of habitats from deserts to forests.",13
 The black-backed jackal is found in southern Africa and is known for its distinctive black fur on its back.,13
@@ -251,7 +251,7 @@ The Jackal robot is designed for outdoor use and can navigate rough terrain and 
 "The Jackal robot has been used in a variety of applications, including mapping, search and rescue, and environmental monitoring.",13
 The Jackal robot is also used in education and training programs to teach students about robotics and autonomous systems.,13
 The Jackal robot is an example of how robotics technology can be used to solve real-world problems and improve our understanding of the world around us.,13
-"The term ""jackal"" is also used in slang to refer to a person",13
+The term "jackal" is also used in slang to refer to a person,13
 `rviz` is a 3D visualization tool for ROS that allows users to view and interact with various data types in a graphical interface.,14
 "The name `rviz` is short for ""ROS Visualization,"" and it is a key component of the ROS ecosystem.",14
 "`rviz` can display data such as point clouds, laser scans, images, and robot models, among others.",14
@@ -269,7 +269,7 @@ Users can customize the `rviz` interface to display the data they need and adjus
 "`rviz` can be used to simulate the behavior of a robot in a virtual environment, allowing users to test their algorithms and controllers before deploying them on a physical robot.",14
 "`rviz` can be used to create custom user interfaces for controlling a robot, such as a teleoperation interface or a GUI for setting robot parameters.",14
 "`rviz` can be used to visualize the output of machine learning algorithms, such as object recognition and segmentation.",14
-"The term ""MiR robot"" refers to a type of autonomous mobile robot developed by the Danish company Mobile Industrial Robots (MiR).",15
+The term "MiR robot" refers to a type of autonomous mobile robot developed by the Danish company Mobile Industrial Robots (MiR).,15
 "MiR robots are designed to transport materials and goods within industrial and commercial settings, such as factories, warehouses, and hospitals.",15
 These robots are equipped with sensors and cameras that allow them to navigate their environment and avoid obstacles.,15
 "MiR robots are also capable of communicating with other robots and systems, allowing for coordinated and efficient operations.",15
