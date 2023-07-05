@@ -1,0 +1,127 @@
+reemc,reem-c,reem-c
+heron,clearpath heron usv,clearpath heron usv
+leuze,leuze rsl 400,leuze rsl 400
+magni,magni silver,magni silver
+orb,orbbec astra,orbbec astra
+summit,summit-xl,summit-xl
+crazyflie,crazyflie,crazyflie
+rosaria,ari,ari
+livox,livox 3d lidar,livox 3d lidar
+agni,magni silver,magni silver
+turtlebot3,turtlebot3,turtlebot3
+dynamixel,dynamixel,dynamixel
+abb,abb manipulators,abb manipulators
+robotis,robotis op,robotis op
+xbot,xbot,xbot
+fanuc,fanuc,fanuc
+pr2,pr2,pr2
+rt,turtlebot4,turtlebot4
+velodyne,velodyne hdl-64e 3d lidar,velodyne hdl-64e 3d lidar
+fetch,fetch,fetch
+roomba,roomba,roomba
+point,pointgrey cameras (with flycapture2),pointgrey cameras (with flycapture2)
+rbcar,rbcar,rbcar
+leap,leap_motion,leap_motion
+xaxxon,xaxxon openlidar,xaxxon openlidar
+hironx,hironxo,hironxo
+position,applanix position and orientation system for land vehicles,applanix position and orientation system for land vehicles
+zivid,zivid 3d camera,zivid 3d camera
+opt,erle-copter,erle-copter
+dynamic,dynamic_uvc_cam,dynamic_uvc_cam
+tiago,tiago++,tiago++
+xarm,xarm,xarm
+xarm7,xarm,xarm
+ensenso,ensenso stereo cameras,ensenso stereo cameras
+turtlebot,turtlebot2,turtlebot2
+pioneer,pioneer lx,pioneer lx
+mobility,mobility base,mobility base
+um6,ch robotics um6 imu,ch robotics um6 imu
+sicktoolbox,sicktoolbox_wrapper,sicktoolbox_wrapper
+xsens,xsens mti node,xsens mti node
+shadow,shadow ronex,shadow ronex
+nmea,nmea_navsat_driver,nmea_navsat_driver
+barrett,barrett hand,barrett hand
+naoqi,nao,nao
+sciurus17,sciurus17,sciurus17
+leo,leo rover,leo rover
+sick,sick lms1104 laser,sick lms1104 laser
+doosan,doosan-robot,doosan-robot
+libphidgets,libphidgets21,libphidgets21
+nerian,scenescan and sp1 by nerian vision technologies,scenescan and sp1 by nerian vision technologies
+leptrino,leptrino force/torque sensor,leptrino force/torque sensor
+crane,crane-x7,crane-x7
+vrpn,vrpn,vrpn
+warthog,clearpath warthog ugv,clearpath warthog ugv
+pr2eus,pr2,pr2
+arbotix,sharp ir range finder (via arbotix robocontroller),sharp ir range finder (via arbotix robocontroller)
+microstrain,microstrain_3dmgx2_imu,microstrain_3dmgx2_imu
+schunk,schunk svh,schunk svh
+rplidar,rplidar a1/2/3/s1/s2 laser(c++),rplidar a1/2/3/s1/s2 laser(c++)
+talos,talos,talos
+app,sicktoolbox_wrapper,sicktoolbox_wrapper
+omron,omron sentech camera,omron sentech camera
+basler,basler tof es camera,basler tof es camera
+ridgeback,clearpath ridgeback,clearpath ridgeback
+jackal,clearpath jackal ugv,clearpath jackal ugv
+kobuki,kobuki,kobuki
+hand,allegro hand,allegro hand
+mecanum,mecanumrover ver.3.0,mecanumrover ver.3.0
+neo,neobotix mpo-700,neobotix mpo-700
+realsense,intel® realsense™ f200/vf0800,intel® realsense™ f200/vf0800
+xiaoqiang,xiaoqiang,xiaoqiang
+roch,roch,roch
+hls,hls-lfcd lds,hls-lfcd lds
+nao,nao,nao
+thormang3,thormang,thormang
+wge100,wge100 camera,wge100 camera
+rh,rh-p12-rn,rh-p12-rn
+pepper,pepper,pepper
+segway,segway rmpv3,segway rmpv3
+r2,pr2,pr2
+astra,orbbec astra,orbbec astra
+node,xsens mti node,xsens mti node
+strain,microstrain_3dmgx2_imu,microstrain_3dmgx2_imu
+care,care-o-bot,care-o-bot
+piksi,swiftnav piksi rtk-gps,swiftnav piksi rtk-gps
+teraranger,teraranger evo tof range finder,teraranger evo tof range finder
+rospeex,rospeex,rospeex
+romeo,romeo,romeo
+innok,innok heros,innok heros
+aubo,aubo i-series,aubo i-series
+myahrs,myahrs_driver,myahrs_driver
+prosilica,prosilica camera,prosilica camera
+turtle,turtlebot4,turtlebot4
+husky,clearpath husky ugv,clearpath husky ugv
+pepperl,pepper,pepper
+dynpick,wacoh-tech dynpick,wacoh-tech dynpick
+qt,qtrobot,qtrobot
+carla,carla,carla
+lms1xx,lms1xx,lms1xx
+adi,armadillo,armadillo
+motoman,motoman,motoman
+toposens,toposens ts3 3d ultrasonic sensor,toposens ts3 3d ultrasonic sensor
+caster,caster,caster
+pointgrey,pointgrey cameras (with flycapture2),pointgrey cameras (with flycapture2)
+universal,universal_robots,universal_robots
+ifm,ifm o3m250 tof camera,ifm o3m250 tof camera
+rosserial,rosserial_arduino,rosserial_arduino
+micros,microstrain_3dmgx2_imu,microstrain_3dmgx2_imu
+uvc,dynamic_uvc_cam,dynamic_uvc_cam
+rb,rbcar,rbcar
+jaguar,jaguar,jaguar
+serial,rosserial_arduino,rosserial_arduino
+xarm6,xarm,xarm
+xarm5,xarm,xarm
+scenario,ari,ari
+gpsd,gpsd_client,gpsd_client
+laserscan,pilz safety laserscanner psenscan,pilz safety laserscanner psenscan
+video,libuvc usb video class driver,libuvc usb video class driver
+phidgets,phidgets sensor interface with differential drive,phidgets sensor interface with differential drive
+libphidget21,libphidgets21,libphidgets21
+copernicus,copernicus robot,copernicus robot
+volta,volta robot,volta robot
+oculusprime,oculus prime,oculus prime
+netft,interface to ati netft sensor adapter,interface to ati netft sensor adapter
+libuvc,libuvc usb video class driver,libuvc usb video class driver
+leg,allegro hand,allegro hand
+mir,amir 740,amir 740

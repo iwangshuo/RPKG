@@ -1,0 +1,959 @@
+package_name,feature_word,region_word,score
+reemc_bringup,reemc,reem-c,91
+heron_msgs,heron,clearpath heron usv,90
+heron_description,heron,clearpath heron usv,90
+heron_control,heron,clearpath heron usv,90
+leuze_rsl_driver,leuze,leuze rsl 400,90
+leuze_ros_drivers,leuze,leuze rsl 400,90
+leuze_phidget_driver,leuze,leuze rsl 400,90
+leuze_msgs,leuze,leuze rsl 400,90
+leuze_description,leuze,leuze rsl 400,90
+leuze_bringup,leuze,leuze rsl 400,90
+magni_viz,magni,magni silver,90
+magni_teleop,magni,magni silver,90
+magni_robot,magni,magni silver,90
+magni_nav,magni,magni silver,90
+magni_gazebo,magni,magni silver,90
+magni_desktop,magni,magni silver,90
+magni_description,magni,magni silver,90
+magni_demos,magni,magni silver,90
+magni_bringup,magni,magni silver,90
+orb_slam2_ros,orb,orbbec astra,90
+summit_xl_robot_local_control,summit,summit-xl,90
+summit_xl_perception,summit,summit-xl,90
+summit_xl_pad,summit,summit-xl,90
+summit_xl_navigation,summit,summit-xl,90
+summit_xl_localization,summit,summit-xl,90
+summit_xl_j2s7s300_moveit_config,summit,summit-xl,90
+summit_xl_j2s6s300_moveit_config,summit,summit-xl,90
+summit_xl_j2s6s200_moveit_config,summit,summit-xl,90
+summit_xl_j2n6s200_moveit_config,summit,summit-xl,90
+summit_xl_description,summit,summit-xl,90
+summit_xl_control,summit,summit-xl,90
+summit_xl_common,summit,summit-xl,90
+crazyflie_driver,crazyflie,crazyflie,100
+crazyflie_description,crazyflie,crazyflie,100
+crazyflie_demo,crazyflie,crazyflie,100
+crazyflie_controller,crazyflie,crazyflie,100
+crazyflie,crazyflie,crazyflie,100
+rosaria,rosaria,ari,90
+livox_ros_driver,livox,livox 3d lidar,90
+agni_tf_tools,agni,magni silver,90
+turtlebot3_simulations,turtlebot3,turtlebot3,100
+turtlebot3_gazebo,turtlebot3,turtlebot3,100
+turtlebot3_fake,turtlebot3,turtlebot3,100
+dynamixel_workbench_toolbox,dynamixel,dynamixel,100
+dynamixel_workbench_operators,dynamixel,dynamixel,100
+dynamixel_workbench_msgs,dynamixel,dynamixel,100
+dynamixel_workbench_controllers,dynamixel,dynamixel,100
+dynamixel_workbench,dynamixel,dynamixel,100
+abb_driver,abb,abb manipulators,90
+turtlebot3_autorace_tunnel_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_tunnel_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_tunnel_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_tunnel_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_tunnel,turtlebot3,turtlebot3,100
+turtlebot3_autorace_traffic_light_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_traffic_light_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_traffic_light_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_traffic_light_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_traffic_light,turtlebot3,turtlebot3,100
+turtlebot3_autorace_parking_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_parking_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_parking_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_parking_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_parking,turtlebot3,turtlebot3,100
+turtlebot3_autorace_msgs,turtlebot3,turtlebot3,100
+turtlebot3_autorace_level_crossing_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_level_crossing_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_level_crossing_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_level_crossing_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_level_crossing,turtlebot3,turtlebot3,100
+turtlebot3_autorace_intersection_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_intersection_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_intersection_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_intersection_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_intersection,turtlebot3,turtlebot3,100
+turtlebot3_autorace_construction_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_construction_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_construction_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_construction_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace_construction,turtlebot3,turtlebot3,100
+turtlebot3_autorace_2020,turtlebot3,turtlebot3,100
+robotis_manipulator,robotis,robotis op,95
+xbot_tools,xbot,xbot,100
+xbot_safety_controller,xbot,xbot,100
+xbot_node,xbot,xbot,100
+xbot_msgs,xbot,xbot,100
+xbot_driver,xbot,xbot,100
+xbot_description,xbot,xbot,100
+xbot_bringup,xbot,xbot,100
+xbot,xbot,xbot,100
+fanuc_r2000ic_support,fanuc,fanuc,100
+fanuc_r2000ib_support,fanuc,fanuc,100
+fanuc_lrmate200id_support,fanuc,fanuc,100
+fanuc_lrmate200id_moveit_plugins,fanuc,fanuc,100
+fanuc_lrmate200id_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200id7l_moveit_config,fanuc,fanuc,100
+fanuc_experimental,fanuc,fanuc,100
+pr2_se_calibration_launch,pr2,pr2,100
+pr2_dense_laser_snapshotter,pr2,pr2,100
+pr2_calibration_launch,pr2,pr2,100
+pr2_calibration,pr2,pr2,100
+rt_usb_9axisimu_driver,rt,turtlebot4,90
+velodyne_pointcloud,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne_msgs,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne_laserscan,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne_driver,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne,velodyne,velodyne hdl-64e 3d lidar,90
+pr2_kinematics,pr2,pr2,100
+pr2_arm_kinematics,pr2,pr2,100
+fetch_moveit_config,fetch,fetch,100
+fetch_maps,fetch,fetch,100
+fetch_ikfast_plugin,fetch,fetch,100
+fetch_description,fetch,fetch,100
+fetch_depth_layer,fetch,fetch,100
+fetch_calibration,fetch,fetch,100
+roomba_stage,roomba,roomba,100
+point_cloud_publisher_tutorial,point,pointgrey cameras (with flycapture2),90
+rbcar_pad,rbcar,rbcar,100
+rbcar_navigation,rbcar,rbcar,100
+rbcar_localization,rbcar,rbcar,100
+rbcar_description,rbcar,rbcar,100
+rbcar_common,rbcar,rbcar,100
+leap_motion,leap,leap_motion,90
+xaxxon_openlidar,xaxxon,xaxxon openlidar,90
+hironx_ros_bridge,hironx,hironxo,92
+hironx_moveit_config,hironx,hironxo,92
+hironx_calibration,hironx,hironxo,92
+dynamixel_tutorials,dynamixel,dynamixel,100
+dynamixel_msgs,dynamixel,dynamixel,100
+dynamixel_motor,dynamixel,dynamixel,100
+dynamixel_driver,dynamixel,dynamixel,100
+dynamixel_controllers,dynamixel,dynamixel,100
+turtlebot3_panorama,turtlebot3,turtlebot3,100
+turtlebot3_follower,turtlebot3,turtlebot3,100
+turtlebot3_follow_filter,turtlebot3,turtlebot3,100
+turtlebot3_automatic_parking_vision,turtlebot3,turtlebot3,100
+turtlebot3_automatic_parking,turtlebot3,turtlebot3,100
+turtlebot3_applications,turtlebot3,turtlebot3,100
+position_controllers,position,applanix position and orientation system for land vehicles,90
+zivid_samples,zivid,zivid 3d camera,90
+zivid_camera,zivid,zivid 3d camera,90
+opt_camera,opt,erle-copter,90
+dynamic_tf_publisher,dynamic,dynamic_uvc_cam,90
+tiago_simulation,tiago,tiago++,100
+tiago_robot,tiago,tiago++,100
+tiago_multi,tiago,tiago++,100
+tiago_moveit_config,tiago,tiago++,100
+tiago_gazebo,tiago,tiago++,100
+tiago_description,tiago,tiago++,100
+tiago_controller_configuration_gazebo,tiago,tiago++,100
+tiago_controller_configuration,tiago,tiago++,100
+tiago_bringup,tiago,tiago++,100
+tiago_2dnav_gazebo,tiago,tiago++,100
+xarm_sdk,xarm,xarm,100
+xarm_planner,xarm,xarm,100
+xarm_msgs,xarm,xarm,100
+xarm_gripper,xarm,xarm,100
+xarm_gazebo,xarm,xarm,100
+xarm_description,xarm,xarm,100
+xarm_controller,xarm,xarm,100
+xarm_bringup,xarm,xarm,100
+xarm_api,xarm,xarm,100
+xarm7_vacuum_gripper_moveit_config,xarm7,xarm,89
+pr2_trajectory_execution_tests,pr2,pr2,100
+pr2_test_sbpl_planner,pr2,pr2,100
+pr2_test_kinematic_constraints,pr2,pr2,100
+pr2_test_collision_distance_field,pr2,pr2,100
+pr2_test_collision_detection,pr2,pr2,100
+pr2_test_chomp_planner,pr2,pr2,100
+pr2_simple_benchmark_test,pr2,pr2,100
+pr2_planning_interface_tests,pr2,pr2,100
+pr2_ompl_planning_tests,pr2,pr2,100
+pr2_moveit_tests,pr2,pr2,100
+pr2_moveit_plugins,pr2,pr2,100
+pr2_moveit_config,pr2,pr2,100
+pr2_move_group_test,pr2,pr2,100
+pr2_arm_ik_tests,pr2,pr2,100
+ensenso,ensenso,ensenso stereo cameras,90
+turtlebot_loadout_kha1,turtlebot,turtlebot2,100
+pioneer_bringup,pioneer,pioneer lx,95
+mobility_base_tools,mobility,mobility base,90
+mobility_base_simulator,mobility,mobility base,90
+mobility_base_pointcloud_filter,mobility,mobility base,90
+mobility_base_gazebo_plugins,mobility,mobility base,90
+mobility_base_gazebo,mobility,mobility base,90
+mobility_base_examples,mobility,mobility base,90
+mobility_base_description,mobility,mobility base,90
+mobility_base_core_msgs,mobility,mobility base,90
+mobility_base_bringup,mobility,mobility base,90
+mobility_base,mobility,mobility base,90
+um6,um6,ch robotics um6 imu,90
+abb_resources,abb,abb manipulators,90
+abb_irb6640_support,abb,abb manipulators,90
+abb_irb6640_moveit_config,abb,abb manipulators,90
+abb_irb6600_support,abb,abb manipulators,90
+abb_irb5400_support,abb,abb manipulators,90
+abb_irb4400_support,abb,abb manipulators,90
+abb_irb2400_support,abb,abb manipulators,90
+abb_irb2400_moveit_plugins,abb,abb manipulators,90
+abb_irb2400_moveit_config,abb,abb manipulators,90
+abb,abb,abb manipulators,90
+sicktoolbox,sicktoolbox,sicktoolbox_wrapper,90
+xsens_driver,xsens,xsens mti node,90
+shadow_robot,shadow,shadow ronex,90
+xbot_talker,xbot,xbot,100
+nmea_comms,nmea,nmea_navsat_driver,90
+barrett_hand,barrett,barrett hand,90
+naoqi_dcm_driver,naoqi,nao,90
+barrett_hand_description,barrett,barrett hand,90
+barrett_hand_common,barrett,barrett hand,90
+nmea_gps_plugin,nmea,nmea_navsat_driver,90
+sciurus17_vision,sciurus17,sciurus17,100
+sciurus17_tools,sciurus17,sciurus17,100
+sciurus17_msgs,sciurus17,sciurus17,100
+sciurus17_moveit_config,sciurus17,sciurus17,100
+sciurus17_gazebo,sciurus17,sciurus17,100
+sciurus17_examples,sciurus17,sciurus17,100
+sciurus17_description,sciurus17,sciurus17,100
+sciurus17_control,sciurus17,sciurus17,100
+sciurus17_bringup,sciurus17,sciurus17,100
+sciurus17,sciurus17,sciurus17,100
+leo_teleop,leo,leo rover,90
+leo_msgs,leo,leo rover,90
+leo_description,leo,leo rover,90
+leo,leo,leo rover,90
+tiago_navigation,tiago,tiago++,100
+tiago_maps,tiago,tiago++,100
+tiago_laser_sensors,tiago,tiago++,100
+tiago_2dnav,tiago,tiago++,100
+naoqi_driver,naoqi,nao,90
+naoqi_bridge_msgs,naoqi,nao,90
+sick_scan,sick,sick lms1104 laser,90
+dynamic_edt_3d,dynamic,dynamic_uvc_cam,90
+doosan_robotics,doosan,doosan-robot,90
+doosan_robot,doosan,doosan-robot,90
+libphidgets,libphidgets,libphidgets21,92
+dynamixel_control_hw,dynamixel,dynamixel,100
+nerian_stereo,nerian,scenescan and sp1 by nerian vision technologies,90
+leptrino_force_torque,leptrino,leptrino force/torque sensor,90
+fanuc_m6ib_support,fanuc,fanuc,100
+fanuc_m6ib_moveit_plugins,fanuc,fanuc,100
+fanuc_m6ib_moveit_config,fanuc,fanuc,100
+fanuc_m6ib6s_moveit_config,fanuc,fanuc,100
+fanuc_m430ia_support,fanuc,fanuc,100
+fanuc_m430ia_moveit_plugins,fanuc,fanuc,100
+fanuc_m430ia2p_moveit_config,fanuc,fanuc,100
+fanuc_m430ia2f_moveit_config,fanuc,fanuc,100
+fanuc_m20ib_support,fanuc,fanuc,100
+fanuc_m20ib_moveit_plugins,fanuc,fanuc,100
+fanuc_m20ib25_moveit_config,fanuc,fanuc,100
+fanuc_m20ia_support,fanuc,fanuc,100
+fanuc_m20ia_moveit_plugins,fanuc,fanuc,100
+fanuc_m20ia_moveit_config,fanuc,fanuc,100
+fanuc_m20ia10l_moveit_config,fanuc,fanuc,100
+fanuc_m16ib_support,fanuc,fanuc,100
+fanuc_m16ib_moveit_plugins,fanuc,fanuc,100
+fanuc_m16ib20_moveit_config,fanuc,fanuc,100
+fanuc_m10ia_support,fanuc,fanuc,100
+fanuc_m10ia_moveit_plugins,fanuc,fanuc,100
+fanuc_m10ia_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200ic_support,fanuc,fanuc,100
+fanuc_lrmate200ic_moveit_plugins,fanuc,fanuc,100
+fanuc_lrmate200ic_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200ic5l_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200ic5h_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200ib_support,fanuc,fanuc,100
+fanuc_lrmate200ib_moveit_plugins,fanuc,fanuc,100
+crane_x7_msgs,crane,crane-x7,90
+fanuc_lrmate200ib_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200ib3l_moveit_config,fanuc,fanuc,100
+fanuc_lrmate200i_support,fanuc,fanuc,100
+fanuc_lrmate200i_moveit_plugins,fanuc,fanuc,100
+fanuc_lrmate200i_moveit_config,fanuc,fanuc,100
+fanuc_driver,fanuc,fanuc,100
+fanuc_cr7ial_moveit_config,fanuc,fanuc,100
+fanuc_cr7ia_support,fanuc,fanuc,100
+fanuc_cr7ia_moveit_config,fanuc,fanuc,100
+fanuc_cr35ia_support,fanuc,fanuc,100
+fanuc,fanuc,fanuc,100
+vrpn_client_ros,vrpn,vrpn,100
+crane_x7_moveit_config,crane,crane-x7,90
+crane_x7_gazebo,crane,crane-x7,90
+crane_x7_examples,crane,crane-x7,90
+crane_x7_control,crane,crane-x7,90
+crane_x7_bringup,crane,crane-x7,90
+crane_x7,crane,crane-x7,90
+pr2_tuck_arms_action,pr2,pr2,100
+pr2_tilt_laser_interface,pr2,pr2,100
+pr2_common_actions,pr2,pr2,100
+pr2_common_action_msgs,pr2,pr2,100
+pr2_arm_move_ik,pr2,pr2,100
+warthog_msgs,warthog,clearpath warthog ugv,90
+warthog_description,warthog,clearpath warthog ugv,90
+warthog_control,warthog,clearpath warthog ugv,90
+pr2_self_test_msgs,pr2,pr2,100
+pr2_self_test,pr2,pr2,100
+pr2_motor_diagnostic_tool,pr2,pr2,100
+pr2_counterbalance_check,pr2,pr2,100
+pr2_bringup_tests,pr2,pr2,100
+pr2_power_drivers,pr2,pr2,100
+pr2_power_board,pr2,pr2,100
+pr2_navigation_teleop,pr2,pr2,100
+pr2_navigation_slam,pr2,pr2,100
+pr2_navigation_self_filter,pr2,pr2,100
+pr2_navigation_perception,pr2,pr2,100
+pr2_navigation_local,pr2,pr2,100
+pr2_navigation_global,pr2,pr2,100
+pr2_navigation_config,pr2,pr2,100
+pr2_navigation,pr2,pr2,100
+pr2_move_base,pr2,pr2,100
+pr2eus_tutorials,pr2eus,pr2,90
+pr2eus_openrave,pr2eus,pr2,90
+pr2eus_moveit,pr2eus,pr2,90
+pr2eus_impedance,pr2eus,pr2,90
+pr2eus_armnavigation,pr2eus,pr2,90
+pr2eus,pr2eus,pr2,90
+ensenso_driver,ensenso,ensenso stereo cameras,90
+ensenso_description,ensenso,ensenso stereo cameras,90
+ensenso_camera_test,ensenso,ensenso stereo cameras,90
+ensenso_camera_msgs,ensenso,ensenso stereo cameras,90
+ensenso_camera,ensenso,ensenso stereo cameras,90
+arbotix_sensors,arbotix,sharp ir range finder (via arbotix robocontroller),90
+arbotix_python,arbotix,sharp ir range finder (via arbotix robocontroller),90
+arbotix_msgs,arbotix,sharp ir range finder (via arbotix robocontroller),90
+arbotix_firmware,arbotix,sharp ir range finder (via arbotix robocontroller),90
+arbotix_controllers,arbotix,sharp ir range finder (via arbotix robocontroller),90
+arbotix,arbotix,sharp ir range finder (via arbotix robocontroller),90
+microstrain_mips_client,microstrain,microstrain_3dmgx2_imu,90
+schunk_svh_driver,schunk,schunk svh,90
+rplidar_ros,rplidar,rplidar a1/2/3/s1/s2 laser(c++),90
+pr2_gripper_sensor_msgs,pr2,pr2,100
+pr2_gripper_sensor_controller,pr2,pr2,100
+pr2_gripper_sensor_action,pr2,pr2,100
+pr2_gripper_sensor,pr2,pr2,100
+talos_robot,talos,talos,100
+talos_description_inertial,talos,talos,100
+talos_description_calibration,talos,talos,100
+talos_description,talos,talos,100
+talos_controller_configuration,talos,talos,100
+talos_bringup,talos,talos,100
+app_manager,app,sicktoolbox_wrapper,90
+omron_os32c_driver,omron,omron sentech camera,90
+basler_tof,basler,basler tof es camera,90
+ridgeback_robot,ridgeback,clearpath ridgeback,90
+ridgeback_bringup,ridgeback,clearpath ridgeback,90
+ridgeback_base,ridgeback,clearpath ridgeback,90
+abb_irb7600_support,abb,abb manipulators,90
+abb_irb6700_support,abb,abb manipulators,90
+abb_irb6650s_support,abb,abb manipulators,90
+abb_irb52_support,abb,abb manipulators,90
+abb_irb4600_support,abb,abb manipulators,90
+abb_irb2600_support,abb,abb manipulators,90
+abb_irb1600_support,abb,abb manipulators,90
+abb_irb1600_6_12_moveit_config,abb,abb manipulators,90
+abb_irb120t_moveit_config,abb,abb manipulators,90
+abb_irb120_support,abb,abb manipulators,90
+abb_irb120_moveit_config,abb,abb manipulators,90
+abb_irb120_gazebo,abb,abb manipulators,90
+abb_irb1200_support,abb,abb manipulators,90
+abb_irb1200_gazebo,abb,abb manipulators,90
+abb_irb1200_7_70_moveit_config,abb,abb manipulators,90
+abb_irb1200_5_90_moveit_config,abb,abb manipulators,90
+abb_experimental,abb,abb manipulators,90
+abb_crb15000_support,abb,abb manipulators,90
+pr2_ethercat_drivers,pr2,pr2,100
+sick_ldmrs_tools,sick,sick lms1104 laser,90
+sick_ldmrs_msgs,sick,sick lms1104 laser,90
+sick_ldmrs_laser,sick,sick lms1104 laser,90
+sick_ldmrs_driver,sick,sick lms1104 laser,90
+sick_ldmrs_description,sick,sick lms1104 laser,90
+jackal_tutorials,jackal,clearpath jackal ugv,90
+jackal_navigation,jackal,clearpath jackal ugv,90
+jackal_msgs,jackal,clearpath jackal ugv,90
+jackal_description,jackal,clearpath jackal ugv,90
+jackal_control,jackal,clearpath jackal ugv,90
+orb_slam2_with_maps-odom,orb,orbbec astra,90
+kobuki_ftdi,kobuki,kobuki,100
+kobuki_driver,kobuki,kobuki,100
+kobuki_dock_drive,kobuki,kobuki,100
+kobuki_core,kobuki,kobuki,100
+jackal_robot,jackal,clearpath jackal ugv,90
+jackal_bringup,jackal,clearpath jackal ugv,90
+jackal_base,jackal,clearpath jackal ugv,90
+hand_kinematics,hand,allegro hand,90
+ridgeback_simulator,ridgeback,clearpath ridgeback,90
+ridgeback_gazebo_plugins,ridgeback,clearpath ridgeback,90
+ridgeback_gazebo,ridgeback,clearpath ridgeback,90
+mecanum_gazebo_plugin,mecanum,mecanumrover ver.3.0,90
+jackal_simulator,jackal,clearpath jackal ugv,90
+jackal_gazebo,jackal,clearpath jackal ugv,90
+neo_local_planner,neo,neobotix mpo-700,90
+warthog_simulator,warthog,clearpath warthog ugv,90
+warthog_gazebo,warthog,clearpath warthog ugv,90
+pr2_mechanism_msgs,pr2,pr2,100
+fetch_teleop,fetch,fetch,100
+fetch_ros,fetch,fetch,100
+fetch_navigation,fetch,fetch,100
+turtlebot_teleop,turtlebot,turtlebot2,100
+turtlebot_description,turtlebot,turtlebot2,100
+turtlebot_capabilities,turtlebot,turtlebot2,100
+turtlebot_bringup,turtlebot,turtlebot2,100
+turtlebot,turtlebot,turtlebot2,100
+realsense_camera,realsense,intel® realsense™ f200/vf0800,90
+xiaoqiang_server,xiaoqiang,xiaoqiang,100
+xiaoqiang_navigation_example,xiaoqiang,xiaoqiang,100
+xiaoqiang_navigation,xiaoqiang,xiaoqiang,100
+xiaoqiang_msgs,xiaoqiang,xiaoqiang,100
+xiaoqiang_monitor,xiaoqiang,xiaoqiang,100
+xiaoqiang_freenect_launch,xiaoqiang,xiaoqiang,100
+xiaoqiang_freenect_camera,xiaoqiang,xiaoqiang,100
+xiaoqiang_freenect,xiaoqiang,xiaoqiang,100
+xiaoqiang_driver,xiaoqiang,xiaoqiang,100
+xiaoqiang_description,xiaoqiang,xiaoqiang,100
+xiaoqiang_depth_image_proc,xiaoqiang,xiaoqiang,100
+xiaoqiang_controller,xiaoqiang,xiaoqiang,100
+xiaoqiang_bringup,xiaoqiang,xiaoqiang,100
+xiaoqiang,xiaoqiang,xiaoqiang,100
+pr2_msgs,pr2,pr2,100
+pr2_machine,pr2,pr2,100
+pr2_description,pr2,pr2,100
+pr2_dashboard_aggregator,pr2,pr2,100
+pr2_common,pr2,pr2,100
+roch_teleop,roch,roch,100
+roch_rapps,roch,roch,100
+roch_navigation,roch,roch,100
+roch_follower,roch,roch,100
+roch,roch,roch,100
+hls_lfcd_lds2_driver,hls,hls-lfcd lds,90
+fanuc_post_processor_example,fanuc,fanuc,100
+fanuc_post_processor,fanuc,fanuc,100
+nao_gazebo_plugin,nao,nao,100
+nao_control,nao,nao,100
+kobuki_rviz_launchers,kobuki,kobuki,100
+kobuki_qtestsuite,kobuki,kobuki,100
+kobuki_gazebo_plugins,kobuki,kobuki,100
+kobuki_gazebo,kobuki,kobuki,100
+kobuki_desktop,kobuki,kobuki,100
+kobuki_dashboard,kobuki,kobuki,100
+thormang3_tools,thormang3,thormang,94
+thormang3_opc,thormang3,thormang,94
+thormang3_offset_tuner_server,thormang3,thormang,94
+thormang3_offset_tuner_client,thormang3,thormang,94
+thormang3_navigation,thormang3,thormang,94
+thormang3_foot_step_generator,thormang3,thormang,94
+thormang3_demo,thormang3,thormang,94
+thormang3_action_script_player,thormang3,thormang,94
+thormang3_action_editor,thormang3,thormang,94
+robotis_op3_tools,robotis,robotis op,95
+robotis_op3_demo,robotis,robotis op,95
+wge100_driver,wge100,wge100 camera,90
+wge100_camera_firmware,wge100,wge100 camera,90
+wge100_camera,wge100,wge100 camera,90
+thormang3_walking_demo,thormang3,thormang,94
+thormang3_sensors,thormang3,thormang,94
+thormang3_ppc,thormang3,thormang,94
+thormang3_mpc_sensors,thormang3,thormang,94
+thormang3_manipulation_demo,thormang3,thormang,94
+thormang3_imu_3dm_gx4,thormang3,thormang,94
+thormang3_gazebo,thormang3,thormang,94
+thormang3_description,thormang3,thormang,94
+thormang3_common,thormang3,thormang,94
+thormang3_walking_module_msgs,thormang3,thormang,94
+thormang3_walking_module,thormang3,thormang,94
+thormang3_offset_tuner_msgs,thormang3,thormang,94
+thormang3_msgs,thormang3,thormang,94
+thormang3_mpc,thormang3,thormang,94
+thormang3_manipulation_module_msgs,thormang3,thormang,94
+thormang3_manipulation_module,thormang3,thormang,94
+thormang3_manager,thormang3,thormang,94
+thormang3_kinematics_dynamics,thormang3,thormang,94
+thormang3_head_control_module_msgs,thormang3,thormang,94
+thormang3_head_control_module,thormang3,thormang,94
+thormang3_gripper_module,thormang3,thormang,94
+thormang3_feet_ft_module_msgs,thormang3,thormang,94
+thormang3_feet_ft_module,thormang3,thormang,94
+thormang3_base_module,thormang3,thormang,94
+thormang3_balance_control,thormang3,thormang,94
+thormang3_action_module_msgs,thormang3,thormang,94
+thormang3_action_module,thormang3,thormang,94
+robotis_op3_common,robotis,robotis op,95
+robotis_op3,robotis,robotis op,95
+robotis_framework_common,robotis,robotis op,95
+robotis_framework,robotis,robotis op,95
+robotis_device,robotis,robotis op,95
+robotis_controller_msgs,robotis,robotis op,95
+robotis_controller,robotis,robotis op,95
+rh_p12_rn_manager,rh,rh-p12-rn,90
+rh_p12_rn_gui,rh,rh-p12-rn,90
+rh_p12_rn_gazebo,rh,rh-p12-rn,90
+rh_p12_rn_description,rh,rh-p12-rn,90
+rh_p12_rn_base_module_msgs,rh,rh-p12-rn,90
+rh_p12_rn_base_module,rh,rh-p12-rn,90
+rh_p12_rn,rh,rh-p12-rn,90
+robotis_utility,robotis,robotis op,95
+robotis_op3_msgs,robotis,robotis op,95
+robotis_math,robotis,robotis op,95
+kobuki_testsuite,kobuki,kobuki,100
+kobuki_safety_controller,kobuki,kobuki,100
+kobuki_rapps,kobuki,kobuki,100
+kobuki_random_walker,kobuki,kobuki,100
+kobuki_node,kobuki,kobuki,100
+kobuki_keyop,kobuki,kobuki,100
+kobuki_description,kobuki,kobuki,100
+kobuki_controller_tutorial,kobuki,kobuki,100
+kobuki_capabilities,kobuki,kobuki,100
+kobuki_bumper2pc,kobuki,kobuki,100
+kobuki_auto_docking,kobuki,kobuki,100
+kobuki,kobuki,kobuki,100
+pr2_mechanism_model,pr2,pr2,100
+pr2_mechanism_diagnostics,pr2,pr2,100
+pr2_mechanism_controllers,pr2,pr2,100
+pr2_mechanism,pr2,pr2,100
+pr2_head_action,pr2,pr2,100
+pr2_hardware_interface,pr2,pr2,100
+pr2_gripper_action,pr2,pr2,100
+pr2_controllers_msgs,pr2,pr2,100
+pr2_controllers,pr2,pr2,100
+pr2_controller_manager,pr2,pr2,100
+pr2_controller_interface,pr2,pr2,100
+pr2_calibration_controllers,pr2,pr2,100
+pepper_sensors_py,pepper,pepper,100
+pepper_robot,pepper,pepper,100
+pepper_description,pepper,pepper,100
+pepper_bringup,pepper,pepper,100
+nao_vision,nao,nao,100
+nao_interaction_msgs,nao,nao,100
+nao_interaction_launchers,nao,nao,100
+nao_interaction,nao,nao,100
+nao_audio,nao,nao,100
+segway_rmp,segway,segway rmpv3,90
+xbot_navi,xbot,xbot,100
+xbot_face,xbot,xbot,100
+microstrain_3dmgx2_imu,microstrain,microstrain_3dmgx2_imu,90
+r2_moveit_generated,r2,pr2,90
+astra_launch,astra,orbbec astra,90
+sicktoolbox_wrapper,sicktoolbox,sicktoolbox_wrapper,90
+node_manager_fkie,node,xsens mti node,90
+strain_gauge_calibration,strain,microstrain_3dmgx2_imu,90
+pr2_navigation_apps,pr2,pr2,100
+pr2_2dnav_slam,pr2,pr2,100
+pr2_2dnav_local,pr2,pr2,100
+pr2_2dnav,pr2,pr2,100
+hls_lfom_tof_driver,hls,hls-lfcd lds,90
+pr2_desktop,pr2,pr2,100
+pr2_base,pr2,pr2,100
+pr2,pr2,pr2,100
+fetch_simulation,fetch,fetch,100
+fetch_gazebo_demo,fetch,fetch,100
+fetch_gazebo,fetch,fetch,100
+care_o_bot_simulation,care,care-o-bot,90
+care_o_bot_robot,care,care-o-bot,90
+care_o_bot_desktop,care,care-o-bot,90
+care_o_bot,care,care-o-bot,90
+piksi_rtk_msgs,piksi,swiftnav piksi rtk-gps,90
+piksi_multi_rtk,piksi,swiftnav piksi rtk-gps,90
+turtlebot3_autorace_detect,turtlebot3,turtlebot3,100
+turtlebot3_autorace_core,turtlebot3,turtlebot3,100
+turtlebot3_autorace_control,turtlebot3,turtlebot3,100
+turtlebot3_autorace_camera,turtlebot3,turtlebot3,100
+turtlebot3_autorace,turtlebot3,turtlebot3,100
+heron_viz,heron,clearpath heron usv,90
+heron_desktop,heron,clearpath heron usv,90
+turtlebot3_applications_msgs,turtlebot3,turtlebot3,100
+nmea_navsat_driver,nmea,nmea_navsat_driver,90
+turtlebot_stdr,turtlebot,turtlebot2,100
+turtlebot_stage,turtlebot,turtlebot2,100
+turtlebot_simulator,turtlebot,turtlebot2,100
+turtlebot_gazebo,turtlebot,turtlebot2,100
+kobuki_msgs,kobuki,kobuki,100
+teraranger_array_converter,teraranger,teraranger evo tof range finder,90
+nmea_msgs,nmea,nmea_navsat_driver,90
+turtlebot_rapps,turtlebot,turtlebot2,100
+turtlebot_navigation,turtlebot,turtlebot2,100
+turtlebot_follower,turtlebot,turtlebot2,100
+turtlebot_create,turtlebot,turtlebot2,100
+turtlebot_calibration,turtlebot,turtlebot2,100
+turtlebot_apps,turtlebot,turtlebot2,100
+turtlebot_actions,turtlebot,turtlebot2,100
+rospeex_webaudiomonitor,rospeex,rospeex,100
+rospeex_samples,rospeex,rospeex,100
+rospeex_msgs,rospeex,rospeex,100
+rospeex_launch,rospeex,rospeex,100
+rospeex_if,rospeex,rospeex,100
+rospeex_core,rospeex,rospeex,100
+rospeex_audiomonitor,rospeex,rospeex,100
+rospeex,rospeex,rospeex,100
+romeo_moveit_config,romeo,romeo,100
+romeo_gazebo_plugin,romeo,romeo,100
+romeo_control,romeo,romeo,100
+pepper_gazebo_plugin,pepper,pepper,100
+pepper_dcm_bringup,pepper,pepper,100
+pepper_control,pepper,pepper,100
+nao_dcm_bringup,nao,nao,100
+schunk_canopen_driver,schunk,schunk svh,90
+romeo_moveit_actions,romeo,romeo,100
+innok_heros_description,innok,innok heros,90
+nerian_sp1,nerian,scenescan and sp1 by nerian vision technologies,90
+roch_viz,roch,roch,100
+roch_simulator,roch,roch,100
+roch_gazebo,roch,roch,100
+roch_concert,roch,roch,100
+aubo_trajectory_filters,aubo,aubo i-series,90
+aubo_trajectory,aubo,aubo i-series,90
+aubo_robot,aubo,aubo i-series,90
+aubo_panel,aubo,aubo i-series,90
+aubo_new_driver,aubo,aubo i-series,90
+aubo_msgs,aubo,aubo i-series,90
+aubo_kinematics,aubo,aubo i-series,90
+aubo_i5_moveit_config,aubo,aubo i-series,90
+aubo_gazebo,aubo,aubo i-series,90
+aubo_driver,aubo,aubo i-series,90
+aubo_description,aubo,aubo i-series,90
+aubo_control,aubo,aubo i-series,90
+myahrs_driver,myahrs,myahrs_driver,90
+prosilica_camera,prosilica,prosilica camera,90
+turtle_tf2,turtle,turtlebot4,90
+turtle_tf,turtle,turtlebot4,90
+sick_visionary_t_driver,sick,sick lms1104 laser,90
+sick_visionary_t,sick,sick lms1104 laser,90
+warthog_viz,warthog,clearpath warthog ugv,90
+warthog_desktop,warthog,clearpath warthog ugv,90
+husky_robot,husky,clearpath husky ugv,90
+husky_bringup,husky,clearpath husky ugv,90
+husky_base,husky,clearpath husky ugv,90
+pepperl_fuchs_r2000,pepperl,pepper,92
+summit_x_sim_bringup,summit,summit-xl,90
+summit_x_sim,summit,summit-xl,90
+summit_x_robot_control,summit,summit-xl,90
+summit_x_gazebo,summit,summit-xl,90
+summit_x_control,summit,summit-xl,90
+summit_x_description,summit,summit-xl,90
+summit_x_common,summit,summit-xl,90
+kobuki_softnode,kobuki,kobuki,100
+kobuki_softapps,kobuki,kobuki,100
+kobuki_soft,kobuki,kobuki,100
+barrett_hand_sim,barrett,barrett hand,90
+barrett_hand_gazebo,barrett,barrett hand,90
+barrett_hand_control,barrett,barrett hand,90
+jackal_viz,jackal,clearpath jackal ugv,90
+jackal_desktop,jackal,clearpath jackal ugv,90
+ridgeback_viz,ridgeback,clearpath ridgeback,90
+ridgeback_desktop,ridgeback,clearpath ridgeback,90
+innok_heros_control,innok,innok heros,90
+dynpick_driver,dynpick,wacoh-tech dynpick,90
+pr2_run_stop_auto_restart,pr2,pr2,100
+pr2_robot,pr2,pr2,100
+pr2_ethercat,pr2,pr2,100
+pr2_controller_configuration,pr2,pr2,100
+pr2_computer_monitor,pr2,pr2,100
+pr2_camera_synchronizer,pr2,pr2,100
+pr2_bringup,pr2,pr2,100
+schunk_simulated_tactile_sensors,schunk,schunk svh,90
+schunk_sdh,schunk,schunk svh,90
+schunk_powercube_chain,schunk,schunk svh,90
+schunk_modular_robotics,schunk,schunk svh,90
+schunk_libm5api,schunk,schunk svh,90
+schunk_description,schunk,schunk svh,90
+turtle_actionlib,turtle,turtlebot4,90
+dynamic_robot_state_publisher,dynamic,dynamic_uvc_cam,90
+pr2_simulator,pr2,pr2,100
+pr2_gazebo_plugins,pr2,pr2,100
+pr2_gazebo,pr2,pr2,100
+pr2_controller_configuration_gazebo,pr2,pr2,100
+qt_tutorials,qt,qtrobot,90
+qt_ros,qt,qtrobot,90
+qt_create,qt,qtrobot,90
+qt_build,qt,qtrobot,90
+ridgeback_navigation,ridgeback,clearpath ridgeback,90
+ridgeback_msgs,ridgeback,clearpath ridgeback,90
+ridgeback_description,ridgeback,clearpath ridgeback,90
+ridgeback_control,ridgeback,clearpath ridgeback,90
+pioneer_mrs,pioneer,pioneer lx,95
+sick_tim,sick,sick lms1104 laser,90
+husky_viz,husky,clearpath husky ugv,90
+husky_simulator,husky,clearpath husky ugv,90
+husky_navigation,husky,clearpath husky ugv,90
+husky_msgs,husky,clearpath husky ugv,90
+husky_gazebo,husky,clearpath husky ugv,90
+husky_desktop,husky,clearpath husky ugv,90
+husky_description,husky,clearpath husky ugv,90
+husky_control,husky,clearpath husky ugv,90
+velodyne_gazebo_plugin,velodyne,velodyne hdl-64e 3d lidar,90
+heron_simulator,heron,clearpath heron usv,90
+heron_gazebo,heron,clearpath heron usv,90
+turtlebot_arm_object_manipulation,turtlebot,turtlebot2,100
+turtlebot_arm_moveit_demos,turtlebot,turtlebot2,100
+turtlebot_arm_moveit_config,turtlebot,turtlebot2,100
+turtlebot_arm_kinect_calibration,turtlebot,turtlebot2,100
+turtlebot_arm_ikfast_plugin,turtlebot,turtlebot2,100
+turtlebot_arm_description,turtlebot,turtlebot2,100
+turtlebot_arm_bringup,turtlebot,turtlebot2,100
+turtlebot_arm_block_manipulation,turtlebot,turtlebot2,100
+turtlebot_arm,turtlebot,turtlebot2,100
+carla_waypoint_publisher,carla,carla,100
+carla_ros_bridge,carla,carla,100
+turtlebot3_teleop,turtlebot3,turtlebot3,100
+turtlebot3_slam,turtlebot3,turtlebot3,100
+turtlebot3_navigation,turtlebot3,turtlebot3,100
+turtlebot3_example,turtlebot3,turtlebot3,100
+turtlebot3_description,turtlebot3,turtlebot3,100
+turtlebot3_bringup,turtlebot3,turtlebot3,100
+turtlebot3,turtlebot3,turtlebot3,100
+carla_msgs,carla,carla,100
+carla_manual_control,carla,carla,100
+carla_infrastructure,carla,carla,100
+carla_ego_vehicle,carla,carla,100
+carla_ackermann_control,carla,carla,100
+lms1xx,lms1xx,lms1xx,100
+shadow_robot_ethercat,shadow,shadow ronex,90
+microstrain_mips,microstrain,microstrain_3dmgx2_imu,90
+fanuc_grinding_scanning,fanuc,fanuc,100
+fanuc_grinding_rviz_plugin,fanuc,fanuc,100
+fanuc_grinding_publish_meshfile,fanuc,fanuc,100
+fanuc_grinding_post_processor,fanuc,fanuc,100
+fanuc_grinding_path_planning,fanuc,fanuc,100
+fanuc_grinding_comparison,fanuc,fanuc,100
+fanuc_grinding_alignment,fanuc,fanuc,100
+fanuc_grinding,fanuc,fanuc,100
+adi_driver,adi,armadillo,90
+motoman_sia5d_moveit_config,motoman,motoman,100
+motoman_mpx3500_support,motoman,motoman,100
+motoman_mpl_support,motoman,motoman,100
+motoman_mpl80_moveit_config,motoman,motoman,100
+motoman_mhj_support,motoman,motoman,100
+motoman_mh_support,motoman,motoman,100
+motoman_mh5_ikfast_manipulator_plugin,motoman,motoman,100
+motoman_experimental,motoman,motoman,100
+motoman_epx_support,motoman,motoman,100
+motoman_csda10f_support,motoman,motoman,100
+motoman_csda10f_moveit_config,motoman,motoman,100
+motoman_bmda3_support,motoman,motoman,100
+innok_heros_driver,innok,innok heros,90
+toposens_sync,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_pointcloud,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_msgs,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_markers,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_echo_driver,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_driver,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_description,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens_bringup,toposens,toposens ts3 3d ultrasonic sensor,90
+toposens,toposens,toposens ts3 3d ultrasonic sensor,90
+caster_viz,caster,caster,100
+caster_teleop,caster,caster,100
+caster_robot,caster,caster,100
+caster_navigation,caster,caster,100
+caster_desktop,caster,caster,100
+caster_description,caster,caster,100
+caster_control,caster,caster,100
+caster_base,caster,caster,100
+caster_app,caster,caster,100
+pointgrey_camera_driver,pointgrey,pointgrey cameras (with flycapture2),90
+pointgrey_camera_description,pointgrey,pointgrey cameras (with flycapture2),90
+leo_viz,leo,leo rover,90
+leo_desktop,leo,leo rover,90
+reemc_robot,reemc,reem-c,91
+reemc_description,reemc,reem-c,91
+reemc_controller_configuration,reemc,reem-c,91
+universal_robots,universal,universal_robots,90
+universal_robot,universal,universal_robots,90
+ifm_o3mxxx,ifm,ifm o3m250 tof camera,90
+roch_sensorpc,roch,roch,100
+roch_safety_controller,roch,roch,100
+roch_robot,roch,roch,100
+roch_msgs,roch,roch,100
+roch_ftdi,roch,roch,100
+roch_description,roch,roch,100
+roch_control,roch,roch,100
+roch_capabilities,roch,roch,100
+roch_base,roch,roch,100
+naoqi_tools,naoqi,nao,90
+naoqi_sensors_py,naoqi,nao,90
+naoqi_pose,naoqi,nao,90
+naoqi_navigation,naoqi,nao,90
+naoqi_driver_py,naoqi,nao,90
+naoqi_bridge,naoqi,nao,90
+naoqi_apps,naoqi,nao,90
+nao_robot,nao,nao,100
+nao_description,nao,nao,100
+nao_bringup,nao,nao,100
+nao_apps,nao,nao,100
+qt_qmake,qt,qtrobot,90
+teraranger_description,teraranger,teraranger evo tof range finder,90
+dynamic_reconfigure,dynamic,dynamic_uvc_cam,90
+pioneer_teleop,pioneer,pioneer lx,95
+rosserial_xbee,rosserial,rosserial_arduino,90
+rosserial_windows,rosserial,rosserial_arduino,90
+rosserial_vex_v5,rosserial,rosserial_arduino,90
+rosserial_vex_cortex,rosserial,rosserial_arduino,90
+rosserial_tivac,rosserial,rosserial_arduino,90
+rosserial_test,rosserial,rosserial_arduino,90
+rosserial_server,rosserial,rosserial_arduino,90
+rosserial_python,rosserial,rosserial_arduino,90
+rosserial_msgs,rosserial,rosserial_arduino,90
+rosserial_mbed,rosserial,rosserial_arduino,90
+rosserial_embeddedlinux,rosserial,rosserial_arduino,90
+rosserial_client,rosserial,rosserial_arduino,90
+rosserial_arduino,rosserial,rosserial_arduino,90
+rosserial,rosserial,rosserial_arduino,90
+micros_swarm_stage,micros,microstrain_3dmgx2_imu,90
+micros_swarm_gazebo,micros,microstrain_3dmgx2_imu,90
+micros_swarm_framework,micros,microstrain_3dmgx2_imu,90
+micros_swarm,micros,microstrain_3dmgx2_imu,90
+app_loader,app,sicktoolbox_wrapper,90
+rbcar_sim_bringup,rbcar,rbcar,100
+rbcar_sim,rbcar,rbcar,100
+rbcar_robot_control,rbcar,rbcar,100
+rbcar_joystick,rbcar,rbcar,100
+rbcar_gazebo,rbcar,rbcar,100
+rbcar_control,rbcar,rbcar,100
+uvc_camera,uvc,dynamic_uvc_cam,90
+romeo_sensors_py,romeo,romeo,100
+romeo_robot,romeo,romeo,100
+romeo_description,romeo,romeo,100
+romeo_bringup,romeo,romeo,100
+rb_tracker,rb,rbcar,90
+nao_moveit_config,nao,nao,100
+pepper_moveit_config,pepper,pepper,100
+jaguar_navigation,jaguar,jaguar,100
+jaguar_msgs,jaguar,jaguar,100
+jaguar_description,jaguar,jaguar,100
+jaguar_control,jaguar,jaguar,100
+turtlebot_msgs,turtlebot,turtlebot2,100
+turtlebot_rviz_launchers,turtlebot,turtlebot2,100
+turtlebot_interactive_markers,turtlebot,turtlebot2,100
+turtlebot_interactions,turtlebot,turtlebot2,100
+turtlebot_dashboard,turtlebot,turtlebot2,100
+turtlebot_create_desktop,turtlebot,turtlebot2,100
+prosilica_gige_sdk,prosilica,prosilica camera,90
+serial_utils,serial,rosserial_arduino,90
+xarm7_redundancy_res,xarm7,xarm,89
+xarm7_moveit_config,xarm7,xarm,89
+xarm7_gripper_moveit_config,xarm7,xarm,89
+xarm6_vacuum_gripper_moveit_config,xarm6,xarm,89
+xarm6_moveit_config,xarm6,xarm,89
+xarm6_gripper_moveit_config,xarm6,xarm,89
+xarm5_vacuum_gripper_moveit_config,xarm5,xarm,89
+xarm5_moveit_config,xarm5,xarm,89
+xarm5_gripper_moveit_config,xarm5,xarm,89
+scenario_test_tools,scenario,ari,90
+pepper_meshes,pepper,pepper,100
+nao_meshes,nao,nao,100
+velodyne_simulator,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne_gazebo_plugins,velodyne,velodyne hdl-64e 3d lidar,90
+velodyne_description,velodyne,velodyne hdl-64e 3d lidar,90
+gpsd_client,gpsd,gpsd_client,90
+motoman_sia5d_support,motoman,motoman,100
+motoman_sia50_support,motoman,motoman,100
+motoman_sia30d_support,motoman,motoman,100
+motoman_sia20d_support,motoman,motoman,100
+motoman_sia20d_moveit_config,motoman,motoman,100
+motoman_sia10f_support,motoman,motoman,100
+motoman_sia10d_support,motoman,motoman,100
+motoman_sda10f_support,motoman,motoman,100
+motoman_sda10f_moveit_config,motoman,motoman,100
+motoman_resources,motoman,motoman,100
+motoman_msgs,motoman,motoman,100
+motoman_ms210_support,motoman,motoman,100
+motoman_ms210_moveit_config,motoman,motoman,100
+motoman_motopos_d500_support,motoman,motoman,100
+motoman_motomini_support,motoman,motoman,100
+motoman_mh5_support,motoman,motoman,100
+motoman_mh50_support,motoman,motoman,100
+motoman_mh12_support,motoman,motoman,100
+motoman_mh110_support,motoman,motoman,100
+motoman_ma2010_support,motoman,motoman,100
+motoman_ma2010_moveit_config,motoman,motoman,100
+motoman_hc20_support,motoman,motoman,100
+motoman_hc10_support,motoman,motoman,100
+motoman_gp8_support,motoman,motoman,100
+motoman_gp88_support,motoman,motoman,100
+motoman_gp7_support,motoman,motoman,100
+motoman_gp50_support,motoman,motoman,100
+motoman_gp4_support,motoman,motoman,100
+motoman_gp25_support,motoman,motoman,100
+motoman_gp200r_support,motoman,motoman,100
+motoman_gp180_support,motoman,motoman,100
+motoman_gp12_support,motoman,motoman,100
+motoman_gp110_support,motoman,motoman,100
+motoman_es_support,motoman,motoman,100
+motoman_driver,motoman,motoman,100
+motoman_ar2010_support,motoman,motoman,100
+motoman,motoman,motoman,100
+laserscan_kinect,laserscan,pilz safety laserscanner psenscan,90
+hls_lfcd_lds_driver,hls,hls-lfcd lds,90
+summit_xl_sim_bringup,summit,summit-xl,90
+summit_xl_sim,summit,summit-xl,90
+summit_xl_gazebo,summit,summit-xl,90
+dynamixel_sdk_examples,dynamixel,dynamixel,100
+dynamixel_sdk,dynamixel,dynamixel,100
+video_stream_opencv,video,libuvc usb video class driver,90
+qt_gui_py_common,qt,qtrobot,90
+qt_gui_cpp,qt,qtrobot,90
+qt_gui_core,qt,qtrobot,90
+qt_gui_app,qt,qtrobot,90
+qt_gui,qt,qtrobot,90
+qt_dotgraph,qt,qtrobot,90
+phidgets_msgs,phidgets,phidgets sensor interface with differential drive,90
+phidgets_imu,phidgets,phidgets sensor interface with differential drive,90
+phidgets_ik,phidgets,phidgets sensor interface with differential drive,90
+phidgets_high_speed_encoder,phidgets,phidgets sensor interface with differential drive,90
+phidgets_drivers,phidgets,phidgets sensor interface with differential drive,90
+phidgets_api,phidgets,phidgets sensor interface with differential drive,90
+libphidget21,libphidget21,libphidgets21,96
+turtlebot3_msgs,turtlebot3,turtlebot3,100
+copernicus_teleoperator,copernicus,copernicus robot,90
+copernicus_rules,copernicus,copernicus robot,90
+copernicus_navigation,copernicus,copernicus robot,90
+copernicus_msgs,copernicus,copernicus robot,90
+copernicus_localization,copernicus,copernicus robot,90
+copernicus_description,copernicus,copernicus robot,90
+copernicus_control,copernicus,copernicus robot,90
+copernicus_base,copernicus,copernicus robot,90
+abb_robot_msgs,abb,abb manipulators,90
+abb_rapid_sm_addin_msgs,abb,abb manipulators,90
+abb_rapid_msgs,abb,abb manipulators,90
+abb_egm_msgs,abb,abb manipulators,90
+sick_safetyscanners,sick,sick lms1104 laser,90
+volta_teleoperator,volta,volta robot,90
+volta_simulation,volta,volta robot,90
+volta_rules,volta,volta robot,90
+volta_navigation,volta,volta robot,90
+volta_msgs,volta,volta robot,90
+volta_localization,volta,volta robot,90
+volta_description,volta,volta robot,90
+volta_control,volta,volta robot,90
+volta_base,volta,volta robot,90
+rosserial_leonardo_cmake,rosserial,rosserial_arduino,90
+innok_heros_gazebo,innok,innok heros,90
+heron_controller,heron,clearpath heron usv,90
+teraranger_array,teraranger,teraranger evo tof range finder,90
+teraranger,teraranger,teraranger evo tof range finder,90
+oculusprime,oculusprime,oculus prime,96
+pr2_tuckarm,pr2,pr2,100
+pr2_teleop_general,pr2,pr2,100
+pr2_teleop,pr2,pr2,100
+pr2_position_scripts,pr2,pr2,100
+pr2_mannequin_mode,pr2,pr2,100
+pr2_apps,pr2,pr2,100
+pr2_app_manager,pr2,pr2,100
+netft_utils,netft,interface to ati netft sensor adapter,90
+libuvc_ros,libuvc,libuvc usb video class driver,90
+libuvc_camera,libuvc,libuvc usb video class driver,90
+leg_detector,leg,allegro hand,90
+mir_robot,mir,amir 740,90
+mir_navigation,mir,amir 740,90
+mir_msgs,mir,amir 740,90
+mir_gazebo,mir,amir 740,90
+mir_dwb_critics,mir,amir 740,90
+mir_driver,mir,amir 740,90
+mir_description,mir,amir 740,90
+mir_actions,mir,amir 740,90
+fanuc_resources,fanuc,fanuc,100
+fanuc_r1000ia_support,fanuc,fanuc,100
+fanuc_r1000ia_moveit_plugins,fanuc,fanuc,100
+fanuc_r1000ia80f_moveit_config,fanuc,fanuc,100
+fanuc_m900ib_support,fanuc,fanuc,100
+fanuc_m900ia_support,fanuc,fanuc,100
+fanuc_m710ic_support,fanuc,fanuc,100

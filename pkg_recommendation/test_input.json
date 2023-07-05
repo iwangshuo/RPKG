@@ -1,0 +1,14 @@
+{
+    "robot":["turtlebot2"], 
+    "sensor":["rplidar"], 
+    "function": ["create maps"], 
+    "characteristics": ["gmapping", "gazebo simulator"], 
+    "repo":[], 
+    "category":[],
+    "node":[],
+    "message": [],
+    "service":[],
+    "action": [], 
+    "launch":[], 
+    "robot_tag":[]
+}

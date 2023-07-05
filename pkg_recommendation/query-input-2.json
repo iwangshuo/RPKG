@@ -1,0 +1,14 @@
+{
+    "robot":[], 
+    "sensor":["rplidar"], 
+    "function": [], 
+    "characteristics": ["gmapping", "A2"], 
+    "repo":[], 
+    "category":[],
+    "node":[],
+    "message": [],
+    "service":[],
+    "action": [], 
+    "launch":[], 
+    "robot_tag":[]
+}
