@@ -2,3 +2,4 @@
 !/encode/*.ipynb
 !/encode/*.txt
 /encode
+.DS_Store
