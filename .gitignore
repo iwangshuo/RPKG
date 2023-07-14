@@ -1,6 +1,6 @@
+/encode/*
 !/encode/*.py
 !/encode/*.ipynb
 !/encode/*.txt
-/encode
 .DS_Store
 /.idea
