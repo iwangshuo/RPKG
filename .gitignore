@@ -3,3 +3,4 @@
 !/encode/*.txt
 /encode
 .DS_Store
+/.idea
