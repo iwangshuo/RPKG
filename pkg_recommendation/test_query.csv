@@ -1,0 +1,30 @@
+query_id,description,desired_package,package_description,features,robot,sensor,function,characteristics,repo,category,node,message,service,action,launch,robot_tag
+1,"discover other R
+OS masters",master_discovery_fkie,Discover the running ROS Masters in local network. The      discovering is done by sending an echo heartbeat messages to a defined      multicast group.     The alternative is to use a zeroconf/avahi daemon to register the ROS      master as service and discover other ROS masters.,"discover other R
+OS masters",,,"discover other R
+OS masters",,,,,,,,,
+2,Synchronize the local ROS master,master_sync_fkie,Synchronize the local ROS master to the remote masters      discovered by master_discovery_fkie node. The registration     of topics and services is only perform by local ROS master.,Synchronize the local ROS master,,,Synchronize the local ROS master,,,,,,,,,
+3,use GUI to pilot the robot using Twist message,rqt_robot_steering,rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.,"func: steering a robot using Twist messages, GUI plugin",,,"steering a robot using Twist messages,GUI plugin",,,,,,,,,
+4,use OpenCV to capture camera image,cv_camera,cv_camera uses OpenCV capture object to capture camera image.  This supports camera_image and nodelet.,"func: capture camera image, OpenCV
+chara: camera",,,"capture camera image,OpenCV",camera,,,,,,,,
+5,view image from ROS image topics,image_view,A simple viewer for ROS image topics. Includes a specialized viewer  for stereo + disparity images.,"chara: viewer, ROS image topics,
+func: view image",,,view image,"viewer,ROS image topics",,,,,,,,
+6,meta-package for esay install velodyne simulation components,velodyne_simulator,Metapackage allowing easy installation of Velodyne simulation components.,"func: for easy install
+velodyne: 
+cate: meta-package",velodyne hdl-64e 3d lidar,,"for easy install
+velodyne",,,meta_package,,,,,,
+7,description package for velodyne lidar,velodyne_description,URDF and meshes describing Velodyne laser scanners.,"velodyne hdl-64e 3d lidar,
+cate: description package",velodyne hdl-64e 3d lidar,,,,,description_package,,,,,,
+8,use gazebo plugin to provide simulated data from velodyne lidar,velodyne_gazebo_plugins,Gazebo plugin to provide simulated data from Velodyne laser scanners.,"chara: gazebo plugin
+func: provide simulated data",velodyne hdl-64e 3d lidar,,provide simulated data,gazebo plugin,,,,,,,,
+9,launch the driver for velodyne lidar,velodyne_driver,ROS device driver for Velodyne 3D LIDARs.,"sensor: xxx
+chara: driver",velodyne hdl-64e 3d lidar,,,driver,,,,,,,,
+10,convert data from velodyne lidar to point cloud,velodyne_pointcloud,Point cloud conversions for Velodyne 3D LIDARs.,"velodyne hdl-64e 3d lidar,
+chara: convert to point cloud",velodyne hdl-64e 3d lidar,,,convert to point cloud,,,,,,,,
+11,launch the driver for leap motion,leap_motion,ROS driver for the Leap Motion gesture sensor,"sensor: leap_motion
+chara: ROS driver",,leap_motion,,ROS driver,,,,,,,,
+12,visualize 3d markers,rviz,3D visualization tool for ROS.,chara: 3D visualization tool,,,,visualize 3d markers,,,,,,,,
+13,launch the driver for V4L usb camera,usb_cam,A ROS Driver for V4L USB Cameras,"chara: V4L USB Cameras, driver",,,,"V4L USB Cameras,driver",,,,,,,,
+14,direct ROS topics,topic_tools,"Tools for directing, throttling, selecting, and otherwise messing with    ROS topics at a meta level. None of the programs in this package actually    know about the topics whose streams they are altering; instead, these    tools deal with messages as generic binary blobs. This means they can be    applied to any ROS topic.","chara: ROS topics, directing",,,,"ROS topics,directing",,,,,,,,
+15,interface with Dynamixel servo motors,dynamixel_motor,"This stack contains packages that are used to interface with Robotis    Dynamixel line of servo motors. This stack was tested with and fully    supports AX-12, AX-18, RX-24, RX-28, MX-28, RX-64, MX-64, EX-106 and    MX-106 models.","robot:Dynamixel
+func: interface with servo motors.",Dynamixel,,interface with servo motors,,,,,,,,,
