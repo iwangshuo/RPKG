@@ -4,7 +4,7 @@ import os
 from utils import Pattern
 import csv
 
-class ROSNodePromptLoader:
+class ROSPackageSearchPromptLoader:
 
     def __init__(self, path, logger, start_idx, end_idx, model="gpt-3.5-turbo-0613", max_samples=100):
         self.path = path
@@ -26,11 +26,10 @@ class ROSNodePromptLoader:
         _data = []
         idx = self.start_idx
         for d in data[self.start_idx:self.end_idx]:
-            query = {}
-            for dim in ["robot", "sensor", "function", "characteristics", "repo", "node", "message", "service", "action", "launch", "category"]:
-                query[dim] = d[dim]
-            # word = d['word']
-            _data.append([idx, query])
+            word = d['word']
+            # count = d['count']
+            # useless = d['useless']
+            _data.append([idx, word])
             idx += 1
             if len(_data) >= self.max_samples:
                 self.logger.info(f"Reach the max samples ({self.max_samples})")
@@ -38,7 +37,8 @@ class ROSNodePromptLoader:
         return _data
 
     def generate(self):
-        role_message = {"role": "system", "content": "You are an expert in ROS and robotics."}
+        role_message = {"role": "system", "content": "Now you are an expert in recommending ROS package. \
+        each time I will give you the query in json, please return me with 10 most related ROS packages."}
         data = self.load_data()
         for d in data:
             self.logger.debug(d)

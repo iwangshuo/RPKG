@@ -7,7 +7,7 @@ from random import choice
 from utils import Logger
 # from PromptLoader import PromptLoader
 # from ChangeClassificationPromptLoader import ChangeClassificationPromptLoader
-from ROSNodePromptLoader import ROSNodePromptLoader
+from ROSPackageSearchPromptLoader import ROSPackageSearchPromptLoader
 
 class ChatGPT:
     def __init__(self, prompt_loader, logger, repeat=5):
@@ -107,10 +107,10 @@ if __name__ == '__main__':
         t0 = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
         if args.model:
             # loader = PromptLoader(args.code_dir, args.start, args.end, args.model)
-            loader = ROSNodePromptLoader(args.code_dir, logger, start, end, args.model)
+            loader = ROSPackageSearchPromptLoader(args.code_dir, logger, start, end, args.model)
         else:
             # loader = PromptLoader(args.code_dir, args.start, args.end)
-            loader = ROSNodePromptLoader(args.code_dir, logger, start, end)
+            loader = ROSPackageSearchPromptLoader(args.code_dir, logger, start, end)
 
         chatgpt = ChatGPT(loader, logger, 1)
 

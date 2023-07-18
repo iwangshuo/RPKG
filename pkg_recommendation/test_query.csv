@@ -11,16 +11,16 @@ chara: camera",,,"capture camera image,OpenCV",camera,,,,,,,,
 func: view image",,,view image,"viewer,ROS image topics",,,,,,,,
 6,meta-package for esay install velodyne simulation components,velodyne_simulator,Metapackage allowing easy installation of Velodyne simulation components.,"func: for easy install
 velodyne: 
-cate: meta-package",velodyne hdl-64e 3d lidar,,"for easy install
+cate: meta-package",,velodyne hdl-64e 3d lidar,"for easy install
 velodyne",,,meta_package,,,,,,
 7,description package for velodyne lidar,velodyne_description,URDF and meshes describing Velodyne laser scanners.,"velodyne hdl-64e 3d lidar,
-cate: description package",velodyne hdl-64e 3d lidar,,,,,description_package,,,,,,
+cate: description package",,velodyne hdl-64e 3d lidar,,,,description_package,,,,,,
 8,use gazebo plugin to provide simulated data from velodyne lidar,velodyne_gazebo_plugins,Gazebo plugin to provide simulated data from Velodyne laser scanners.,"chara: gazebo plugin
-func: provide simulated data",velodyne hdl-64e 3d lidar,,provide simulated data,gazebo plugin,,,,,,,,
+func: provide simulated data",,velodyne hdl-64e 3d lidar,provide simulated data,gazebo plugin,,,,,,,,
 9,launch the driver for velodyne lidar,velodyne_driver,ROS device driver for Velodyne 3D LIDARs.,"sensor: xxx
-chara: driver",velodyne hdl-64e 3d lidar,,,driver,,,,,,,,
+chara: driver",,velodyne hdl-64e 3d lidar,,driver,,,,,,,,
 10,convert data from velodyne lidar to point cloud,velodyne_pointcloud,Point cloud conversions for Velodyne 3D LIDARs.,"velodyne hdl-64e 3d lidar,
-chara: convert to point cloud",velodyne hdl-64e 3d lidar,,,convert to point cloud,,,,,,,,
+chara: convert to point cloud",,velodyne hdl-64e 3d lidar,,convert to point cloud,,,,,,,,
 11,launch the driver for leap motion,leap_motion,ROS driver for the Leap Motion gesture sensor,"sensor: leap_motion
 chara: ROS driver",,leap_motion,,ROS driver,,,,,,,,
 12,visualize 3d markers,rviz,3D visualization tool for ROS.,chara: 3D visualization tool,,,,visualize 3d markers,,,,,,,,
