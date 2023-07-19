@@ -15,7 +15,7 @@ class Pattern:
 
     ROS_NODE_PROMPT = "Please provide me with the function of ros node `<NODE_NAME>` in one sentence."
     CORPUS_PHRASE_PROMPT = "Please give me 20 paragraphs to explain the semantics of the phrase `<PHRASE>`, and each paragraph at most 100 words."
-
+    QUERY_JSON_PROMPT = "The query in json is `<QUERY>`, please return me with 20 most related ROS packages."
 class Logger:
     level_mappings = {'info': logging.INFO,
                       'debug': logging.DEBUG,

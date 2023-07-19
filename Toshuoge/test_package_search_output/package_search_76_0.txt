@@ -1,0 +1,24 @@
+Based on your query, here are 20 ROS packages that are most related:
+
+1. rviz: 3D visualization tool for ROS
+2. visualization_msgs: Messages used by rviz
+3. interactive_markers: Interactive marker support for rviz
+4. marker_msgs: Messages for visualization markers
+5. marker_array: Publishes an array of markers for visualization
+6. map_server: Provides map data as a ROS service
+7. move_base: Navigation stack for mobile robots
+8. gmapping: SLAM algorithm for creating a 2D map from laser and pose data
+9. amcl: Adaptive Monte Carlo Localization for mobile robots
+10. robot_pose_ekf: Estimates 3D pose of a robot based on sensor data
+11. robot_localization: Sensor fusion package for estimating robot state
+12. tf: Maintains the relationship between coordinate frames in a tree structure
+13. tf2: Second generation Transform Library for ROS
+14. tf2_ros: ROS bindings for tf2
+15. tf2_geometry_msgs: Geometry-related conversions for tf2
+16. tf2_sensor_msgs: Sensor-related conversions for tf2
+17. tf2_tools: Tools for working with tf2
+18. tf2_kdl: KDL bindings for tf2
+19. tf2_bullet: Bullet bindings for tf2
+20. tf2_py: Python bindings for tf2
+
+These packages are related to visualization, mapping, localization, and coordinate transformations, which align with your query for packages that provide base markers.

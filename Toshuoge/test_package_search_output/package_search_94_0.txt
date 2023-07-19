@@ -1,0 +1,17 @@
+Based on your query, here are 20 ROS packages that are most related to visual odometry:
+
+1. [viso2](http://wiki.ros.org/viso2): A ROS wrapper for the viso2 visual odometry library.
+2. [rtabmap_ros](http://wiki.ros.org/rtabmap_ros): A package for visual odometry and mapping using RGB-D cameras.
+3. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+4. [viso2_slam](http://wiki.ros.org/viso2_slam): A package that combines visual odometry with loop closure detection for SLAM.
+5. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+6. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+7. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+8. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+9. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+10. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+11. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+12. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+13. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+14. [viso2_ros](http://wiki.ros.org/viso2_ros): A package that provides a ROS interface for the viso2 visual odometry library.
+15. [viso2_ros](http://wiki

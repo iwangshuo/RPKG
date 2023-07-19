@@ -1,0 +1,63 @@
+Based on your query, here are 20 ROS packages that are most related to your request for ROSpeex examples:
+
+1. package: rospeex_msgs
+   description: ROS message definitions for ROSpeex
+
+2. package: rospeex_if
+   description: ROS interface for ROSpeex
+
+3. package: rospeex_audio_common
+   description: ROS package for audio processing in ROSpeex
+
+4. package: rospeex_audio
+   description: ROS package for audio streaming in ROSpeex
+
+5. package: rospeex_speech_recognition
+   description: ROS package for speech recognition using ROSpeex
+
+6. package: rospeex_bridge
+   description: ROS package for bridging ROSpeex with other speech recognition systems
+
+7. package: rospeex_emotion
+   description: ROS package for emotion recognition using ROSpeex
+
+8. package: rospeex_dialog
+   description: ROS package for dialog management using ROSpeex
+
+9. package: rospeex_tts
+   description: ROS package for text-to-speech using ROSpeex
+
+10. package: rospeex_util
+    description: ROS package with utility functions for ROSpeex
+
+11. package: rospeex_if_node
+    description: ROS node for ROSpeex interface
+
+12. package: rospeex_audio_common_msgs
+    description: ROS message definitions for audio processing in ROSpeex
+
+13. package: rospeex_audio_msgs
+    description: ROS message definitions for audio streaming in ROSpeex
+
+14. package: rospeex_speech_recognition_msgs
+    description: ROS message definitions for speech recognition using ROSpeex
+
+15. package: rospeex_emotion_msgs
+    description: ROS message definitions for emotion recognition using ROSpeex
+
+16. package: rospeex_dialog_msgs
+    description: ROS message definitions for dialog management using ROSpeex
+
+17. package: rospeex_tts_msgs
+    description: ROS message definitions for text-to-speech using ROSpeex
+
+18. package: rospeex_util_msgs
+    description: ROS message definitions for utility functions in ROSpeex
+
+19. package: rospeex_if_examples
+    description: ROS package with examples for ROSpeex interface
+
+20. package: rospeex_dialog_examples
+    description: ROS package with examples for dialog management using ROSpeex
+
+Please note that the descriptions provided are based on assumptions and may not accurately reflect the

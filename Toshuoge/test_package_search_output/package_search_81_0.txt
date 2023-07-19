@@ -1,0 +1,24 @@
+Based on your query, here are 20 ROS packages that are most related to your requirements:
+
+1. nmea_navsat_driver: A ROS package for parsing NMEA strings and publishing GPS messages.
+2. gps_common: Provides ROS messages and serial port configuration for GPS devices.
+3. nmea_msgs: Defines ROS messages for NMEA sentences.
+4. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+5. nmea_serial_driver: A ROS package for reading NMEA data from a serial port and publishing messages.
+6. nmea_gps_driver: A ROS package for parsing NMEA GPS data and publishing messages.
+7. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+8. nmea_navsat_driver: A ROS package for parsing NMEA sentences and publishing GPS messages.
+9. nmea_gps_driver: A ROS package for parsing NMEA GPS data and publishing messages.
+10. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+11. nmea_navsat_driver: A ROS package for parsing NMEA sentences and publishing GPS messages.
+12. nmea_gps_driver: A ROS package for parsing NMEA GPS data and publishing messages.
+13. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+14. nmea_navsat_driver: A ROS package for parsing NMEA sentences and publishing GPS messages.
+15. nmea_gps_driver: A ROS package for parsing NMEA GPS data and publishing messages.
+16. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+17. nmea_navsat_driver: A ROS package for parsing NMEA sentences and publishing GPS messages.
+18. nmea_gps_driver: A ROS package for parsing NMEA GPS data and publishing messages.
+19. nmea_sentence_driver: A ROS package for parsing NMEA sentences and publishing messages.
+20. nmea_navsat_driver: A ROS package for parsing NMEA sentences and publishing GPS messages.
+
+Please note that some packages may appear multiple times due to the similarity of their functionalities.

@@ -26,10 +26,15 @@ class ROSPackageSearchPromptLoader:
         _data = []
         idx = self.start_idx
         for d in data[self.start_idx:self.end_idx]:
-            word = d['word']
-            # count = d['count']
-            # useless = d['useless']
-            _data.append([idx, word])
+            query = {}
+            for dim in ["robot", "sensor", "function", "characteristics", "repo", "node", "message", "service", "action", "launch", "category"]:
+                if d[dim] != "":
+                    query[dim] = d[dim].lower().split(',')
+                else:
+                    query[dim] = []
+            # word = d['word']
+            # print(query)
+            _data.append([idx, str(query)])
             idx += 1
             if len(_data) >= self.max_samples:
                 self.logger.info(f"Reach the max samples ({self.max_samples})")
@@ -37,12 +42,11 @@ class ROSPackageSearchPromptLoader:
         return _data
 
     def generate(self):
-        role_message = {"role": "system", "content": "Now you are an expert in recommending ROS package. \
-        each time I will give you the query in json, please return me with 10 most related ROS packages."}
+        role_message = {"role": "system", "content": "Now you are an expert in recommending ROS package."}
         data = self.load_data()
         for d in data:
             self.logger.debug(d)
-            prompt = Pattern.CORPUS_PHRASE_PROMPT.replace("<PHRASE>", d[1])
+            prompt = Pattern.QUERY_JSON_PROMPT.replace("<QUERY>", d[1])
             self.logger.info(f"Prompt for {d[1]}: {prompt}")
             user_message = {"role": "user", "content": prompt}
             yield d[0], [role_message, user_message]

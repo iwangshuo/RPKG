@@ -26,11 +26,10 @@ class ROSNodePromptLoader:
         _data = []
         idx = self.start_idx
         for d in data[self.start_idx:self.end_idx]:
-            query = {}
-            for dim in ["robot", "sensor", "function", "characteristics", "repo", "node", "message", "service", "action", "launch", "category"]:
-                query[dim] = d[dim]
-            # word = d['word']
-            _data.append([idx, query])
+            word = d['word']
+            # count = d['count']
+            # useless = d['useless']
+            _data.append([idx, word])
             idx += 1
             if len(_data) >= self.max_samples:
                 self.logger.info(f"Reach the max samples ({self.max_samples})")

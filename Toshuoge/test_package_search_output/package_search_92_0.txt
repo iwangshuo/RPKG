@@ -1,0 +1,47 @@
+Based on your query, here are 20 ROS packages that are most related to recognizing objects:
+
+1. package: `object_recognition_msgs`
+   - description: Messages for object recognition
+   - repository: [object_recognition_msgs](https://github.com/wg-perception/object_recognition_msgs)
+
+2. package: `object_recognition_core`
+   - description: Core libraries for object recognition
+   - repository: [object_recognition_core](https://github.com/wg-perception/object_recognition_core)
+
+3. package: `object_recognition_ros`
+   - description: ROS integration for object recognition
+   - repository: [object_recognition_ros](https://github.com/wg-perception/object_recognition_ros)
+
+4. package: `object_recognition_tod`
+   - description: Training object detectors using the TOD framework
+   - repository: [object_recognition_tod](https://github.com/wg-perception/object_recognition_tod)
+
+5. package: `object_recognition_capture`
+   - description: Capture data for object recognition
+   - repository: [object_recognition_capture](https://github.com/wg-perception/object_recognition_capture)
+
+6. package: `object_recognition_renderer`
+   - description: Rendering synthetic views for object recognition
+   - repository: [object_recognition_renderer](https://github.com/wg-perception/object_recognition_renderer)
+
+7. package: `object_recognition_ros_visualization`
+   - description: Visualization tools for object recognition
+   - repository: [object_recognition_ros_visualization](https://github.com/wg-perception/object_recognition_ros_visualization)
+
+8. package: `object_recognition_tabletop`
+   - description: Tabletop object recognition
+   - repository: [object_recognition_tabletop](https://github.com/wg-perception/object_recognition_tabletop)
+
+9. package: `object_recognition_msgs`
+   - description: Messages for object recognition
+   - repository: [object_recognition_msgs](https://github.com/wg-perception/object_recognition_msgs)
+
+10. package: `object_recognition_ros`
+    - description: ROS integration for object recognition
+    - repository: [object_recognition_ros](https://github.com/wg-perception/object_recognition_ros)
+
+11. package: `object_recognition_tod`
+    - description: Training object detectors using the TOD framework
+    - repository: [object_recognition_tod](https://github.com/wg-perception/object_recognition_tod)
+
+12. package

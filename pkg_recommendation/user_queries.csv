@@ -1,8 +1,6 @@
 query_id,description,desired_package,package_description,features,robot,sensor,function,characteristics,repo,category,node,message,service,action,launch,robot_tag,
 1,"discover other R
-OS masters",master_discovery_fkie,Discover the running ROS Masters in local network. The      discovering is done by sending an echo heartbeat messages to a defined      multicast group.     The alternative is to use a zeroconf/avahi daemon to register the ROS      master as service and discover other ROS masters.,"discover other R
-OS masters",,,"discover other R
-OS masters",,,,,,,,,,1
+OS masters",master_discovery_fkie,Discover the running ROS Masters in local network. The      discovering is done by sending an echo heartbeat messages to a defined      multicast group.     The alternative is to use a zeroconf/avahi daemon to register the ROS      master as service and discover other ROS masters.,discover other ROS masters,,,discover other ROS masters,,,,,,,,,,1
 2,Synchronize the local ROS master,master_sync_fkie,Synchronize the local ROS master to the remote masters      discovered by master_discovery_fkie node. The registration     of topics and services is only perform by local ROS master.,Synchronize the local ROS master,,,Synchronize the local ROS master,,,,,,,,,,1
 3,use GUI to pilot the robot using Twist message,rqt_robot_steering,rqt_robot_steering provides a GUI plugin for steering a robot using Twist messages.,"func: steering a robot using Twist messages, GUI plugin",,,"steering a robot using Twist messages,GUI plugin",,,,,,,,,,1
 4,use OpenCV to capture camera image,cv_camera,cv_camera uses OpenCV capture object to capture camera image.  This supports camera_image and nodelet.,"func: capture camera image, OpenCV

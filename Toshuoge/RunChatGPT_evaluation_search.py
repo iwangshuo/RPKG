@@ -57,12 +57,12 @@ class ChatGPT:
         for idx, message in self.prompt_loader.generate():
             _results = []
             if idx % 5 == 0 and idx != 0:
-                time.sleep(30)
+                time.sleep(1)
             else:
-                time.sleep(10)
+                time.sleep(1)
             for i in range(self.repeat):
                 response = self.send_request(message)
-                time.sleep(20)
+                # time.sleep(20)
                 try:
                     response_data = response["choices"][0]["message"]["content"]
                     self.logger.info(f"Total tokens in response: {response['usage']['total_tokens']}")
@@ -122,7 +122,7 @@ if __name__ == '__main__':
 
         for idx, res in results:
             for j in range(len(res)):
-                with open(os.path.join(args.output_dir, f'phrase_{idx}_{j}.txt'), 'w') as f:
+                with open(os.path.join(args.output_dir, f'package_search_{idx}_{j}.txt'), 'w') as f:
                     f.write(res[j])
         t2 = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 
@@ -133,3 +133,5 @@ if __name__ == '__main__':
 
 
 # python ./RunChatGPT.py --code_dir ./test_node_list.json --log_dir test_node.log --output_dir test_node_output --start 0 --end 1
+# python ./RunChatGPT.py --code_dir ./test_region_word_in_examples.csv --log_dir test_phrase.log --output_dir test_node_output --start 0 --end 24\n
+# python ./RunChatGPT_evaluation_search.py --code_dir ../pkg_recommendation/user_queries.csv --log_dir test_package_search.log --output_dir test_package_search_output --start 0 --end 1

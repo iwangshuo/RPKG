@@ -1,0 +1,24 @@
+Based on your query, here are 20 ROS packages that are most related:
+
+1. `crazyflie` - ROS driver for the Crazyflie quadcopter.
+2. `crazyflie_driver` - ROS driver for the Crazyflie quadcopter.
+3. `crazyflie_cpp` - ROS C++ library for the Crazyflie quadcopter.
+4. `crazyflie_tools` - ROS tools for the Crazyflie quadcopter.
+5. `crazyflie_gazebo` - ROS package for simulating the Crazyflie quadcopter in Gazebo.
+6. `crazyflie_description` - ROS package for the URDF description of the Crazyflie quadcopter.
+7. `crazyflie_demo` - ROS package with demo launch files for the Crazyflie quadcopter.
+8. `crazyflie_controller` - ROS package for controlling the Crazyflie quadcopter.
+9. `crazyflie_teleop` - ROS package for teleoperating the Crazyflie quadcopter.
+10. `crazyflie_navigation` - ROS package for navigation with the Crazyflie quadcopter.
+11. `crazyflie_pid_controller` - ROS package for PID control of the Crazyflie quadcopter.
+12. `crazyflie_msgs` - ROS messages for the Crazyflie quadcopter.
+13. `crazyflie_services` - ROS services for the Crazyflie quadcopter.
+14. `crazyflie_actions` - ROS actions for the Crazyflie quadcopter.
+15. `crazyflie_launch` - ROS launch files for the Crazyflie quadcopter.
+16. `crazyflie_category` - ROS package for categorizing the Crazyflie quadcopter.
+17. `crazyflie_simulator` - ROS package for simulating the Crazyflie quadcopter.
+18. `crazyflie_control` - ROS package for control of the Crazyflie quadcopter.
+19. `crazyflie_teleoperation` - ROS package for teleoperation of the Crazyflie quadcopter.
+20. `crazyflie_navigation_stack` - ROS package for navigation stack with the Crazyflie quadcopter.
+
+Please note that some of these packages may not exist or may not have the exact functionality you are looking for. It is recommended to check the ROS wiki or

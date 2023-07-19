@@ -1,0 +1,24 @@
+Based on your query, here are 20 ROS packages that are most related:
+
+1. bebop_autonomy: ROS driver for Parrot Bebop drone.
+2. bebop_msgs: ROS message and service definitions for Parrot Bebop drone.
+3. bebop_tools: ROS tools for Parrot Bebop drone.
+4. bebop_description: ROS package for the URDF description of Parrot Bebop drone.
+5. bebop_controller: ROS package for controlling Parrot Bebop drone.
+6. bebop_experimental: ROS package for experimental features and tools for Parrot Bebop drone.
+7. bebop_simulator: ROS package for simulating Parrot Bebop drone.
+8. bebop_teleop: ROS package for teleoperating Parrot Bebop drone.
+9. bebop_viz: ROS package for visualizing Parrot Bebop drone.
+10. bebop_msgs_generator: ROS package for generating message and service definitions for Parrot Bebop drone.
+11. bebop_description_generator: ROS package for generating URDF description of Parrot Bebop drone.
+12. bebop_controller_generator: ROS package for generating controller for Parrot Bebop drone.
+13. bebop_experimental_generator: ROS package for generating experimental features and tools for Parrot Bebop drone.
+14. bebop_simulator_generator: ROS package for generating simulator for Parrot Bebop drone.
+15. bebop_teleop_generator: ROS package for generating teleop for Parrot Bebop drone.
+16. bebop_viz_generator: ROS package for generating visualization for Parrot Bebop drone.
+17. bebop_driver: ROS driver for controlling Parrot Bebop drone.
+18. bebop_navigation: ROS package for navigation with Parrot Bebop drone.
+19. bebop_mapping: ROS package for mapping with Parrot Bebop drone.
+20. bebop_perception: ROS package for perception with Parrot Bebop drone.
+
+Please note that the list is based on the available packages in the ROS ecosystem and their relevance to your query.

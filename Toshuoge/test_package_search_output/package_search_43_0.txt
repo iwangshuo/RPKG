@@ -1,0 +1,24 @@
+Based on your query, here are 20 ROS packages that are most related:
+
+1. `crazyflie` - ROS driver for the Crazyflie nano quadcopter.
+2. `crazyflie_description` - URDF description package for the Crazyflie nano quadcopter.
+3. `crazyflie_gazebo` - Gazebo simulation package for the Crazyflie nano quadcopter.
+4. `crazyflie_msgs` - Message and service definitions for the Crazyflie nano quadcopter.
+5. `crazyflie_tools` - Tools and utilities for working with the Crazyflie nano quadcopter.
+6. `crazyflie_controller` - ROS controller package for the Crazyflie nano quadcopter.
+7. `crazyflie_driver` - ROS driver for the Crazyflie nano quadcopter.
+8. `crazyflie_teleop` - Teleoperation package for the Crazyflie nano quadcopter.
+9. `crazyflie_demo` - Demo package for the Crazyflie nano quadcopter.
+10. `crazyflie_navigation` - Navigation package for the Crazyflie nano quadcopter.
+11. `crazyflie_description_msgs` - Message definitions for the Crazyflie nano quadcopter URDF description.
+12. `crazyflie_control` - Control package for the Crazyflie nano quadcopter.
+13. `crazyflie_simulator` - Simulator package for the Crazyflie nano quadcopter.
+14. `crazyflie_visualization` - Visualization package for the Crazyflie nano quadcopter.
+15. `crazyflie_moveit` - MoveIt configuration package for the Crazyflie nano quadcopter.
+16. `crazyflie_navigation_msgs` - Message definitions for the Crazyflie nano quadcopter navigation.
+17. `crazyflie_description_tools` - Tools for working with the Crazyflie nano quadcopter URDF description.
+18. `crazyflie_description_control` - Control package for the Crazyflie nano quadcopter URDF description.
+19. `crazyflie_description_simulator` - Simulator package for the Crazyflie nano quadcopter URDF description.
+20. `crazyflie_description_visualization` - Visualization package for the Crazyflie nano quadcopter URDF description.
+
+Please note that the list is based on the information available and
