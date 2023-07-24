@@ -1,0 +1,13 @@
+distro,name
+ardent,turtlebot2_amcl
+ardent,turtlebot2_cartographer
+ardent,turtlebot2_demo
+ardent,turtlebot2_teleop
+ardent,turtlebot2_drivers
+ardent,turtlebot2_follower
+bouncy,turtlebot2_amcl
+bouncy,turtlebot2_cartographer
+bouncy,turtlebot2_demo
+bouncy,turtlebot2_teleop
+bouncy,turtlebot2_drivers
+bouncy,turtlebot2_follower

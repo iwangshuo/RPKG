@@ -1,0 +1,16 @@
+distro,name
+jade,bebop_description
+jade,bebop_driver
+jade,bebop_autonomy
+jade,bebop_msgs
+jade,bebop_tools
+indigo,bebop_description
+indigo,bebop_driver
+indigo,bebop_autonomy
+indigo,bebop_msgs
+indigo,bebop_tools
+kinetic,bebop_description
+kinetic,bebop_driver
+kinetic,bebop_autonomy
+kinetic,bebop_msgs
+kinetic,bebop_tools
