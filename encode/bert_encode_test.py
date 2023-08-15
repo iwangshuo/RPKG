@@ -20,21 +20,29 @@ print(sim_score)
 bc.close()
 
 
-print(similarity_bert("dog","cat"))
-print(similarity_bert("start","begin"))
+# print(similarity_bert("dog","cat"))
+# print(similarity_bert("start","begin"))
+#
+# print(similarity_bert("rplidar","dog"))
+#
+# print(similarity_bert("turtlebot","turtlebot2"))
+# print(similarity_bert("turtlebot","turtlebot3"))
+# print(similarity_bert("turtlebot2","turtlebot3"))
+#
+# print(similarity_bert("rplidar","using rplidar"))
+#
+# print(similarity_bert("rplidar","rplidar A1"))
+#
+# print(similarity_bert("rplidar","using rplidar A1"))
+#
+# print(similarity_bert("rplidar","rospeex."))
+#
+print(similarity_bert("rplidar", "rospeex"))
 
-print(similarity_bert("rplidar","dog"))
+print(similarity_bert("rplidar", "start rplidar sensor"))
 
-print(similarity_bert("turtlebot","turtlebot2"))
-print(similarity_bert("turtlebot","turtlebot3"))
-print(similarity_bert("turtlebot2","turtlebot3"))
+print(similarity_bert("moveit framework", "moveit library"))
 
-print(similarity_bert("rplidar","using rplidar"))
+print(similarity_bert("gazebo simulator", "gazebo simulation environment"))
 
-print(similarity_bert("rplidar","rplidar A1"))
-
-print(similarity_bert("rplidar","using rplidar A1"))
-
-print(similarity_bert("rplidar","rospeex."))
-
-print(similarity_bert("rplidar","rospeex"))
+print(similarity_bert("OMPL","Open Manipulator Planning Library"))

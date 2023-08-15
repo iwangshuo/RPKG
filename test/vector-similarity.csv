@@ -5,3 +5,13 @@ turtlebot,turtlebot2,0.839700595,0.833636068,0.847770636,0.88722547,0.864724748,
 turtlebot2,turtlebot,0.839700595,0.833636068,0.847770636,0.88722547,0.864724748,0.953967835
 turtlebot,turtlebot3,0.838046522,0.830557702,0.847697648,0.895543317,0.862880201,0.936103875
 turtlebot2,turtlebot3,0.968047611,0.93135654,0.945015836,0.969867248,0.969937373,0.914858081
+,,,,,,,
+,,cosine similarity of embeddings,,,,,
+phrase1,phrase2,Bert base,further trained Bert,,,,
+turtlebot,turtlebot2,0.834 ,0.954 ,,,,
+turtlebot,turtlebot3,0.831 ,0.936 ,,,,
+turtlebot2,turtlebot3,0.931 ,0.915 ,,,,
+rplidar,rospeex,0.796 ,0.682,,,,
+bringup rplidar,start rplidar sensor,0.868 ,0.885,,,,
+moveit framework,moveit library,0.898 ,0.901,,,,
+gazebo simulator,gazebo simulation environment,0.864 ,0.881,,,,

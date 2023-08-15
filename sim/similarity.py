@@ -33,7 +33,7 @@ def similarity_bert(word1, word2):
 
 #      ----------------rplidar-------------------
 # # cate:   score=0.7608016027063493
-print(similarity_bert("rplidar", "The rplidar ros package support rplidar A2/A1"))
+# print(similarity_bert("rplidar", "The rplidar ros package support rplidar A2/A1"))
 # print(similarity_bert("rplidar", "A3/S1"))
 
 
@@ -46,15 +46,15 @@ print(similarity_bert("rplidar", "The rplidar ros package support rplidar A2/A1"
 #
 # # cate
 # print(similarity_bert("rplidar", "This package"))  # score=0.6556417521050719,
-print(similarity_bert("rplidar", "rospeex."))  # score=0.8605491248445928,
+# print(similarity_bert("rplidar", "rospeex."))  # score=0.8605491248445928,
 
 
-print('------------')
-print(similarity_bert("turtlebot","turtlebot2"))
-print(similarity_bert("turtlebot2","turtlebot"))
-print('------------')
-print(similarity_bert("turtlebot","turtlebot3"))
-print(similarity_bert("turtlebot2","turtlebot3"))
+# print('------------')
+# print(similarity_bert("turtlebot","turtlebot2"))
+# print(similarity_bert("turtlebot2","turtlebot"))
+# print('------------')
+# print(similarity_bert("turtlebot","turtlebot3"))
+# print(similarity_bert("turtlebot2","turtlebot3"))
 
 
 
