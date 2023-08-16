@@ -1,0 +1,4 @@
+method,top1,top5,top10,top15,top20
+RPKG,1.00 ,1.00 ,1.00 ,1.00 ,1.00 
+RPKG-no category feature,0.50 ,0.71 ,0.79 ,0.86 ,0.86 
+acc lost,0.50 ,0.29 ,0.21 ,0.14 ,0.14 

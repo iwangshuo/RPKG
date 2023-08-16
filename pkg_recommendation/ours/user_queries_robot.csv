@@ -1,0 +1,31 @@
+query_id,description,desired_package,package_description,features,robot,sensor,function,characteristics,repo,category,node,message,service,action,launch,robot_tag,,without robot feature
+15,interface with Dynamixel servo motors,dynamixel_motor,"This stack contains packages that are used to interface with Robotis    Dynamixel line of servo motors. This stack was tested with and fully    supports AX-12, AX-18, RX-24, RX-28, MX-28, RX-64, MX-64, EX-106 and    MX-106 models.","robot:Dynamixel
+func: interface with servo motors.",,,interface with servo motors,,,,,,,,,,9,NA
+16,tutorials for dynamixel robot,dynamixel_tutorials,Example configuration and launch file for dynamixel_motor stack.,,,,,tutorial,,,,,,,,,1,NA
+19,simulate turtlebot2 in gazebo,turtlebot_gazebo,Gazebo launchers and worlds for TurtleBot simulation,"Gazebo launchers,worlds,TurtleBot simulation",,,,"Gazebo,simulation",,,,,,,,,1,NA
+20,open dashboard for turtlebot2,turtlebot_dashboard,Launchers for the base-specific dashboards,"robot: turtlebot2
+chara: dashboard",,,,dashboard,,,,,,,,,1,4
+21,automatic docking for kobuki,kobuki_auto_docking,"Automatic docking for Kobuki:	    Users owning a docking station for Kobuki can use this tool to let Kobuki find its nest autonomously.","robot: Kobuki
+chara: automatic docking",,,,automatic docking,,,,,,,,,1,1
+23,start the tb2 robot,turtlebot_bringup,turtlebot_bringup provides roslaunch scripts for starting the TurtleBot base functionality.,"turtlebot_bringup provides roslaunch scripts,starting,TurtleBot base functionality",,,starting the TurtleBot,,,,,,,,,,5,NA
+24,turtlebot2 create maps with gmapping algorithm,turtlebot_navigation,turtlebot_navigation,"robot:turtlebot2
+func: create maps
+chara: navigation
+launch:gmapping_demo.launch",,,create maps,navigation,,,,,,,gmapping_demo.launch,,1,4
+25,visualize turtlebot2 with rviz,turtlebot_rviz_launchers,Launchers for visualizing TurtleBot,"robot: turtlebot2
+func: visualize turtlebot2
+chara: rviz",,,visualize turtlebot2,rviz,,,,,,,,,1,1
+26,use joysticks or keyboard to teleoperate tb2,turtlebot_teleop,Provides teleoperation using joysticks or keyboard.,"func:teleoperate turtlebot2
+chara:use joysticks",,,use joysticks,teleoperate turtlebot2,,,,,,,,,1,1
+42,demonstrations for crazyflie,crazyflie_demo,"Examples on how to use the crazyflie package (teleoperation, rviz integration)","robot: crazyflie
+chara: demostration",,,,demostration,,,,,,,,,1,NA
+43,driver package for crazyflie,crazyflie_driver,ROS driver for Crazyflie Nano Quadcopter from Bitcraze,"robot: crazyflie
+chara: driver",,,,driver,,,,,,,,,1,NA
+44,description package to provide URDF model for crazyflie robot,crazyflie_description,URDF Model for the Crazyflie Nano Quadcopter from Bitcraze,"robot: crazyflie
+chara: URDF model
+cate: description",,,,URDF model,,description_package,,,,,,,1,1
+45,PID controller for navigation of crazyflie,crazyflie_controller,Controller to fly a Crazyflie in a space with location feedback (such as motion capture).,"robot: crazyflie
+func: navigation
+chara: PID controller",,,navigation,PID controller,,,,,,,,,1,NA
+99,start mir-100 robot in gazebo simulator,mir_gazebo,Simulation specific launch and configuration files for the MiR100 robot.,"Simulation,MiR100 robot,gazebo",,,start mir-100 robot in,"mir-100,gazebo",,,,,,,,,1,NA
+100,run hector_mapping algorithm for mir100 robot,mir_navigation,"Launch and configuration files for move_base, localization etc. on the MiR robot.","move_base, localization,MiR robot, navigation,hector_mapping",,,run mapping algorithm,"MiR robot,hector_mapping",,,,,,,,,1,NA

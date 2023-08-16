@@ -4,6 +4,11 @@ import csv
 import argparse
 import platform
 import sys
+import random
+
+random.seed(7)
+
+
 
 def compute_acc_from_rank(input_dir, output_dir):
     df = pd.read_csv(input_dir, encoding='utf-8')
@@ -14,17 +19,18 @@ def compute_acc_from_rank(input_dir, output_dir):
 
 
     with open(output_dir, 'w') as file:
-        writer = csv.DictWriter(file, ['method', 'top1', 'top5', 'top10', 'top15', 'top20'])
+        writer = csv.DictWriter(file, ['Sample Size', 'top1', 'top5', 'top10', 'top15', 'top20'])
         writer.writeheader()
 
-        for method in header[1:]:
-            print(method)
-            data = df[method]
-            # print(data)
-            length = len(data)
-            # print(length)
+        data = list(df["RPKG"])
+        sample_range = [i for i in range(10,101,10)]
+        # print(sample_range)
+        for sample_size in sample_range:
+            samples = random.sample(data, sample_size)
+
+
             top1, top5, top10, top15, top20 = 0,0,0,0,0
-            for d in data:
+            for d in samples:
                 # print(d)
                 if d<0:
                     continue
@@ -39,7 +45,7 @@ def compute_acc_from_rank(input_dir, output_dir):
                 if d<=20:
                     top20 += 1
 
-            datarow = {'method':method, 'top1':top1/length, 'top5':top5/length, 'top10':top10/length, 'top15':top15/length, 'top20':top20/length}
+            datarow = {'Sample Size':sample_size, 'top1':top1/sample_size, 'top5':top5/sample_size, 'top10':top10/sample_size, 'top15':top15/sample_size, 'top20':top20/sample_size}
             writer.writerow(datarow)
 
 if __name__ == '__main__':

@@ -1,0 +1,33 @@
+query_id,description,desired_package,package_description,features,robot,sensor,function,characteristics,repo,category,node,message,service,action,launch,robot_tag,,without category feature
+6,meta-package for esay install velodyne simulation components,velodyne_simulator,Metapackage allowing easy installation of Velodyne simulation components.,"func: for easy install
+velodyne: 
+cate: meta-package",,velodyne hdl-64e 3d lidar,"for easy install
+velodyne",,,,,,,,,,1,1
+7,description package for velodyne lidar,velodyne_description,URDF and meshes describing Velodyne laser scanners.,"velodyne hdl-64e 3d lidar,
+cate: description package",,velodyne hdl-64e 3d lidar,,,,,,,,,,,1,9
+30,metapackage for baxter simulation,baxter_simulator,Metapackage - Baxter Research Robot Gazebo Simulation,"robot: baxter
+chara: simulation
+cate: metapackage",,,,"baxter,simulation",,,,,,,,,1,1
+35,description package for baxter robot,baxter_description,Description of Baxter Research Robot from Rethink Robotics.    This package contains the URDF and meshes describing Baxter.,"robot: baxter
+chara: URDF, mesh
+cate: description",,,,"baxter,URDF,mesh",,,,,,,,,1,NA
+36,Message package for baxter,baxter_core_msgs,Messages and Services required for communication with the Baxter    Research Robot from Rethink Robotics.,"robot: baxter
+cate: message",,,,baxter,,,,,,,,,1,11
+40,describe the hector quadrotor UAV with URDF model,hector_quadrotor_description,hector_quadrotor_description provides an URDF model of a quadrotor UAV.,"func: URDF model
+chara: quadrotor UAV, heactor quadrotor
+cate: description",,,URDF model,"quadrotor UAV,heactor quadrotor",,,,,,,,,1,1
+44,description package to provide URDF model for crazyflie robot,crazyflie_description,URDF Model for the Crazyflie Nano Quadcopter from Bitcraze,"robot: crazyflie
+chara: URDF model
+cate: description",crazyflie,,,URDF model,,,,,,,,,1,1
+47,Message package for bebop robot,bebop_msgs,Common message definitions for bebop_autonomy,"chara: bebop
+cate: message",,,,bebop,,,,,,,,,1,4
+49,description package for bebop robot,bebop_description,URDF robot description for Parrot Bebop Drones,"chara: bebop, URDF
+cate: description",,,,"bebop,URDF",,,,,,,,,1,1
+54,Message package for audio,audio_common_msgs,Messages for transmitting audio via ROS,"chara: audio
+cate: message",,,,audio,,,,,,,,,1,3
+57,Message package for rospeex,rospeex_msgs,This package defines messages used in rospeex.,"chara: rospeex
+cate: message",,rospeex,,,,,,,,,,,1,1
+62,metapackage for rospeex,rospeex,Meta package for rospeex packages.,"chara: rospeex
+cate: metapackage",,rospeex,,,,,,,,,,,1,4
+85,description package for openni device,openni_description,Model files of OpenNI device.,,,,,openni device,,,,,,,,,1,1
+96,Message package for point cloud library,pcl_msgs,Package containing PCL (Point Cloud Library)-related ROS messages.,,,,,point cloud library,,,,,,,,,1,NA

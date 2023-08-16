@@ -1,0 +1,33 @@
+query_id,description,desired_package,package_description,features,robot,sensor,function,characteristics,repo,category,node,message,service,action,launch,robot_tag,,without sensor feature
+6,meta-package for esay install velodyne simulation components,velodyne_simulator,Metapackage allowing easy installation of Velodyne simulation components.,"func: for easy install
+velodyne: 
+cate: meta-package",,,"for easy install
+velodyne",,,meta_package,,,,,,,1,6
+7,description package for velodyne lidar,velodyne_description,URDF and meshes describing Velodyne laser scanners.,"velodyne hdl-64e 3d lidar,
+cate: description package",,,,,,description_package,,,,,,,1,NA
+8,use gazebo plugin to provide simulated data from velodyne lidar,velodyne_gazebo_plugins,Gazebo plugin to provide simulated data from Velodyne laser scanners.,"chara: gazebo plugin
+func: provide simulated data",,,provide simulated data,gazebo plugin,,,,,,,,,2,2
+9,launch the driver for velodyne lidar,velodyne_driver,ROS device driver for Velodyne 3D LIDARs.,"sensor: xxx
+chara: driver",,,,driver,,,,,,,,,1,5
+10,convert data from velodyne lidar to point cloud,velodyne_pointcloud,Point cloud conversions for Velodyne 3D LIDARs.,"velodyne hdl-64e 3d lidar,
+chara: convert to point cloud",,,,convert to point cloud,,,,,,,,,1,2
+11,launch the driver for leap motion,leap_motion,ROS driver for the Leap Motion gesture sensor,"sensor: leap_motion
+chara: ROS driver",,,,ROS driver,,,,,,,,,1,1
+55,audio monitor of rospeex based on browser,rospeex_webaudiomonitor,This package provides a browser-based waveform monitor of rospeex's (beta version).    This package requires an external web browser: Google Chrome or Firefox.,"func: audio monitor based on browser
+chara: rospeex, web monitor",,,audio monitor based on browser,web monitor,,,,,,,,,1,NA
+56,give some examples for rospeex,rospeex_samples,This package provides some rospeex samples.,"func: give rospeex examples
+chara: rospeex",,,give rospeex examples,,,,,,,,,,1,NA
+57,Message package for rospeex,rospeex_msgs,This package defines messages used in rospeex.,"chara: rospeex
+cate: message",,,,,,message_package,,,,,,,1,NA
+58,provide launches for rospeex,rospeex_launch,This package launches rospeex's core nodes.,"func: provide launches
+chara: rospeex",,,provide launches,,,,,,,,,,6,NA
+59,package that includes interface libraries for rospeex,rospeex_if,This package provides interface libraries on C++ and Python.,"func: include interface library
+chara: rospeex",,,include interface library,,,,,,,,,,1,1
+60,package that includes core nodes for rospeex,rospeex_core,This package provides rospeex's core nodes.,"func: include core node
+chara: rospeex",,,include core node,,,,,,,,,,3,NA
+61,audio monitor of rospeex,rospeex_audiomonitor,This package provides a stable waveform monitor of rospeex's (recommended).    This package requires an external library: qtmobility-dev.,"func: audio monitor
+chara: rospeex",,,audio monitor,,,,,,,,,,1,NA
+62,metapackage for rospeex,rospeex,Meta package for rospeex packages.,"chara: rospeex
+cate: metapackage",,,,,,meta_package,,,,,,,1,NA
+81,driver package for Xsens MTi imu,xsens_driver,ROS Driver for XSens MT/MTi/MTi-G devices.,,,,,driver,,,,,,,,,1,NA
+83,driver for hokuyo scanning range finder,hokuyo_node,,sensor: Hokuyo Scanning range finder,,,,driver,,,,,,,,,NA,NA
