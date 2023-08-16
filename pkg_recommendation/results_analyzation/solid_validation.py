@@ -59,3 +59,4 @@ if __name__ == '__main__':
     compute_acc_from_rank(args.rank_input_dir, args.acc_output_dir)
 
 
+# ./solid_validation.py --rank_input_dir ./all_results.csv --acc_output_dir ./solid_result.csv

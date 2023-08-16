@@ -53,3 +53,4 @@ if __name__ == '__main__':
     compute_acc_from_rank(args.rank_input_dir, args.acc_output_dir)
 
 
+# ./NDCG.py --rank_input_dir ./category_feature_necessity.csv --acc_output_dir ./category_acc.csv
