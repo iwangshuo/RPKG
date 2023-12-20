@@ -134,4 +134,4 @@ if __name__ == '__main__':
 
 # python ./RunChatGPT.py --code_dir ./test_node_list.json --log_dir test_node.log --output_dir test_node_output --start 0 --end 1
 # python ./RunChatGPT.py --code_dir ./test_region_word_in_examples.csv --log_dir test_phrase.log --output_dir test_node_output --start 0 --end 24\n
-# python ./RunChatGPT_evaluation_search.py --code_dir ../pkg_recommendation/user_queries.csv --log_dir test_package_search.log --output_dir test_package_search_output --start 0 --end 1
+# python ./RunChatGPT_evaluation_search.py --code_dir ../pkg_recommendation/user_queries.csv --log_dir test_package_search_0_10.log --output_dir test_package_search_output --start 0 --end 1
