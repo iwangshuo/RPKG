@@ -1,6 +1,4 @@
-/encode/*
-!/encode/*.py
-!/encode/*.ipynb
-!/encode/*.txt
+/knowledge_representation/bert-news
+/knowledge_representation/model
 .DS_Store
 /.idea

@@ -1,3 +1,0 @@
-2023-06-12 20:30:30,606 - utils - DEBUG - [0, 1, 'wshuo', 'rqt_graph'] - /Users/wshuo/PycharmProjects/MyKnowledgeGraph/Toshuoge/ROSNodePromptLoader.py:36
-2023-06-12 20:30:30,606 - utils - INFO - Prompt for 1: Please provide me with the function of ros node `wshuo` in one sentence. - /Users/wshuo/PycharmProjects/MyKnowledgeGraph/Toshuoge/ROSNodePromptLoader.py:38
-2023-06-12 20:31:01,600 - utils - ERROR - {'Exception:': RateLimitError(message='You exceeded your current quota, please check your plan and billing details.', http_status=429, request_id=None)} - ./RunChatGPT.py:69

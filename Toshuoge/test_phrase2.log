@@ -1,3 +1,0 @@
-2023-06-20 09:56:56,175 - utils - DEBUG - [24, 'joystick'] - /Users/wshuo/PycharmProjects/MyKnowledgeGraph/Toshuoge/ROSNodePromptLoader.py:43
-2023-06-20 09:56:56,176 - utils - INFO - Prompt for joystick: Please give me 20 paragraphs to explain the semantics of the phrase `joystick`, and each paragraph at most 100 words. - /Users/wshuo/PycharmProjects/MyKnowledgeGraph/Toshuoge/ROSNodePromptLoader.py:45
-2023-06-20 09:57:50,969 - utils - INFO - Total tokens in response: 560 - ./RunChatGPT.py:68

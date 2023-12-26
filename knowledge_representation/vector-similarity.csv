@@ -1,0 +1,9 @@
+,,cosine similarity of embeddings,
+phrase1,phrase2,Bert base,further trained Bert
+turtlebot,turtlebot2,0.834,0.954
+turtlebot,turtlebot3,0.831,0.936
+turtlebot2,turtlebot3,0.931,0.915
+rplidar,rospeex,0.796,0.682
+bringup rplidar,start rplidar sensor,0.868,0.885
+moveit framework,moveit library,0.898,0.901
+gazebo simulator,gazebo simulation environment,0.864,0.881
