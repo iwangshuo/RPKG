@@ -55,23 +55,24 @@ extract features on robot and sensor.
 python feature_extraction/hardware_feature_extractor.py
 ```
 this step will generate csv files into data/output/ folder.
+
 **3. Representing ROS Package Knowledge**
     
-    further train [Bert](https://github.com/google-research/bert). In practice, we choose [bert-base-uncased model]((https://huggingface.co/bert-base-uncased)) for further training.
+further train [Bert](https://github.com/google-research/bert). In practice, we choose [bert-base-uncased model]((https://huggingface.co/bert-base-uncased)) for further training.
 ```bash
 python knowledge_representation/further_train_bert.py
 ```
 
 **4. Creating Database and Importing Data**
 
-    create a new database in Neo4j and import data from data/folder.
+create a new database in Neo4j and import data from data/folder.
 ```bash
 python neo4j/run_neo4j_import_data.py
 ```
 
 **5. RPKG-based ROS Package Search**
 
-    search ROS packages with user queries
+search ROS packages with user queries
 ```bash
 python package_retrieval/run_search.py
 ```
@@ -80,56 +81,58 @@ python package_retrieval/run_search.py
 
    **6.1 ChatGPT**
 
-    prompt [ChatGPT](https://chat.openai.com/) to recommend ROS packages.
-    ```bash
-    cd evaluation/chatgpt
-    python ./RunChatGPT_evaluation_search.py --code_dir ../user_queries_chatgpt.csv --log_dir ../log/test_package_search_0_10.log --output_dir search_result --start 0 --end 1
-    ```
+prompt [ChatGPT](https://chat.openai.com/) to recommend ROS packages.
 
-    analyze the accuracy of recommended ROS packages and time cost.
-    ```bash
-    python analyze_results_chatgpt.py
-    python chatgpt_log_parser.py
-    ```
+```bash
+cd evaluation/chatgpt
+python ./RunChatGPT_evaluation_search.py --code_dir ../user_queries_chatgpt.csv --log_dir ../log/test_package_search_0_10.log --output_dir search_result --start 0 --end 1
+```
+
+analyze the accuracy of recommended ROS packages and time cost.
+    
+```bash
+python analyze_results_chatgpt.py
+python chatgpt_log_parser.py
+```
    
    **6.2 GitHub**
 
-    use [Github](https://github.com/) to search ROS packages manually.
+use [Github](https://github.com/) to search ROS packages manually.
 
    **6.3 Google**
 
-    use [Google](https://google.com/) to search ROS packages manually.
+use [Google](https://google.com/) to search ROS packages manually.
 
    **6.4 ROS Index**
 
-    use [ROS Index](https://index.ros.org/) to search ROS packages semi-automatically.
-    for quickly acquire and analyze the search results, we deploy ROS Index in our local machine with GitHub repository [index.ros.org](https://github.com/ros-infrastructure/index.ros.org)
+use [ROS Index](https://index.ros.org/) to search ROS packages semi-automatically.
+For quickly acquire and analyze the search results, we deploy ROS Index in our local machine with GitHub repository [index.ros.org](https://github.com/ros-infrastructure/index.ros.org)
 
-    ```bash
-    cd evaluation/rosindex
-    python analyze_results_rosindex.py
-    ```
+```bash
+cd evaluation/rosindex
+python analyze_results_rosindex.py
+```
    
    **6.5 RPKG-based Search Method**
 
-    - analyze search accuracy
-       ```bash
-       cd evaluation/rpkg
-       python NDCG.py --rank_input_dir ./all_results.csv --acc_output_dir ./accuracy/acc.csv
-       ```
+- analyze search accuracy
+```bash
+cd evaluation/rpkg
+python NDCG.py --rank_input_dir ./all_results.csv --acc_output_dir ./accuracy/acc.csv
+```
 
-    - ablation experiments
-       ```bash
-       python package_retrieval/run_search.py
-       cd evaluation/rpkg
-       python NDCG.py --rank_input_dir ./ablation_experiments/data/xxx_feature_necessity.csv --acc_output_dir ./ablation_experiments/data/xxx_acc.csv
-       ```
+- ablation experiments
+```bash
+python package_retrieval/run_search.py
+cd evaluation/rpkg
+python NDCG.py --rank_input_dir ./ablation_experiments/data/xxx_feature_necessity.csv --acc_output_dir ./ablation_experiments/data/xxx_acc.csv
+```
     
-    - solidity validation
-       ```bash
-       cd evaluation/rpkg/solidity_validation
-       python ./solid_validation.py --rank_input_dir ../all_results.csv --acc_output_dir ./solid_result.csv
-       ```
+- solidity validation
+```bash
+cd evaluation/rpkg/solidity_validation
+python ./solid_validation.py --rank_input_dir ../all_results.csv --acc_output_dir ./solid_result.csv
+```
 
 ## Citation
 If you find our work useful in your research, please consider citing our paper:
