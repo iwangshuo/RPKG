@@ -1,0 +1,16 @@
+pandas>=1.2.3
+openai>=0.27.8
+py2neo>=2021.2.3
+numpy>=1.19.5
+fuzzywuzzy>=0.18.0
+tqdm>=4.64.1
+joblib>=1.2.0
+nltk>=3.8.1
+requests>=2.23.0
+beautifulsoup4>=4.11.2
+torch>=1.13.1
+matplotlib>=3.5.3
+transformers>=4.28.1
+scikit-learn>=1.0.2
+datasets>=2.12.0
+tokenizers>=0.13.3
