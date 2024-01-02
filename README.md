@@ -79,7 +79,7 @@ python package_retrieval/run_search.py
 
 **6. Evaluation**
 
-   **6.1 ChatGPT**
+   *6.1 ChatGPT*
 
 prompt [ChatGPT](https://chat.openai.com/) to recommend ROS packages.
 
@@ -95,15 +95,15 @@ python analyze_results_chatgpt.py
 python chatgpt_log_parser.py
 ```
    
-   **6.2 GitHub**
+   *6.2 GitHub*
 
 use [Github](https://github.com/) to search ROS packages manually.
 
-   **6.3 Google**
+   *6.3 Google*
 
 use [Google](https://google.com/) to search ROS packages manually.
 
-   **6.4 ROS Index**
+   *6.4 ROS Index*
 
 use [ROS Index](https://index.ros.org/) to search ROS packages semi-automatically.
 For quickly acquire and analyze the search results, we deploy ROS Index in our local machine with GitHub repository [index.ros.org](https://github.com/ros-infrastructure/index.ros.org)
@@ -113,7 +113,7 @@ cd evaluation/rosindex
 python analyze_results_rosindex.py
 ```
    
-   **6.5 RPKG-based Search Method**
+   *6.5 RPKG-based Search Method*
 
 - analyze search accuracy
 ```bash
