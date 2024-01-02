@@ -35,14 +35,14 @@ pip install -r requirements.txt
 ```
 
 ## Tutorials
-1. Extracting ROS Package Information
+**1. Extracting ROS Package Information**
 
 ```bash
 python package_information/crawl_robot.py
 ```
 this step will generate csv files into data/ folder. 
 
-2. Extracting Multi-dimensional Features
+**2. Extracting Multi-dimensional Features**
 
     extract features on code files, function and characteristics.
 ```bash
@@ -55,30 +55,30 @@ extract features on robot and sensor.
 python feature_extraction/hardware_feature_extractor.py
 ```
 this step will generate csv files into data/output/ folder.
-3. Representing ROS Package Knowledge
+**3. Representing ROS Package Knowledge**
     
     further train [Bert](https://github.com/google-research/bert). In practice, we choose [bert-base-uncased model]((https://huggingface.co/bert-base-uncased)) for further training.
 ```bash
 python knowledge_representation/further_train_bert.py
 ```
 
-4. Creating Database and Importing Data
+**4. Creating Database and Importing Data**
 
     create a new database in Neo4j and import data from data/folder.
 ```bash
 python neo4j/run_neo4j_import_data.py
 ```
 
-5. RPKG-based ROS Package Search
+**5. RPKG-based ROS Package Search**
 
     search ROS packages with user queries
 ```bash
 python package_retrieval/run_search.py
 ```
 
-6. Evaluation
+**6. Evaluation**
 
-   6.1 ChatGPT
+   **6.1 ChatGPT**
 
     prompt [ChatGPT](https://chat.openai.com/) to recommend ROS packages.
     ```bash
@@ -92,15 +92,15 @@ python package_retrieval/run_search.py
     python chatgpt_log_parser.py
     ```
    
-   6.2 GitHub
+   **6.2 GitHub**
 
     use [Github](https://github.com/) to search ROS packages manually.
 
-   6.2 Google
+   **6.3 Google**
 
     use [Google](https://google.com/) to search ROS packages manually.
 
-   6.3 ROS Index
+   **6.4 ROS Index**
 
     use [ROS Index](https://index.ros.org/) to search ROS packages semi-automatically.
     for quickly acquire and analyze the search results, we deploy ROS Index in our local machine with GitHub repository [index.ros.org](https://github.com/ros-infrastructure/index.ros.org)
@@ -110,7 +110,7 @@ python package_retrieval/run_search.py
     python analyze_results_rosindex.py
     ```
    
-   6.4 RPKG-based Search Method
+   **6.5 RPKG-based Search Method**
 
     - analyze search accuracy
        ```bash
